@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+<group id="0">
+<init comment="false" x="15" y="15">
+<group id="-1">
+<set-val-255-19 comment="false" x="26" y="40">
+                    <getx comment="false" id="0" x="0" y="0">
+<ACTOR eid="this" id="0"/>
+</getx>
+                </set-val-255-19>
+<set-val-255-20 comment="false" x="26" y="73">
+                    <gety comment="false" id="0" x="0" y="0">
+<ACTOR eid="this" id="0"/>
+</gety>
+                </set-val-255-20>
+</group>
+</init>
+</group>
+<group id="1">
+<step comment="false" x="15" y="134">
+<group id="-1">
+<set-val-255-19 comment="false" x="26" y="159">
+                    <getx comment="false" id="0" x="0" y="0">
+<ACTOR eid="this" id="0"/>
+</getx>
+                </set-val-255-19>
+<set-val-255-20 comment="false" x="26" y="192">
+                    <gety comment="false" id="0" x="0" y="0">
+<ACTOR eid="this" id="0"/>
+</gety>
+                </set-val-255-20>
+<if comment="false" x="26" y="225">
+<group id="-1">
+<custom-333 comment="false" x="37" y="268">
+<ACTOR eid="this" id="0"/>
+<get-val-255-27 comment="false" id="1" x="0" y="0"/>
+</custom-333>
+<say-this comment="false" x="37" y="300">
+<int id="0" val="Reset"/>
+</say-this>
+<stop comment="false" x="37" y="320"/>
+</group>
+<and comment="false" id="0" x="0" y="0">
+<or comment="false" id="0" x="0" y="0">
+<get-val-255-22 comment="false" id="0" x="0" y="0"/>
+<get-val-255-24 comment="false" id="1" x="0" y="0"/>
+</or>
+<as-boolean comment="false" id="1" x="0" y="0">
+<actor-get-prop comment="false" id="0" x="0" y="0">
+<ACTOR eid="this" id="0"/>
+<int id="1" val="On Ground?"/>
+</actor-get-prop>
+</as-boolean>
+</and>
+</if>
+<if comment="false" x="26" y="352">
+<group id="-1">
+<say-this comment="false" x="37" y="385">
+<int id="0" val="Reset"/>
+</say-this>
+<stop comment="false" x="37" y="405"/>
+</group>
+<hasnovalue comment="false" id="0" x="0" y="0">
+<int id="0" val="6"/>
+</hasnovalue>
+</if>
+<if comment="false" x="26" y="437">
+<group id="-1">
+<say-this comment="false" x="37" y="475">
+<int id="0" val="Reset"/>
+</say-this>
+<clear comment="false" x="37" y="495">
+<int id="0" val="6"/>
+</clear>
+<stop comment="false" x="37" y="522"/>
+</group>
+<not comment="false" id="0" x="0" y="0">
+<is-in-region comment="false" id="0" x="0" y="0">
+<ACTOR eid="this" id="0"/>
+<REGION eid="var" id="1" vid="6"/>
+</is-in-region>
+</not>
+</if>
+<set-val-255-5 comment="false" x="26" y="554">
+                    <true comment="false" id="0" x="0" y="0"/>
+                </set-val-255-5>
+<if comment="false" x="26" y="579">
+<group id="-1">
+<if comment="false" x="37" y="622">
+<group id="-1">
+<actor-set-prop comment="false" x="48" y="675">
+<ACTOR eid="this" id="0"/>
+<int id="1" val="Is Climbing?"/>
+<true comment="false" id="2" x="0" y="0"/>
+</actor-set-prop>
+</group>
+<or comment="false" id="0" x="0" y="0">
+<keydown2new comment="false" id="0" x="0" y="0">
+<int id="0" val="0"/>
+<get-val-255-1 comment="false" id="1" x="0" y="0"/>
+</keydown2new>
+<and comment="false" id="1" x="0" y="0">
+<keydown2new comment="false" id="0" x="0" y="0">
+<int id="0" val="0"/>
+<get-val-255-2 comment="false" id="1" x="0" y="0"/>
+</keydown2new>
+<not comment="false" id="1" x="0" y="0">
+<as-boolean comment="false" id="0" x="0" y="0">
+<actor-get-prop comment="false" id="0" x="0" y="0">
+<ACTOR eid="this" id="0"/>
+<int id="1" val="On Ground?"/>
+</actor-get-prop>
+</as-boolean>
+</not>
+</and>
+</or>
+</if>
+</group>
+<not comment="false" id="0" x="0" y="0">
+<as-boolean comment="false" id="0" x="0" y="0">
+<actor-get-prop comment="false" id="0" x="0" y="0">
+<ACTOR eid="this" id="0"/>
+<int id="1" val="Is Climbing?"/>
+</actor-get-prop>
+</as-boolean>
+</not>
+</if>
+<if comment="false" x="26" y="731">
+<group id="-1">
+<say-this comment="false" x="37" y="774">
+<int id="0" val="Reset"/>
+</say-this>
+<stop comment="false" x="37" y="794"/>
+</group>
+<not comment="false" id="0" x="0" y="0">
+<as-boolean comment="false" id="0" x="0" y="0">
+<actor-get-prop comment="false" id="0" x="0" y="0">
+<ACTOR eid="this" id="0"/>
+<int id="1" val="Is Climbing?"/>
+</actor-get-prop>
+</as-boolean>
+</not>
+</if>
+<custom-360 comment="false" x="26" y="826">
+<ACTOR eid="this" id="0"/>
+<true comment="false" id="1" x="0" y="0"/>
+</custom-360>
+<custom-370 comment="false" x="26" y="858">
+<ACTOR eid="this" id="0"/>
+<true comment="false" id="1" x="0" y="0"/>
+</custom-370>
+<if comment="false" x="26" y="890">
+<group id="-1">
+<set-val-255-24 comment="false" x="37" y="928">
+                            <true comment="false" id="0" x="0" y="0"/>
+                        </set-val-255-24>
+<say-this comment="false" x="37" y="953">
+<int id="0" val="SlideDown"/>
+</say-this>
+</group>
+<keydown2new comment="false" id="0" x="0" y="0">
+<int id="0" val="0"/>
+<get-val-255-25 comment="false" id="1" x="0" y="0"/>
+</keydown2new>
+</if>
+<if comment="false" x="26" y="985">
+<group id="-1">
+<say-this comment="false" x="37" y="1018">
+<int id="0" val="Idle"/>
+</say-this>
+<set-val-255-21 comment="false" x="37" y="1038">
+                            <false comment="false" id="0" x="0" y="0"/>
+                        </set-val-255-21>
+<set-val-255-22 comment="false" x="37" y="1063">
+                            <false comment="false" id="0" x="0" y="0"/>
+                        </set-val-255-22>
+<set-val-255-24 comment="false" x="37" y="1088">
+                            <false comment="false" id="0" x="0" y="0"/>
+                        </set-val-255-24>
+</group>
+<custom-528 comment="false" id="0" x="0" y="0">
+                        <ACTOR eid="this" id="0"/>
+                    </custom-528>
+</if>
+<if comment="false" x="26" y="1125">
+<group id="-1">
+<say-this comment="false" x="37" y="1163">
+<int id="0" val="MoveUp"/>
+</say-this>
+<set-val-255-21 comment="false" x="37" y="1183">
+                            <true comment="false" id="0" x="0" y="0"/>
+                        </set-val-255-21>
+<set-val-255-22 comment="false" x="37" y="1208">
+                            <false comment="false" id="0" x="0" y="0"/>
+                        </set-val-255-22>
+<set-val-255-24 comment="false" x="37" y="1233">
+                            <false comment="false" id="0" x="0" y="0"/>
+                        </set-val-255-24>
+</group>
+<keydown2new comment="false" id="0" x="0" y="0">
+<int id="0" val="0"/>
+<get-val-255-1 comment="false" id="1" x="0" y="0"/>
+</keydown2new>
+</if>
+<else-if comment="false" x="26" y="1270">
+<group id="-1">
+<say-this comment="false" x="37" y="1308">
+<int id="0" val="MoveDown"/>
+</say-this>
+<set-val-255-21 comment="false" x="37" y="1328">
+                            <false comment="false" id="0" x="0" y="0"/>
+                        </set-val-255-21>
+<set-val-255-22 comment="false" x="37" y="1353">
+                            <true comment="false" id="0" x="0" y="0"/>
+                        </set-val-255-22>
+<set-val-255-24 comment="false" x="37" y="1378">
+                            <false comment="false" id="0" x="0" y="0"/>
+                        </set-val-255-24>
+</group>
+<keydown2new comment="false" id="0" x="0" y="0">
+<int id="0" val="0"/>
+<get-val-255-2 comment="false" id="1" x="0" y="0"/>
+</keydown2new>
+</else-if>
+<else-if comment="false" x="26" y="1415">
+<group id="-1">
+<say-this comment="false" x="37" y="1458">
+<int id="0" val="MoveHorizontally"/>
+</say-this>
+</group>
+<or comment="false" id="0" x="0" y="0">
+<keydown2new comment="false" id="0" x="0" y="0">
+<int id="0" val="0"/>
+<get-val-255-3 comment="false" id="1" x="0" y="0"/>
+</keydown2new>
+<keydown2new comment="false" id="1" x="0" y="0">
+<int id="0" val="0"/>
+<get-val-255-4 comment="false" id="1" x="0" y="0"/>
+</keydown2new>
+</or>
+</else-if>
+</group>
+</step>
+</group>
+<group id="2">
+<collide comment="false" x="15" y="1518">
+<group id="-1"/>
+</collide>
+</group>
+<group id="3">
+<draw comment="false" x="15" y="1591">
+<group id="-1"/>
+</draw>
+</group>
+<group id="4">
+<receiver-1-528 comment="false" x="15" y="1664">
+            <group id="-1">
+<set-val-255-6 comment="false" x="26" y="1694">
+                    <get-byobval-185-365-1 comment="false" id="0" x="0" y="0"/>
+                </set-val-255-6>
+</group>
+            <get-byobval-185-365-0 comment="false" id="0" x="0" y="0"/>
+            <get-byobval-185-365-1 comment="false" id="1" x="0" y="0"/>
+        </receiver-1-528>
+</group>
+<group id="5">
+<receiver-2-528 comment="false" x="15" y="1754">
+            <group id="-1">
+<if comment="false" x="26" y="1784">
+<group id="-1">
+<return comment="false" x="37" y="1847">
+<true comment="false" id="0" x="0" y="0"/>
+</return>
+</group>
+<and comment="false" id="0" x="0" y="0">
+<and comment="false" id="0" x="0" y="0">
+<not comment="false" id="0" x="0" y="0">
+<keydown2new comment="false" id="0" x="0" y="0">
+<int id="0" val="0"/>
+<get-val-255-1 comment="false" id="1" x="0" y="0"/>
+</keydown2new>
+</not>
+<and comment="false" id="1" x="0" y="0">
+<not comment="false" id="0" x="0" y="0">
+<keydown2new comment="false" id="0" x="0" y="0">
+<int id="0" val="0"/>
+<get-val-255-2 comment="false" id="1" x="0" y="0"/>
+</keydown2new>
+</not>
+<and comment="false" id="1" x="0" y="0">
+<not comment="false" id="0" x="0" y="0">
+<keydown2new comment="false" id="0" x="0" y="0">
+<int id="0" val="0"/>
+<get-val-255-3 comment="false" id="1" x="0" y="0"/>
+</keydown2new>
+</not>
+<not comment="false" id="1" x="0" y="0">
+<keydown2new comment="false" id="0" x="0" y="0">
+<int id="0" val="0"/>
+<get-val-255-4 comment="false" id="1" x="0" y="0"/>
+</keydown2new>
+</not>
+</and>
+</and>
+</and>
+<not comment="false" id="1" x="0" y="0">
+<get-val-255-24 comment="false" id="0" x="0" y="0"/>
+</not>
+</and>
+</if>
+<return comment="false" x="26" y="1884">
+<false comment="false" id="0" x="0" y="0"/>
+</return>
+</group>
+            <get-byobval-185-366-0 comment="false" id="0" x="0" y="0"/>
+        </receiver-2-528>
+</group>
+<group id="6">
+<receive-message comment="false" x="15" y="1937">
+<group id="-1">
+<custom-332 comment="false" x="26" y="1962">
+<ACTOR eid="this" id="0"/>
+<get-val-255-26 comment="false" id="1" x="0" y="0"/>
+<int id="2" val="Climbing"/>
+</custom-332>
+<setdy comment="false" x="26" y="1994">
+<ACTOR eid="this" id="0"/>
+<neg comment="false" id="1" x="0" y="0">
+<get-val-255-7 comment="false" id="0" x="0" y="0"/>
+</neg>
+</setdy>
+<setdx comment="false" x="26" y="2031">
+<ACTOR eid="this" id="0"/>
+<int id="1" val="0"/>
+</setdx>
+<if comment="false" x="26" y="2058">
+<group id="-1">
+<actor-set-prop comment="false" x="37" y="2096">
+<ACTOR eid="this" id="0"/>
+<int id="1" val="Facing Right?"/>
+<true comment="false" id="2" x="0" y="0"/>
+</actor-set-prop>
+<setdx comment="false" x="37" y="2128">
+<ACTOR eid="this" id="0"/>
+<get-val-255-9 comment="false" id="1" x="0" y="0"/>
+</setdx>
+</group>
+<keydown2new comment="false" id="0" x="0" y="0">
+<int id="0" val="0"/>
+<get-val-255-4 comment="false" id="1" x="0" y="0"/>
+</keydown2new>
+</if>
+<if comment="false" x="26" y="2172">
+<group id="-1">
+<actor-set-prop comment="false" x="37" y="2210">
+<ACTOR eid="this" id="0"/>
+<int id="1" val="Facing Right?"/>
+<false comment="false" id="2" x="0" y="0"/>
+</actor-set-prop>
+<setdx comment="false" x="37" y="2242">
+<ACTOR eid="this" id="0"/>
+<neg comment="false" id="1" x="0" y="0">
+<get-val-255-9 comment="false" id="0" x="0" y="0"/>
+</neg>
+</setdx>
+</group>
+<keydown2new comment="false" id="0" x="0" y="0">
+<int id="0" val="0"/>
+<get-val-255-3 comment="false" id="1" x="0" y="0"/>
+</keydown2new>
+</if>
+</group>
+<int id="0" val="MoveUp"/>
+</receive-message>
+</group>
+<group id="8">
+<receive-message comment="false" x="15" y="2319">
+<group id="-1">
+<custom-332 comment="false" x="26" y="2344">
+<ACTOR eid="this" id="0"/>
+<get-val-255-14 comment="false" id="1" x="0" y="0"/>
+<int id="2" val="Climbing"/>
+</custom-332>
+<setdy comment="false" x="26" y="2376">
+<ACTOR eid="this" id="0"/>
+<get-val-255-8 comment="false" id="1" x="0" y="0"/>
+</setdy>
+<setdx comment="false" x="26" y="2408">
+<ACTOR eid="this" id="0"/>
+<int id="1" val="0"/>
+</setdx>
+<if comment="false" x="26" y="2435">
+<group id="-1">
+<actor-set-prop comment="false" x="37" y="2473">
+<ACTOR eid="this" id="0"/>
+<int id="1" val="Facing Right?"/>
+<true comment="false" id="2" x="0" y="0"/>
+</actor-set-prop>
+<setdx comment="false" x="37" y="2505">
+<ACTOR eid="this" id="0"/>
+<get-val-255-9 comment="false" id="1" x="0" y="0"/>
+</setdx>
+</group>
+<keydown2new comment="false" id="0" x="0" y="0">
+<int id="0" val="0"/>
+<get-val-255-4 comment="false" id="1" x="0" y="0"/>
+</keydown2new>
+</if>
+<if comment="false" x="26" y="2549">
+<group id="-1">
+<actor-set-prop comment="false" x="37" y="2587">
+<ACTOR eid="this" id="0"/>
+<int id="1" val="Facing Right?"/>
+<false comment="false" id="2" x="0" y="0"/>
+</actor-set-prop>
+<setdx comment="false" x="37" y="2619">
+<ACTOR eid="this" id="0"/>
+<neg comment="false" id="1" x="0" y="0">
+<get-val-255-9 comment="false" id="0" x="0" y="0"/>
+</neg>
+</setdx>
+</group>
+<keydown2new comment="false" id="0" x="0" y="0">
+<int id="0" val="0"/>
+<get-val-255-3 comment="false" id="1" x="0" y="0"/>
+</keydown2new>
+</if>
+</group>
+<int id="0" val="MoveDown"/>
+</receive-message>
+</group>
+<group id="9">
+<receive-message comment="false" x="15" y="2696">
+<group id="-1">
+<sety comment="false" x="26" y="2721">
+<ACTOR eid="this" id="0"/>
+<get-val-255-20 comment="false" id="1" x="0" y="0"/>
+</sety>
+<setdy comment="false" x="26" y="2753">
+<ACTOR eid="this" id="0"/>
+<int id="1" val="0"/>
+</setdy>
+<if comment="false" x="26" y="2780">
+<group id="-1">
+<actor-set-prop comment="false" x="37" y="2818">
+<ACTOR eid="this" id="0"/>
+<int id="1" val="Facing Right?"/>
+<true comment="false" id="2" x="0" y="0"/>
+</actor-set-prop>
+<custom-332 comment="false" x="37" y="2850">
+<ACTOR eid="this" id="0"/>
+<get-val-255-16 comment="false" id="1" x="0" y="0"/>
+<int id="2" val="Climbing"/>
+</custom-332>
+<setdx comment="false" x="37" y="2882">
+<ACTOR eid="this" id="0"/>
+<get-val-255-9 comment="false" id="1" x="0" y="0"/>
+</setdx>
+</group>
+<keydown2new comment="false" id="0" x="0" y="0">
+<int id="0" val="0"/>
+<get-val-255-4 comment="false" id="1" x="0" y="0"/>
+</keydown2new>
+</if>
+<if comment="false" x="26" y="2926">
+<group id="-1">
+<actor-set-prop comment="false" x="37" y="2964">
+<ACTOR eid="this" id="0"/>
+<int id="1" val="Facing Right?"/>
+<false comment="false" id="2" x="0" y="0"/>
+</actor-set-prop>
+<custom-332 comment="false" x="37" y="2996">
+<ACTOR eid="this" id="0"/>
+<get-val-255-17 comment="false" id="1" x="0" y="0"/>
+<int id="2" val="Climbing"/>
+</custom-332>
+<setdx comment="false" x="37" y="3028">
+<ACTOR eid="this" id="0"/>
+<neg comment="false" id="1" x="0" y="0">
+<get-val-255-9 comment="false" id="0" x="0" y="0"/>
+</neg>
+</setdx>
+</group>
+<keydown2new comment="false" id="0" x="0" y="0">
+<int id="0" val="0"/>
+<get-val-255-3 comment="false" id="1" x="0" y="0"/>
+</keydown2new>
+</if>
+</group>
+<int id="0" val="MoveHorizontally"/>
+</receive-message>
+</group>
+<group id="10">
+<receive-message comment="false" x="15" y="3105">
+<group id="-1">
+<setx comment="false" x="26" y="3130">
+<ACTOR eid="this" id="0"/>
+<get-val-255-19 comment="false" id="1" x="0" y="0"/>
+</setx>
+<sety comment="false" x="26" y="3162">
+<ACTOR eid="this" id="0"/>
+<get-val-255-20 comment="false" id="1" x="0" y="0"/>
+</sety>
+<setdx comment="false" x="26" y="3194">
+<ACTOR eid="this" id="0"/>
+<int id="1" val="0"/>
+</setdx>
+<setdy comment="false" x="26" y="3221">
+<ACTOR eid="this" id="0"/>
+<int id="1" val="0"/>
+</setdy>
+<if comment="false" x="26" y="3248">
+<group id="-1">
+<custom-332 comment="false" x="37" y="3286">
+<ACTOR eid="this" id="0"/>
+<get-val-255-11 comment="false" id="1" x="0" y="0"/>
+<int id="2" val="Climbing"/>
+</custom-332>
+</group>
+<as-boolean comment="false" id="0" x="0" y="0">
+<actor-get-prop comment="false" id="0" x="0" y="0">
+<ACTOR eid="this" id="0"/>
+<int id="1" val="Facing Right?"/>
+</actor-get-prop>
+</as-boolean>
+</if>
+<else comment="false" x="26" y="3330">
+<group id="-1">
+<custom-332 comment="false" x="37" y="3350">
+<ACTOR eid="this" id="0"/>
+<get-val-255-12 comment="false" id="1" x="0" y="0"/>
+<int id="2" val="Climbing"/>
+</custom-332>
+</group>
+</else>
+</group>
+<int id="0" val="Idle"/>
+</receive-message>
+</group>
+<group id="12">
+<receive-message comment="false" x="15" y="3422">
+<group id="-1">
+<custom-360 comment="false" x="26" y="3447">
+<ACTOR eid="this" id="0"/>
+<false comment="false" id="1" x="0" y="0"/>
+</custom-360>
+<custom-370 comment="false" x="26" y="3479">
+<ACTOR eid="this" id="0"/>
+<false comment="false" id="1" x="0" y="0"/>
+</custom-370>
+<actor-set-prop comment="false" x="26" y="3511">
+<ACTOR eid="this" id="0"/>
+<int id="1" val="Is Climbing?"/>
+<false comment="false" id="2" x="0" y="0"/>
+</actor-set-prop>
+<custom-438 comment="false" x="26" y="3543">
+<ACTOR eid="this" id="0"/>
+<int id="1" val="Climbing"/>
+</custom-438>
+<set-val-255-5 comment="false" x="26" y="3570">
+                    <false comment="false" id="0" x="0" y="0"/>
+                </set-val-255-5>
+<set-val-255-21 comment="false" x="26" y="3595">
+                    <false comment="false" id="0" x="0" y="0"/>
+                </set-val-255-21>
+<set-val-255-22 comment="false" x="26" y="3620">
+                    <false comment="false" id="0" x="0" y="0"/>
+                </set-val-255-22>
+<set-val-255-24 comment="false" x="26" y="3645">
+                    <false comment="false" id="0" x="0" y="0"/>
+                </set-val-255-24>
+</group>
+<int id="0" val="Reset"/>
+</receive-message>
+</group>
+<group id="13">
+<receive-message comment="false" x="15" y="3671">
+<group id="-1">
+<setx comment="false" x="26" y="3696">
+<ACTOR eid="this" id="0"/>
+<get-val-255-19 comment="false" id="1" x="0" y="0"/>
+</setx>
+<custom-332 comment="false" x="26" y="3728">
+<ACTOR eid="this" id="0"/>
+<get-val-255-15 comment="false" id="1" x="0" y="0"/>
+<int id="2" val="Climbing"/>
+</custom-332>
+<setdy comment="false" x="26" y="3760">
+<ACTOR eid="this" id="0"/>
+<get-val-255-18 comment="false" id="1" x="0" y="0"/>
+</setdy>
+</group>
+<int id="0" val="SlideDown"/>
+</receive-message>
+</group>
+<group id="14">
+<else-if comment="false" x="482" y="935">
+<group id="-1"/>
+<get-val-255-24 comment="false" id="0" x="0" y="0"/>
+</else-if>
+</group>
+<group id="15">
+<draw-text comment="false" x="358" y="1555">
+<as-boolean comment="false" id="0" x="0" y="0">
+<actor-get-prop comment="false" id="0" x="0" y="0">
+<ACTOR eid="this" id="0"/>
+<int id="1" val="Is Climbing?"/>
+</actor-get-prop>
+</as-boolean>
+<int id="1" val="30"/>
+<int id="2" val="-30"/>
+</draw-text>
+</group>
+<group id="-1"/>
+</groups>

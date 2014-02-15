@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+<group id="0">
+<init comment="false" x="15" y="15">
+<group id="-1">
+<code-long comment="false" x="26" y="40">
+<int id="0" val="//Get all &amp;quot;Ladder&amp;quot; regions in the scene&#10;var tempRegList:Array = getAllRegions();&#10;for each(var oneReg:Region in tempRegList)&#10;{&#10;&#9;if(oneReg.getName().substring(0,6) != &amp;quot;Ladder&amp;quot;)&#10;&#9;{&#10;&#9;&#9;continue;&#9;&#10;&#9;}&#10;&#9;_RegionList.push(oneReg);&#10;}"/>
+</code-long>
+</group>
+</init>
+</group>
+<group id="1">
+<step comment="false" x="15" y="258">
+<group id="-1">
+<custom-code comment="false" x="26" y="283">
+<int id="0" val="for each(_CurrentRegion in _RegionList) {"/>
+</custom-code>
+<actors-in-region comment="false" x="26" y="303">
+<group id="-1">
+<custom-code comment="false" x="37" y="330">
+<int id="0" val="if (asBoolean(actorInRegion.getActorValue(&amp;quot;Is Climbing?&amp;quot;))) continue;"/>
+</custom-code>
+<custom-code comment="false" x="37" y="350">
+<int id="0" val="actorInRegion.say(&amp;quot;Climbing&amp;quot;, &amp;quot;ClimbingOnRegion&amp;quot;, _CurrentRegion);"/>
+</custom-code>
+</group>
+<REGION eid="var" id="0" vid="1"/>
+</actors-in-region>
+<custom-code comment="false" x="26" y="382">
+<int id="0" val="}"/>
+</custom-code>
+</group>
+</step>
+</group>
+<group id="2">
+<draw comment="false" x="15" y="450">
+<group id="-1"/>
+</draw>
+</group>
+<group id="-1"/>
+</groups>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+<group id="0">
+<init comment="false" x="15" y="15">
+<group id="-1">
+<toggle-image comment="false" x="26" y="40">
+<ACTOR eid="this" id="0"/>
+<int id="1" val="1"/>
+</toggle-image>
+<actors-of-type3 comment="false" x="26" y="67">
+<group id="-1">
+<set-val-268-6 comment="false" x="37" y="94">
+                            <actor-of-type comment="false" id="0" x="0" y="0"/>
+                        </set-val-268-6>
+</group>
+<ACTORTYPE eid="var" id="0" vid="5"/>
+</actors-of-type3>
+</group>
+</init>
+</group>
+<group id="1">
+<step comment="false" x="15" y="166">
+<group id="-1">
+<if comment="false" x="26" y="191">
+<group id="-1">
+<if comment="false" x="37" y="229">
+<group id="-1">
+<setanim comment="false" x="48" y="277">
+<ACTOR eid="this" id="0"/>
+<get-val-268-3 comment="false" id="1" x="0" y="0"/>
+</setanim>
+</group>
+<and comment="false" id="0" x="0" y="0">
+<less comment="false" id="0" x="0" y="0">
+<plus comment="false" id="0" x="0" y="0">
+<gety comment="false" id="0" x="0" y="0">
+<ACTOR eid="var" id="0" vid="6"/>
+</gety>
+<getheight comment="false" id="1" x="0" y="0">
+<ACTOR eid="var" id="0" vid="6"/>
+</getheight>
+</plus>
+<plus comment="false" id="1" x="0" y="0">
+<gety comment="false" id="0" x="0" y="0">
+<ACTOR eid="this" id="0"/>
+</gety>
+<int id="1" val="5"/>
+</plus>
+</less>
+<not comment="false" id="1" x="0" y="0">
+<keydown2new comment="false" id="0" x="0" y="0">
+<int id="0" val="0"/>
+<get-val-268-2 comment="false" id="1" x="0" y="0"/>
+</keydown2new>
+</not>
+</and>
+</if>
+<else comment="false" x="37" y="321">
+<group id="-1">
+<setanim comment="false" x="48" y="341">
+<ACTOR eid="this" id="0"/>
+<get-val-268-4 comment="false" id="1" x="0" y="0"/>
+</setanim>
+</group>
+</else>
+</group>
+<and comment="false" id="0" x="0" y="0">
+<hasvalue comment="false" id="0" x="0" y="0">
+<int id="0" val="6"/>
+</hasvalue>
+<isalive comment="false" id="1" x="0" y="0">
+<ACTOR eid="var" id="0" vid="6"/>
+</isalive>
+</and>
+</if>
+</group>
+</step>
+</group>
+<group id="2">
+<collide comment="false" x="15" y="425">
+<group id="-1"/>
+</collide>
+</group>
+<group id="3">
+<draw comment="false" x="15" y="498">
+<group id="-1"/>
+</draw>
+</group>
+<group id="-1"/>
+</groups>

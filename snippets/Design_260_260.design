@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+<group id="0">
+<init comment="false" x="15" y="15">
+<group id="-1">
+<set-val-260-27 comment="false" x="26" y="40">
+                    <times comment="false" id="0" x="0" y="0">
+<get-val-260-27 comment="false" id="0" x="0" y="0"/>
+<int id="1" val="1000"/>
+</times>
+                </set-val-260-27>
+<set-val-260-31 comment="false" x="26" y="70">
+                    <times comment="false" id="0" x="0" y="0">
+<get-val-260-31 comment="false" id="0" x="0" y="0"/>
+<int id="1" val="1000"/>
+</times>
+                </set-val-260-31>
+</group>
+</init>
+</group>
+<group id="1">
+<step comment="false" x="15" y="128">
+<group id="-1">
+<increment comment="false" x="26" y="153">
+<int id="0" val="32"/>
+<int id="1" val="1"/>
+</increment>
+<if comment="false" x="26" y="180">
+<group id="-1">
+<say-this comment="false" x="37" y="223">
+<int id="0" val="SetAnimation"/>
+</say-this>
+<actor-set-prop comment="false" x="37" y="243">
+<ACTOR eid="this" id="0"/>
+<int id="1" val="Is Swimming?"/>
+<true comment="false" id="2" x="0" y="0"/>
+</actor-set-prop>
+</group>
+<or comment="false" id="0" x="0" y="0">
+<as-boolean comment="false" id="0" x="0" y="0">
+<actor-get-prop comment="false" id="0" x="0" y="0">
+<ACTOR eid="this" id="0"/>
+<int id="1" val="Is Underwater?"/>
+</actor-get-prop>
+</as-boolean>
+<or comment="false" id="1" x="0" y="0">
+<get-val-260-36 comment="false" id="0" x="0" y="0"/>
+<get-val-260-35 comment="false" id="1" x="0" y="0"/>
+</or>
+</or>
+</if>
+<else comment="false" x="26" y="287">
+<group id="-1">
+<actor-set-prop comment="false" x="37" y="307">
+<ACTOR eid="this" id="0"/>
+<int id="1" val="Is Swimming?"/>
+<false comment="false" id="2" x="0" y="0"/>
+</actor-set-prop>
+<custom-438 comment="false" x="37" y="339">
+<ACTOR eid="this" id="0"/>
+<int id="1" val="Swimming"/>
+</custom-438>
+<stop comment="false" x="37" y="366"/>
+</group>
+</else>
+<say-this comment="false" x="26" y="398">
+<int id="0" val="CheckInput"/>
+</say-this>
+<if comment="false" x="26" y="418">
+<group id="-1">
+<say-this comment="false" x="37" y="448">
+<int id="0" val="CheckDuration"/>
+</say-this>
+</group>
+<or comment="false" id="0" x="0" y="0">
+<get-val-260-35 comment="false" id="0" x="0" y="0"/>
+<get-val-260-36 comment="false" id="1" x="0" y="0"/>
+</or>
+</if>
+<say-this comment="false" x="26" y="480">
+<int id="0" val="HorizontalSlowdown"/>
+</say-this>
+<say-this comment="false" x="26" y="500">
+<int id="0" val="HandleSinking"/>
+</say-this>
+</group>
+</step>
+</group>
+<group id="2">
+<collide comment="false" x="15" y="521">
+<group id="-1"/>
+</collide>
+</group>
+<group id="3">
+<draw comment="false" x="15" y="594">
+<group id="-1"/>
+</draw>
+</group>
+<group id="4">
+<receive-message comment="false" x="15" y="667">
+<group id="-1">
+<if comment="false" x="26" y="692">
+<group id="-1">
+<stop comment="false" x="37" y="735"/>
+</group>
+<not comment="false" id="0" x="0" y="0">
+<as-boolean comment="false" id="0" x="0" y="0">
+<actor-get-prop comment="false" id="0" x="0" y="0">
+<ACTOR eid="this" id="0"/>
+<int id="1" val="Is Underwater?"/>
+</actor-get-prop>
+</as-boolean>
+</not>
+</if>
+<if comment="false" x="26" y="767">
+<group id="-1">
+<set-val-260-41 comment="false" x="37" y="815">
+                            <true comment="false" id="0" x="0" y="0"/>
+                        </set-val-260-41>
+<stop comment="false" x="37" y="840"/>
+</group>
+<and comment="false" id="0" x="0" y="0">
+<not comment="false" id="0" x="0" y="0">
+<keydown2new comment="false" id="0" x="0" y="0">
+<int id="0" val="0"/>
+<get-val-260-28 comment="false" id="1" x="0" y="0"/>
+</keydown2new>
+</not>
+<not comment="false" id="1" x="0" y="0">
+<get-val-260-41 comment="false" id="0" x="0" y="0"/>
+</not>
+</and>
+</if>
+<if comment="false" x="26" y="872">
+<group id="-1">
+<set-val-260-41 comment="false" x="37" y="915">
+                            <false comment="false" id="0" x="0" y="0"/>
+                        </set-val-260-41>
+<if comment="false" x="37" y="940">
+<group id="-1">
+<set-val-260-33 comment="false" x="48" y="993">
+                                    <int id="0" val="0"/>
+                                </set-val-260-33>
+<set-val-260-35 comment="false" x="48" y="1013">
+                                    <true comment="false" id="0" x="0" y="0"/>
+                                </set-val-260-35>
+<set-val-260-36 comment="false" x="48" y="1038">
+                                    <false comment="false" id="0" x="0" y="0"/>
+                                </set-val-260-36>
+<custom-344 comment="false" x="48" y="1063">
+<ACTOR eid="this" id="0"/>
+</custom-344>
+<stop comment="false" x="48" y="1090"/>
+</group>
+<and comment="false" id="0" x="0" y="0">
+<get-val-260-34 comment="false" id="0" x="0" y="0"/>
+<and comment="false" id="1" x="0" y="0">
+<not comment="false" id="0" x="0" y="0">
+<get-val-260-35 comment="false" id="0" x="0" y="0"/>
+</not>
+<not comment="false" id="1" x="0" y="0">
+<keydown2new comment="false" id="0" x="0" y="0">
+<int id="0" val="0"/>
+<get-val-260-46 comment="false" id="1" x="0" y="0"/>
+</keydown2new>
+</not>
+</and>
+</and>
+</if>
+<else-if comment="false" x="37" y="1122">
+<group id="-1">
+<if comment="false" x="48" y="1152">
+<group id="-1">
+<set-val-260-32 comment="false" x="59" y="1187">
+                                            <int id="0" val="0"/>
+                                        </set-val-260-32>
+<set-val-260-36 comment="false" x="59" y="1207">
+                                            <true comment="false" id="0" x="0" y="0"/>
+                                        </set-val-260-36>
+</group>
+<and comment="false" id="0" x="0" y="0">
+<get-val-260-42 comment="false" id="0" x="0" y="0"/>
+<not comment="false" id="1" x="0" y="0">
+<get-val-260-36 comment="false" id="0" x="0" y="0"/>
+</not>
+</and>
+</if>
+<else comment="false" x="48" y="1244">
+<group id="-1"/>
+</else>
+</group>
+<not comment="false" id="0" x="0" y="0">
+<get-val-260-35 comment="false" id="0" x="0" y="0"/>
+</not>
+</else-if>
+</group>
+<and comment="false" id="0" x="0" y="0">
+<keydown2new comment="false" id="0" x="0" y="0">
+<int id="0" val="0"/>
+<get-val-260-28 comment="false" id="1" x="0" y="0"/>
+</keydown2new>
+<get-val-260-41 comment="false" id="1" x="0" y="0"/>
+</and>
+</if>
+</group>
+<int id="0" val="CheckInput"/>
+</receive-message>
+</group>
+<group id="10">
+<receiver-4-545 comment="false" x="15" y="1348">
+            <group id="-1">
+<set-val-260-34 comment="false" x="26" y="1378">
+                    <get-byobval-170-342-1 comment="false" id="0" x="0" y="0"/>
+                </set-val-260-34>
+</group>
+            <get-byobval-170-342-0 comment="false" id="0" x="0" y="0"/>
+            <get-byobval-170-342-1 comment="false" id="1" x="0" y="0"/>
+        </receiver-4-545>
+</group>
+<group id="11">
+<receive-message comment="false" x="15" y="1431">
+<group id="-1">
+<if comment="false" x="26" y="1456">
+<group id="-1">
+<stop comment="false" x="37" y="1481"/>
+</group>
+<get-val-260-41 comment="false" id="0" x="0" y="0"/>
+</if>
+<if comment="false" x="26" y="1513">
+<group id="-1">
+<set-val-260-36 comment="false" x="37" y="1556">
+                            <false comment="false" id="0" x="0" y="0"/>
+                        </set-val-260-36>
+</group>
+<not comment="false" id="0" x="0" y="0">
+<as-boolean comment="false" id="0" x="0" y="0">
+<actor-get-prop comment="false" id="0" x="0" y="0">
+<ACTOR eid="this" id="0"/>
+<int id="1" val="Is Underwater?"/>
+</actor-get-prop>
+</as-boolean>
+</not>
+</if>
+<if comment="false" x="26" y="1593">
+<group id="-1">
+<set-val-260-37 comment="false" x="37" y="1618">
+                            <true comment="false" id="0" x="0" y="0"/>
+                        </set-val-260-37>
+<increment comment="false" x="37" y="1643">
+<int id="0" val="33"/>
+<int id="1" val="1"/>
+</increment>
+<if comment="false" x="37" y="1670">
+<group id="-1">
+<setdy comment="false" x="48" y="1705">
+<ACTOR eid="this" id="0"/>
+<neg comment="false" id="1" x="0" y="0">
+<get-val-260-30 comment="false" id="0" x="0" y="0"/>
+</neg>
+</setdy>
+</group>
+<lesseq comment="false" id="0" x="0" y="0">
+<get-val-260-33 comment="false" id="0" x="0" y="0"/>
+<div comment="false" id="1" x="0" y="0">
+<get-val-260-31 comment="false" id="0" x="0" y="0"/>
+<stepsize comment="false" id="1" x="0" y="0"/>
+</div>
+</lesseq>
+</if>
+<else comment="false" x="37" y="1754">
+<group id="-1">
+<set-val-260-35 comment="false" x="48" y="1774">
+                                    <false comment="false" id="0" x="0" y="0"/>
+                                </set-val-260-35>
+<set-val-260-33 comment="false" x="48" y="1799">
+                                    <int id="0" val="0"/>
+                                </set-val-260-33>
+</group>
+</else>
+<stop comment="false" x="37" y="1831"/>
+</group>
+<get-val-260-35 comment="false" id="0" x="0" y="0"/>
+</if>
+<if comment="false" x="26" y="1863">
+<group id="-1">
+<set-val-260-47 comment="false" x="37" y="1888">
+                            <int id="0" val="1"/>
+                        </set-val-260-47>
+<if comment="false" x="37" y="1908">
+<group id="-1">
+<set-val-260-47 comment="false" x="48" y="1946">
+                                    <int id="0" val="0.35"/>
+                                </set-val-260-47>
+</group>
+<keydown2new comment="false" id="0" x="0" y="0">
+<int id="0" val="0"/>
+<get-val-260-46 comment="false" id="1" x="0" y="0"/>
+</keydown2new>
+</if>
+<print comment="false" x="37" y="1978">
+<random comment="false" id="0" x="0" y="0"/>
+</print>
+<set-val-260-37 comment="false" x="37" y="2003">
+                            <true comment="false" id="0" x="0" y="0"/>
+                        </set-val-260-37>
+<increment comment="false" x="37" y="2028">
+<int id="0" val="32"/>
+<int id="1" val="1"/>
+</increment>
+<if comment="false" x="37" y="2055">
+<group id="-1">
+<setdy comment="false" x="48" y="2090">
+<ACTOR eid="this" id="0"/>
+<times comment="false" id="1" x="0" y="0">
+<neg comment="false" id="0" x="0" y="0">
+<get-val-260-29 comment="false" id="0" x="0" y="0"/>
+</neg>
+<get-val-260-47 comment="false" id="1" x="0" y="0"/>
+</times>
+</setdy>
+</group>
+<lesseq comment="false" id="0" x="0" y="0">
+<get-val-260-32 comment="false" id="0" x="0" y="0"/>
+<div comment="false" id="1" x="0" y="0">
+<get-val-260-27 comment="false" id="0" x="0" y="0"/>
+<stepsize comment="false" id="1" x="0" y="0"/>
+</div>
+</lesseq>
+</if>
+<else comment="false" x="37" y="2144">
+<group id="-1">
+<set-val-260-36 comment="false" x="48" y="2164">
+                                    <false comment="false" id="0" x="0" y="0"/>
+                                </set-val-260-36>
+<set-val-260-32 comment="false" x="48" y="2189">
+                                    <int id="0" val="0"/>
+                                </set-val-260-32>
+</group>
+</else>
+</group>
+<get-val-260-36 comment="false" id="0" x="0" y="0"/>
+</if>
+</group>
+<int id="0" val="CheckDuration"/>
+</receive-message>
+</group>
+<group id="12">
+<receive-message comment="false" x="15" y="2261">
+<group id="-1">
+<if comment="false" x="26" y="2286">
+<group id="-1">
+<stop comment="false" x="37" y="2329"/>
+</group>
+<and comment="false" id="0" x="0" y="0">
+<or comment="false" id="0" x="0" y="0">
+<get-val-260-35 comment="false" id="0" x="0" y="0"/>
+<get-val-260-36 comment="false" id="1" x="0" y="0"/>
+</or>
+<keydown2new comment="false" id="1" x="0" y="0">
+<int id="0" val="0"/>
+<get-val-260-28 comment="false" id="1" x="0" y="0"/>
+</keydown2new>
+</and>
+</if>
+<if comment="false" x="26" y="2361">
+<group id="-1">
+<stop comment="false" x="37" y="2409"/>
+</group>
+<and comment="false" id="0" x="0" y="0">
+<get-val-260-35 comment="false" id="0" x="0" y="0"/>
+<not comment="false" id="1" x="0" y="0">
+<as-boolean comment="false" id="0" x="0" y="0">
+<actor-get-prop comment="false" id="0" x="0" y="0">
+<ACTOR eid="this" id="0"/>
+<int id="1" val="Is Underwater?"/>
+</actor-get-prop>
+</as-boolean>
+</not>
+</and>
+</if>
+<if comment="false" x="26" y="2441">
+<group id="-1">
+<setdy comment="false" x="37" y="2484">
+<ACTOR eid="this" id="0"/>
+<times comment="false" id="1" x="0" y="0">
+<getdy comment="false" id="0" x="0" y="0">
+<ACTOR eid="this" id="0"/>
+</getdy>
+<int id="1" val="1"/>
+</times>
+</setdy>
+<stop comment="false" x="37" y="2529"/>
+</group>
+<not comment="false" id="0" x="0" y="0">
+<as-boolean comment="false" id="0" x="0" y="0">
+<actor-get-prop comment="false" id="0" x="0" y="0">
+<ACTOR eid="this" id="0"/>
+<int id="1" val="Is Falling?"/>
+</actor-get-prop>
+</as-boolean>
+</not>
+</if>
+<if comment="false" x="26" y="2561">
+<group id="-1">
+<stop comment="false" x="37" y="2604"/>
+</group>
+<not comment="false" id="0" x="0" y="0">
+<as-boolean comment="false" id="0" x="0" y="0">
+<actor-get-prop comment="false" id="0" x="0" y="0">
+<ACTOR eid="this" id="0"/>
+<int id="1" val="Is Underwater?"/>
+</actor-get-prop>
+</as-boolean>
+</not>
+</if>
+<if comment="false" x="26" y="2636">
+<group id="-1">
+<setdy comment="false" x="37" y="2674">
+<ACTOR eid="this" id="0"/>
+<get-val-260-39 comment="false" id="1" x="0" y="0"/>
+</setdy>
+<stop comment="false" x="37" y="2706"/>
+</group>
+<lesseq comment="false" id="0" x="0" y="0">
+<getdy comment="false" id="0" x="0" y="0">
+<ACTOR eid="this" id="0"/>
+</getdy>
+<get-val-260-39 comment="false" id="1" x="0" y="0"/>
+</lesseq>
+</if>
+<setdy comment="false" x="26" y="2738">
+<ACTOR eid="this" id="0"/>
+<times comment="false" id="1" x="0" y="0">
+<getdy comment="false" id="0" x="0" y="0">
+<ACTOR eid="this" id="0"/>
+</getdy>
+<get-val-260-40 comment="false" id="1" x="0" y="0"/>
+</times>
+</setdy>
+</group>
+<int id="0" val="HandleSinking"/>
+</receive-message>
+</group>
+<group id="13">
+<receive-message comment="false" x="15" y="2811">
+<group id="-1">
+<if comment="false" x="26" y="2836">
+<group id="-1">
+<stop comment="false" x="37" y="2879"/>
+</group>
+<not comment="false" id="0" x="0" y="0">
+<as-boolean comment="false" id="0" x="0" y="0">
+<actor-get-prop comment="false" id="0" x="0" y="0">
+<ACTOR eid="this" id="0"/>
+<int id="1" val="Is Underwater?"/>
+</actor-get-prop>
+</as-boolean>
+</not>
+</if>
+<if comment="false" x="26" y="2911">
+<group id="-1">
+<custom-332 comment="false" x="37" y="2949">
+<ACTOR eid="this" id="0"/>
+<get-val-260-24 comment="false" id="1" x="0" y="0"/>
+<int id="2" val="Swimming"/>
+</custom-332>
+</group>
+<as-boolean comment="false" id="0" x="0" y="0">
+<actor-get-prop comment="false" id="0" x="0" y="0">
+<ACTOR eid="this" id="0"/>
+<int id="1" val="Facing Right?"/>
+</actor-get-prop>
+</as-boolean>
+</if>
+<else comment="false" x="26" y="2993">
+<group id="-1">
+<custom-332 comment="false" x="37" y="3013">
+<ACTOR eid="this" id="0"/>
+<get-val-260-25 comment="false" id="1" x="0" y="0"/>
+<int id="2" val="Swimming"/>
+</custom-332>
+</group>
+</else>
+</group>
+<int id="0" val="SetAnimation"/>
+</receive-message>
+</group>
+<group id="15">
+<receiver-6-545 comment="false" x="15" y="3085">
+            <group id="-1">
+<set-val-260-42 comment="false" x="26" y="3115">
+                    <get-byobval-170-343-1 comment="false" id="0" x="0" y="0"/>
+                </set-val-260-42>
+</group>
+            <get-byobval-170-343-0 comment="false" id="0" x="0" y="0"/>
+            <get-byobval-170-343-1 comment="false" id="1" x="0" y="0"/>
+        </receiver-6-545>
+</group>
+<group id="16">
+<receive-message comment="false" x="15" y="3168">
+<group id="-1">
+<if comment="false" x="26" y="3193">
+<group id="-1">
+<setdx comment="false" x="37" y="3236">
+<ACTOR eid="this" id="0"/>
+<times comment="false" id="1" x="0" y="0">
+<getdx comment="false" id="0" x="0" y="0">
+<ACTOR eid="this" id="0"/>
+</getdx>
+<get-val-260-38 comment="false" id="1" x="0" y="0"/>
+</times>
+</setdx>
+</group>
+<or comment="false" id="0" x="0" y="0">
+<keydown2new comment="false" id="0" x="0" y="0">
+<int id="0" val="0"/>
+<get-val-260-43 comment="false" id="1" x="0" y="0"/>
+</keydown2new>
+<keydown2new comment="false" id="1" x="0" y="0">
+<int id="0" val="0"/>
+<get-val-260-44 comment="false" id="1" x="0" y="0"/>
+</keydown2new>
+</or>
+</if>
+</group>
+<int id="0" val="HorizontalSlowdown"/>
+</receive-message>
+</group>
+<group id="-1"/>
+</groups>
