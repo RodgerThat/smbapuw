@@ -3,10 +3,10 @@
     <custom-block blocktag="custom-359" blocktype="NORMAL" code="Boolean((~.say(&quot;Walking&quot;, &quot;AtMaxWalkingSpeed&quot;)))" desc="" global="false" gui="%0 At Max Walking Speed" id="359" message="AtMaxWalkingSpeed" name="AtMaxWalkingSpeed" oid="-1" return="BOOLEAN" shared="false" snippetID="178">
         <blank name="Self" order="0" type="ACTOR"/>
     </custom-block>
-    <custom-block blocktag="custom-520" blocktype="NORMAL" code="Boolean((~.say(&quot;Walking&quot;, &quot;AtMaxWalkingSpeed&quot;)))" desc="" global="false" gui="%0 At Max Walking Speed" id="520" message="AtMaxWalkingSpeed" name="AtMaxWalkingSpeed" oid="-1" return="BOOLEAN" shared="false" snippetID="247">
+    <custom-block blocktag="custom-520" blocktype="NORMAL" code="Boolean((~.say(&quot;Walking&quot;, &quot;AtMaxWalkingSpeed&quot;)))" desc="" global="false" gui="%0 At Max Walking Speed" id="520" message="AtMaxWalkingSpeed" name="AtMaxWalkingSpeed" oid="-1" return="BOOLEAN" shared="false" snippetID="-1">
         <blank name="Self" order="0" type="ACTOR"/>
     </custom-block>
-    <custom-block blocktag="custom-515" blocktype="NORMAL" code="Boolean((~.say(&quot;Walking&quot;, &quot;AtMaxWalkingSpeed&quot;)))" desc="" global="false" gui="%0 At Max Walking Speed" id="515" message="AtMaxWalkingSpeed" name="AtMaxWalkingSpeed" oid="-1" return="BOOLEAN" shared="false" snippetID="247">
+    <custom-block blocktag="custom-515" blocktype="NORMAL" code="Boolean((~.say(&quot;Walking&quot;, &quot;AtMaxWalkingSpeed&quot;)))" desc="" global="false" gui="%0 At Max Walking Speed" id="515" message="AtMaxWalkingSpeed" name="AtMaxWalkingSpeed" oid="-1" return="BOOLEAN" shared="false" snippetID="-1">
         <blank name="Self" order="0" type="ACTOR"/>
     </custom-block>
     <custom-block blocktag="custom-552" blocktype="NORMAL" code="Boolean((~.say(&quot;Walking&quot;, &quot;AtMaxWalkingSpeed&quot;)))" desc="" global="false" gui="%0 At Max Walking Speed" id="552" message="AtMaxWalkingSpeed" name="AtMaxWalkingSpeed" oid="-1" return="BOOLEAN" shared="false" snippetID="-1">
@@ -15,118 +15,6 @@
     <custom-block blocktag="custom-557" blocktype="NORMAL" code="Boolean((~.say(&quot;Walking&quot;, &quot;AtMaxWalkingSpeed&quot;)))" desc="" global="false" gui="%0 At Max Walking Speed" id="557" message="AtMaxWalkingSpeed" name="AtMaxWalkingSpeed" oid="-1" return="BOOLEAN" shared="false" snippetID="-1">
         <blank name="Self" order="0" type="ACTOR"/>
     </custom-block>
-    <sprite atlasID="0" default="1" desc="" height="130" id="486" name="Bowser" shared="false" width="128">
-        <anim across="1" atlasID="-1" down="1" durations="100" height="130" id="0" loop="true" name="stand left" numframes="1" originx="64" originy="65" width="128">
-            <poly data="4,0,0,128,0,128,130,0,130" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
-        </anim>
-        <anim across="1" atlasID="-1" down="1" durations="100" height="130" id="1" loop="true" name="Stand right" numframes="1" originx="64" originy="65" width="128">
-            <poly data="4,0,0,128,0,128,130,0,130" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 1" rest="0.0" sensor="false"/>
-        </anim>
-        <anim across="6" atlasID="-1" down="1" durations="100,100,100,100,100,100" height="118" id="2" loop="false" name="bowser punch R" numframes="6" originx="63" originy="59" width="756">
-            <poly data="4,0,0,126,0,126,118,0,118" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 2" rest="0.0" sensor="false"/>
-        </anim>
-        <anim across="6" atlasID="-1" down="1" durations="100,100,100,100,100,100" height="118" id="3" loop="false" name="bowser punch L" numframes="6" originx="63" originy="59" width="756">
-            <poly data="4,0,0,126,0,126,118,0,118" density="0.1" fric="0.2" gid="-1000" id="0" name="bowser punch left" rest="0.0" sensor="false"/>
-        </anim>
-        <anim across="1" atlasID="-1" down="1" durations="100" height="144" id="4" loop="true" name="Fall/Jump L" numframes="1" originx="61" originy="72" width="122">
-            <poly data="4,0,0,122,0,122,144,0,144" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 4" rest="0.0" sensor="false"/>
-        </anim>
-        <anim across="1" atlasID="-1" down="1" durations="100" height="144" id="5" loop="true" name=" Fall/Jump R" numframes="1" originx="61" originy="72" width="122">
-            <poly data="4,0,0,122,0,122,144,0,144" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 4" rest="0.0" sensor="false"/>
-        </anim>
-        <anim across="5" atlasID="-1" down="1" durations="100,100,100,100,100" height="63" id="6" loop="true" name="Walk R" numframes="5" originx="31" originy="31" width="310">
-            <poly data="4,0,0,62,0,62,63,0,63" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 6" rest="0.0" sensor="false"/>
-        </anim>
-        <anim across="5" atlasID="-1" down="1" durations="100,100,100,100,100" height="63" id="7" loop="true" name="Walk L" numframes="5" originx="31" originy="31" width="310">
-            <poly data="4,0,0,62,0,62,63,0,63" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 6" rest="0.0" sensor="false"/>
-        </anim>
-        <anim across="1" atlasID="-1" down="1" durations="100" height="60" id="8" loop="true" name="Hurt R" numframes="1" originx="34" originy="30" width="68">
-            <poly data="4,0,0,68,0,68,60,0,60" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 8" rest="0.0" sensor="false"/>
-        </anim>
-        <anim across="1" atlasID="-1" down="1" durations="100" height="60" id="9" loop="true" name="Animation 9" numframes="1" originx="34" originy="30" width="68">
-            <poly data="4,0,0,68,0,68,60,0,60" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 9" rest="0.0" sensor="false"/>
-        </anim>
-    </sprite>
-    <sprite atlasID="0" default="0" desc="" height="130" id="490" name="Bowser" shared="false" width="128">
-        <anim across="1" atlasID="-1" down="1" durations="100" height="130" id="0" loop="true" name="stand left" numframes="1" originx="64" originy="65" width="128">
-            <poly data="4,0,0,128,0,128,130,0,130" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
-        </anim>
-        <anim across="1" atlasID="-1" down="1" durations="100" height="130" id="1" loop="true" name="Stand right" numframes="1" originx="64" originy="65" width="128">
-            <poly data="4,0,0,128,0,128,130,0,130" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 1" rest="0.0" sensor="false"/>
-        </anim>
-        <anim across="6" atlasID="-1" down="1" durations="100,100,100,100,100,100" height="118" id="2" loop="false" name="bowser punch R" numframes="6" originx="63" originy="59" width="756">
-            <poly data="4,0,0,126,0,126,118,0,118" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 2" rest="0.0" sensor="false"/>
-        </anim>
-        <anim across="6" atlasID="-1" down="1" durations="100,100,100,100,100,100" height="118" id="3" loop="false" name="bowser punch L" numframes="6" originx="63" originy="59" width="756">
-            <poly data="4,0,0,126,0,126,118,0,118" density="0.1" fric="0.2" gid="-1000" id="0" name="bowser punch left" rest="0.0" sensor="false"/>
-        </anim>
-        <anim across="1" atlasID="-1" down="1" durations="100" height="144" id="4" loop="true" name="Fall/Jump L" numframes="1" originx="61" originy="72" width="122">
-            <poly data="4,0,0,122,0,122,144,0,144" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 4" rest="0.0" sensor="false"/>
-        </anim>
-        <anim across="1" atlasID="-1" down="1" durations="100" height="144" id="5" loop="true" name=" Fall/Jump R" numframes="1" originx="61" originy="72" width="122">
-            <poly data="4,0,0,122,0,122,144,0,144" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 4" rest="0.0" sensor="false"/>
-        </anim>
-        <anim across="5" atlasID="-1" down="1" durations="100,100,100,100,100" height="63" id="6" loop="true" name="Walk R" numframes="5" originx="31" originy="31" width="310">
-            <poly data="4,0,0,62,0,62,63,0,63" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 6" rest="0.0" sensor="false"/>
-        </anim>
-        <anim across="5" atlasID="-1" down="1" durations="100,100,100,100,100" height="63" id="7" loop="true" name="Walk L" numframes="5" originx="31" originy="31" width="310">
-            <poly data="4,0,0,62,0,62,63,0,63" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 6" rest="0.0" sensor="false"/>
-        </anim>
-        <anim across="1" atlasID="-1" down="1" durations="100" height="60" id="8" loop="true" name="Hurt R" numframes="1" originx="34" originy="30" width="68">
-            <poly data="4,0,0,68,0,68,60,0,60" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 8" rest="0.0" sensor="false"/>
-        </anim>
-        <anim across="1" atlasID="-1" down="1" durations="100" height="60" id="9" loop="true" name="Animation 9" numframes="1" originx="34" originy="30" width="68">
-            <poly data="4,0,0,68,0,68,60,0,60" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 9" rest="0.0" sensor="false"/>
-        </anim>
-    </sprite>
-    <actor adamp="0.0" ascale="false" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="-1" fixedrot="true" fric="0.2" gid="3" id="489" ignoreg="false" inertia="1.0" ldamp="0.0" lw="false" mass="1.09" name="Bowser" oid="121047" pausable="true" rest="0.0" shared="true" sprite="490" static="false" touchable="true">
-        <snippets>
-            <s enabled="true" id="220">
-                <prop id="5" list="0" val="Animation 9"/>
-                <prop id="6" list="0" val="-1"/>
-                <prop id="7" list="0" val="0"/>
-                <prop id="8" list="0" val="0"/>
-                <prop id="9" list="0" val="0"/>
-                <prop id="2147483647" list="0" val="thisactor"/>
-            </s>
-            <s enabled="true" id="218">
-                <prop id="1" list="0" val="10"/>
-                <prop id="2" list="0" val="Walk L"/>
-                <prop id="3" list="0" val="Walk R"/>
-                <prop id="4" list="0" val="1"/>
-                <prop id="2147483647" list="0" val="thisactor"/>
-            </s>
-            <s enabled="true" id="219">
-                <prop id="1" list="0" val="false"/>
-                <prop id="2" list="0" val="up"/>
-                <prop id="3" list="0" val="10"/>
-                <prop id="4" list="0" val="2"/>
-                <prop id="5" list="0" val="Animation 9"/>
-                <prop id="6" list="0" val="-1"/>
-                <prop id="8" list="0" val="50"/>
-                <prop id="10" list="0" val="Walk R"/>
-                <prop id="11" list="0" val="Walk L"/>
-                <prop id="2147483647" list="0" val="thisactor"/>
-            </s>
-            <s enabled="true" id="226">
-                <prop id="1" list="0" val="true"/>
-                <prop id="2147483647" list="0" val="thisactor"/>
-            </s>
-            <s enabled="true" id="225">
-                <prop id="1" list="0" val="0"/>
-                <prop id="2" list="0" val="No Control"/>
-                <prop id="2147483647" list="0" val="thisactor"/>
-            </s>
-            <s enabled="false" id="224">
-                <prop id="1" list="0" val="up"/>
-                <prop id="2" list="0" val="35"/>
-                <prop id="3" list="0" val="-1"/>
-                <prop id="4" list="0" val=""/>
-                <prop id="5" list="0" val="Fall/Jump L"/>
-                <prop id="2147483647" list="0" val="thisactor"/>
-            </s>
-        </snippets>
-    </actor>
     <custom-block blocktag="custom-508" blocktype="ACTION" code="~.say(&quot;Swimming&quot;, &quot;CanSurfaceJump&quot;, ~);" desc="" global="false" gui="For %0 Set Can Surface Jump to %1" id="508" message="CanSurfaceJump" name="CanSurfaceJump" oid="-1" return="VOID" shared="false" snippetID="242">
         <blank name="Self" order="0" type="ACTOR"/>
         <blank name="CanJump" order="1" type="BOOLEAN"/>
@@ -143,83 +31,15 @@
         <blank name="Self" order="0" type="ACTOR"/>
         <blank name="OKToSwim" order="1" type="BOOLEAN"/>
     </custom-block>
-    <tileset across="6" atlasID="0" desc="" down="11" id="480" name="Castle" oid="-1" shared="false" th="32" tw="32">
-        <tile collision="1" data="" durations="100" frames="0" id="0" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="1" id="1" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="2" id="2" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="3" id="3" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="4" id="4" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="5" id="5" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="6" id="6" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="7" id="7" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="8" id="8" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="9" id="9" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="10" id="10" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="11" id="11" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="12" id="12" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="13" id="13" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="14" id="14" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="15" id="15" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="16" id="16" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="17" id="17" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="18" id="18" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="19" id="19" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="20" id="20" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="21" id="21" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="22" id="22" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="23" id="23" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="24" id="24" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="25" id="25" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="26" id="26" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="27" id="27" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="28" id="28" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="29" id="29" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="30" id="30" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="31" id="31" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="32" id="32" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="33" id="33" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="34" id="34" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="35" id="35" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="36" id="36" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="37" id="37" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="38" id="38" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="39" id="39" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="40" id="40" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="41" id="41" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="42" id="42" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="43" id="43" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="44" id="44" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="45" id="45" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="46" id="46" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="47" id="47" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="48" id="48" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="49" id="49" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="50" id="50" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="51" id="51" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="52" id="52" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="53" id="53" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="54" id="54" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="55" id="55" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="56" id="56" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="57" id="57" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="58" id="58" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="59" id="59" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="60" id="60" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="61" id="61" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="62" id="62" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="63" id="63" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="64" id="64" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="65" id="65" order="-1"/>
-    </tileset>
     <custom-block blocktag="custom-469" blocktype="NORMAL" code="Boolean((~.say(&quot;Animation Manager&quot;, &quot;CategorySameAs&quot;, ~)))" desc="" global="false" gui="Current Category Same As %1" id="469" message="CategorySameAs" name="CategorySameAs" oid="-1" return="BOOLEAN" shared="false" snippetID="169">
         <blank name="Self" order="0" type="ACTOR"/>
         <blank name="CheckCategory" order="1" type="TEXT"/>
     </custom-block>
-    <custom-block blocktag="custom-538" blocktype="NORMAL" code="Boolean((~.say(&quot;Animation Manager&quot;, &quot;CategorySameAs&quot;, ~)))" desc="" global="false" gui="Current Category Same As %1" id="538" message="CategorySameAs" name="CategorySameAs" oid="-1" return="BOOLEAN" shared="false" snippetID="257">
+    <custom-block blocktag="custom-538" blocktype="NORMAL" code="Boolean((~.say(&quot;Animation Manager&quot;, &quot;CategorySameAs&quot;, ~)))" desc="" global="false" gui="Current Category Same As %1" id="538" message="CategorySameAs" name="CategorySameAs" oid="-1" return="BOOLEAN" shared="false" snippetID="-1">
         <blank name="Self" order="0" type="ACTOR"/>
         <blank name="CheckCategory" order="1" type="TEXT"/>
     </custom-block>
-    <custom-block blocktag="custom-531" blocktype="NORMAL" code="Boolean((~.say(&quot;Animation Manager&quot;, &quot;CategorySameAs&quot;, ~)))" desc="" global="false" gui="Current Category Same As %1" id="531" message="CategorySameAs" name="CategorySameAs" oid="-1" return="BOOLEAN" shared="false" snippetID="257">
+    <custom-block blocktag="custom-531" blocktype="NORMAL" code="Boolean((~.say(&quot;Animation Manager&quot;, &quot;CategorySameAs&quot;, ~)))" desc="" global="false" gui="Current Category Same As %1" id="531" message="CategorySameAs" name="CategorySameAs" oid="-1" return="BOOLEAN" shared="false" snippetID="-1">
         <blank name="Self" order="0" type="ACTOR"/>
         <blank name="CheckCategory" order="1" type="TEXT"/>
     </custom-block>
@@ -231,206 +51,6 @@
         <blank name="Self" order="0" type="ACTOR"/>
         <blank name="CheckCategory" order="1" type="TEXT"/>
     </custom-block>
-    <tileset across="6" atlasID="0" desc="" down="25" id="478" name="Cavec" oid="-1" shared="false" th="32" tw="32">
-        <tile collision="1" data="" durations="100" frames="0" id="0" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="1" id="1" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="2" id="2" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="3" id="3" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="4" id="4" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="5" id="5" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="6" id="6" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="7" id="7" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="8" id="8" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="9" id="9" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="10" id="10" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="11" id="11" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="12" id="12" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="13" id="13" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="14" id="14" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="15" id="15" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="16" id="16" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="17" id="17" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="18" id="18" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="19" id="19" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="20" id="20" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="21" id="21" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="22" id="22" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="23" id="23" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="24" id="24" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="25" id="25" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="26" id="26" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="27" id="27" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="28" id="28" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="29" id="29" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="30" id="30" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="31" id="31" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="32" id="32" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="33" id="33" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="34" id="34" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="35" id="35" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="36" id="36" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="37" id="37" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="38" id="38" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="39" id="39" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="40" id="40" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="41" id="41" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="42" id="42" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="43" id="43" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="44" id="44" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="45" id="45" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="46" id="46" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="47" id="47" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="48" id="48" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="49" id="49" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="50" id="50" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="51" id="51" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="52" id="52" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="53" id="53" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="54" id="54" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="55" id="55" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="56" id="56" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="57" id="57" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="58" id="58" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="59" id="59" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="60" id="60" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="61" id="61" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="62" id="62" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="63" id="63" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="64" id="64" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="65" id="65" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="66" id="66" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="67" id="67" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="68" id="68" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="69" id="69" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="70" id="70" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="71" id="71" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="72" id="72" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="73" id="73" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="74" id="74" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="75" id="75" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="76" id="76" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="77" id="77" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="78" id="78" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="79" id="79" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="80" id="80" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="81" id="81" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="82" id="82" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="83" id="83" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="84" id="84" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="85" id="85" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="86" id="86" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="87" id="87" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="88" id="88" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="89" id="89" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="90" id="90" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="91" id="91" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="92" id="92" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="93" id="93" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="94" id="94" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="95" id="95" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="96" id="96" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="97" id="97" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="98" id="98" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="99" id="99" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="100" id="100" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="101" id="101" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="102" id="102" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="103" id="103" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="104" id="104" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="105" id="105" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="106" id="106" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="107" id="107" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="108" id="108" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="109" id="109" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="110" id="110" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="111" id="111" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="112" id="112" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="113" id="113" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="114" id="114" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="115" id="115" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="116" id="116" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="117" id="117" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="118" id="118" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="119" id="119" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="120" id="120" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="121" id="121" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="122" id="122" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="123" id="123" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="124" id="124" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="125" id="125" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="126" id="126" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="127" id="127" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="128" id="128" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="129" id="129" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="130" id="130" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="131" id="131" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="132" id="132" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="133" id="133" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="134" id="134" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="135" id="135" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="136" id="136" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="137" id="137" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="138" id="138" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="139" id="139" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="140" id="140" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="141" id="141" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="142" id="142" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="143" id="143" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="144" id="144" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="145" id="145" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="146" id="146" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="147" id="147" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="148" id="148" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="149" id="149" order="-1"/>
-    </tileset>
-    <actor adamp="0.0" ascale="false" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="-1" fixedrot="true" fric="0.2" gid="3" id="485" ignoreg="true" inertia="1.0" ldamp="0.0" lw="false" mass="1.09" name="Chasing bowser" oid="-1" pausable="true" rest="0.0" shared="false" sprite="486" static="false" touchable="true">
-        <snippets>
-            <s enabled="true" id="220">
-                <prop id="5" list="0" val="Animation 9"/>
-                <prop id="6" list="0" val="No Sound"/>
-                <prop id="7" list="0" val="0"/>
-                <prop id="8" list="0" val="0"/>
-                <prop id="9" list="0" val="0"/>
-                <prop id="2147483647" list="0" val="thisactor"/>
-            </s>
-            <s enabled="true" id="218">
-                <prop id="1" list="0" val="18"/>
-                <prop id="2" list="0" val="Walk L"/>
-                <prop id="3" list="0" val="Walk R"/>
-                <prop id="4" list="0" val="1"/>
-                <prop id="2147483647" list="0" val="thisactor"/>
-            </s>
-            <s enabled="true" id="219">
-                <prop id="1" list="0" val="false"/>
-                <prop id="2" list="0" val="up"/>
-                <prop id="3" list="0" val="10"/>
-                <prop id="4" list="0" val="2"/>
-                <prop id="5" list="0" val="Animation 9"/>
-                <prop id="6" list="0" val="No Sound"/>
-                <prop id="8" list="0" val="50"/>
-                <prop id="10" list="0" val="Walk R"/>
-                <prop id="11" list="0" val="Walk L"/>
-                <prop id="2147483647" list="0" val="thisactor"/>
-            </s>
-            <s enabled="true" id="226">
-                <prop id="1" list="0" val="true"/>
-                <prop id="2147483647" list="0" val="thisactor"/>
-            </s>
-            <s enabled="true" id="225">
-                <prop id="1" list="0" val="0"/>
-                <prop id="2" list="0" val="No Control"/>
-                <prop id="2147483647" list="0" val="thisactor"/>
-            </s>
-            <s enabled="false" id="224">
-                <prop id="1" list="0" val="up"/>
-                <prop id="2" list="0" val="35"/>
-                <prop id="3" list="0" val="-1"/>
-                <prop id="4" list="0" val=""/>
-                <prop id="5" list="0" val="Fall/Jump L"/>
-                <prop id="2147483647" list="0" val="thisactor"/>
-            </s>
-        </snippets>
-    </actor>
     <custom-block blocktag="custom-471" blocktype="ACTION" code="~.say(&quot;Animation Manager&quot;, &quot;ClearAnimCat&quot;, ~);" desc="" global="false" gui="Clear Current Anim Category If Same As %1" id="471" message="ClearAnimCat" name="ClearAnimCat" oid="-1" return="VOID" shared="false" snippetID="169">
         <blank name="Self" order="0" type="ACTOR"/>
         <blank name="ChkCat" order="1" type="TEXT"/>
@@ -443,21 +63,21 @@
         <blank name="Self" order="0" type="ACTOR"/>
         <blank name="ChkCat" order="1" type="TEXT"/>
     </custom-block>
-    <custom-block blocktag="custom-540" blocktype="ACTION" code="~.say(&quot;Animation Manager&quot;, &quot;ClearAnimCat&quot;, ~);" desc="" global="false" gui="Clear Current Anim Category If Same As %1" id="540" message="ClearAnimCat" name="ClearAnimCat" oid="-1" return="VOID" shared="false" snippetID="257">
+    <custom-block blocktag="custom-540" blocktype="ACTION" code="~.say(&quot;Animation Manager&quot;, &quot;ClearAnimCat&quot;, ~);" desc="" global="false" gui="Clear Current Anim Category If Same As %1" id="540" message="ClearAnimCat" name="ClearAnimCat" oid="-1" return="VOID" shared="false" snippetID="-1">
         <blank name="Self" order="0" type="ACTOR"/>
         <blank name="ChkCat" order="1" type="TEXT"/>
     </custom-block>
-    <custom-block blocktag="custom-541" blocktype="ACTION" code="~.say(&quot;Animation Manager&quot;, &quot;ClearAnimCat&quot;, ~);" desc="" global="false" gui="Clear Current Anim Category If Same As %1" id="541" message="ClearAnimCat" name="ClearAnimCat" oid="-1" return="VOID" shared="false" snippetID="257">
+    <custom-block blocktag="custom-541" blocktype="ACTION" code="~.say(&quot;Animation Manager&quot;, &quot;ClearAnimCat&quot;, ~);" desc="" global="false" gui="Clear Current Anim Category If Same As %1" id="541" message="ClearAnimCat" name="ClearAnimCat" oid="-1" return="VOID" shared="false" snippetID="-1">
         <blank name="Self" order="0" type="ACTOR"/>
         <blank name="ChkCat" order="1" type="TEXT"/>
     </custom-block>
     <custom-block blocktag="custom-436" blocktype="ACTION" code="~.say(&quot;Animation Manager&quot;, &quot;ClearCat&quot;);" desc="" global="false" gui="Clear Current Animation for %0" id="436" message="ClearCat" name="ClearCat" oid="-1" return="VOID" shared="false" snippetID="169">
         <blank name="Self" order="0" type="ACTOR"/>
     </custom-block>
-    <custom-block blocktag="custom-536" blocktype="ACTION" code="~.say(&quot;Animation Manager&quot;, &quot;ClearCat&quot;);" desc="" global="false" gui="Clear Current Animation for %0" id="536" message="ClearCat" name="ClearCat" oid="-1" return="VOID" shared="false" snippetID="257">
+    <custom-block blocktag="custom-536" blocktype="ACTION" code="~.say(&quot;Animation Manager&quot;, &quot;ClearCat&quot;);" desc="" global="false" gui="Clear Current Animation for %0" id="536" message="ClearCat" name="ClearCat" oid="-1" return="VOID" shared="false" snippetID="-1">
         <blank name="Self" order="0" type="ACTOR"/>
     </custom-block>
-    <custom-block blocktag="custom-533" blocktype="ACTION" code="~.say(&quot;Animation Manager&quot;, &quot;ClearCat&quot;);" desc="" global="false" gui="Clear Current Animation for %0" id="533" message="ClearCat" name="ClearCat" oid="-1" return="VOID" shared="false" snippetID="257">
+    <custom-block blocktag="custom-533" blocktype="ACTION" code="~.say(&quot;Animation Manager&quot;, &quot;ClearCat&quot;);" desc="" global="false" gui="Clear Current Animation for %0" id="533" message="ClearCat" name="ClearCat" oid="-1" return="VOID" shared="false" snippetID="-1">
         <blank name="Self" order="0" type="ACTOR"/>
     </custom-block>
     <custom-block blocktag="custom-570" blocktype="ACTION" code="~.say(&quot;Animation Manager&quot;, &quot;ClearCat&quot;);" desc="" global="false" gui="Clear Current Animation for %0" id="570" message="ClearCat" name="ClearCat" oid="-1" return="VOID" shared="false" snippetID="-1">
@@ -466,7 +86,7 @@
     <custom-block blocktag="custom-573" blocktype="ACTION" code="~.say(&quot;Animation Manager&quot;, &quot;ClearCat&quot;);" desc="" global="false" gui="Clear Current Animation for %0" id="573" message="ClearCat" name="ClearCat" oid="-1" return="VOID" shared="false" snippetID="-1">
         <blank name="Self" order="0" type="ACTOR"/>
     </custom-block>
-    <custom-block blocktag="custom-527" blocktype="ACTION" code="~.say(&quot;Climbing&quot;, &quot;ClimbingOnRegion&quot;, ~);" desc="" global="false" gui="%0 Entered Ladder Region %1" id="527" message="ClimbingOnRegion" name="ClimbingOnRegion" oid="-1" return="VOID" shared="false" snippetID="255">
+    <custom-block blocktag="custom-527" blocktype="ACTION" code="~.say(&quot;Climbing&quot;, &quot;ClimbingOnRegion&quot;, ~);" desc="" global="false" gui="%0 Entered Ladder Region %1" id="527" message="ClimbingOnRegion" name="ClimbingOnRegion" oid="-1" return="VOID" shared="false" snippetID="-1">
         <blank name="Self" order="0" type="ACTOR"/>
         <blank name="LRegion" order="1" type="REGION"/>
     </custom-block>
@@ -474,376 +94,17 @@
         <blank name="Self" order="0" type="ACTOR"/>
         <blank name="LRegion" order="1" type="REGION"/>
     </custom-block>
-    <tileset across="15" atlasID="0" desc="" down="12" id="479" name="Colorful Blocks" oid="-1" shared="false" th="32" tw="32">
-        <tile collision="1" data="" durations="100" frames="0" id="0" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="1" id="1" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="2" id="2" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="3" id="3" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="4" id="4" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="5" id="5" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="6" id="6" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="7" id="7" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="8" id="8" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="9" id="9" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="10" id="10" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="11" id="11" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="12" id="12" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="13" id="13" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="14" id="14" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="15" id="15" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="16" id="16" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="17" id="17" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="18" id="18" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="19" id="19" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="20" id="20" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="21" id="21" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="22" id="22" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="23" id="23" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="24" id="24" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="25" id="25" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="26" id="26" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="27" id="27" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="28" id="28" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="29" id="29" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="30" id="30" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="31" id="31" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="32" id="32" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="33" id="33" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="34" id="34" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="35" id="35" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="36" id="36" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="37" id="37" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="38" id="38" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="39" id="39" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="40" id="40" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="41" id="41" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="42" id="42" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="43" id="43" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="44" id="44" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="45" id="45" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="46" id="46" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="47" id="47" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="48" id="48" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="49" id="49" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="50" id="50" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="51" id="51" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="52" id="52" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="53" id="53" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="54" id="54" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="55" id="55" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="56" id="56" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="57" id="57" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="58" id="58" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="59" id="59" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="60" id="60" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="61" id="61" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="62" id="62" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="63" id="63" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="64" id="64" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="65" id="65" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="66" id="66" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="67" id="67" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="68" id="68" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="69" id="69" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="70" id="70" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="71" id="71" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="72" id="72" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="73" id="73" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="74" id="74" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="75" id="75" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="76" id="76" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="77" id="77" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="78" id="78" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="79" id="79" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="80" id="80" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="81" id="81" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="82" id="82" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="83" id="83" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="84" id="84" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="85" id="85" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="86" id="86" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="87" id="87" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="88" id="88" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="89" id="89" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="90" id="90" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="91" id="91" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="92" id="92" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="93" id="93" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="94" id="94" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="95" id="95" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="96" id="96" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="97" id="97" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="98" id="98" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="99" id="99" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="100" id="100" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="101" id="101" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="102" id="102" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="103" id="103" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="104" id="104" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="105" id="105" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="106" id="106" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="107" id="107" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="108" id="108" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="109" id="109" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="110" id="110" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="111" id="111" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="112" id="112" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="113" id="113" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="114" id="114" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="115" id="115" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="116" id="116" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="117" id="117" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="118" id="118" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="119" id="119" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="120" id="120" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="121" id="121" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="122" id="122" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="123" id="123" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="124" id="124" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="125" id="125" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="126" id="126" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="127" id="127" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="128" id="128" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="129" id="129" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="130" id="130" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="131" id="131" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="132" id="132" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="133" id="133" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="134" id="134" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="135" id="135" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="136" id="136" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="137" id="137" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="138" id="138" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="139" id="139" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="140" id="140" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="141" id="141" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="142" id="142" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="143" id="143" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="144" id="144" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="145" id="145" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="146" id="146" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="147" id="147" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="148" id="148" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="149" id="149" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="150" id="150" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="151" id="151" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="152" id="152" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="153" id="153" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="154" id="154" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="155" id="155" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="156" id="156" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="157" id="157" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="158" id="158" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="159" id="159" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="160" id="160" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="161" id="161" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="162" id="162" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="163" id="163" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="164" id="164" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="165" id="165" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="166" id="166" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="167" id="167" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="168" id="168" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="169" id="169" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="170" id="170" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="171" id="171" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="172" id="172" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="173" id="173" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="174" id="174" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="175" id="175" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="176" id="176" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="177" id="177" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="178" id="178" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="179" id="179" order="-1"/>
-    </tileset>
     <custom-block blocktag="custom-504" blocktype="ACTION" code="~.say(&quot;Health&quot;, &quot;damage&quot;, ~);" desc="Inflicts the given amount of damage." global="false" gui="inflict %1 damage on %0" id="504" message="damage" name="damage" oid="-1" return="VOID" shared="false" snippetID="240">
         <blank name="Self" order="0" type="ACTOR"/>
         <blank name="amount" order="1" type="NUMBER"/>
     </custom-block>
-    <tileset across="7" atlasID="0" desc="" down="25" id="477" name="Forest and Ginger" oid="-1" shared="false" th="32" tw="32">
-        <tile collision="1" data="" durations="100" frames="0" id="0" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="1" id="1" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="2" id="2" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="3" id="3" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="4" id="4" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="5" id="5" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="6" id="6" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="7" id="7" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="8" id="8" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="9" id="9" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="10" id="10" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="11" id="11" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="12" id="12" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="13" id="13" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="14" id="14" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="15" id="15" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="16" id="16" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="17" id="17" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="18" id="18" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="19" id="19" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="20" id="20" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="21" id="21" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="22" id="22" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="23" id="23" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="24" id="24" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="25" id="25" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="26" id="26" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="27" id="27" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="28" id="28" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="29" id="29" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="30" id="30" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="31" id="31" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="32" id="32" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="33" id="33" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="34" id="34" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="35" id="35" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="36" id="36" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="37" id="37" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="38" id="38" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="39" id="39" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="40" id="40" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="41" id="41" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="42" id="42" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="43" id="43" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="44" id="44" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="45" id="45" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="46" id="46" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="47" id="47" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="48" id="48" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="49" id="49" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="50" id="50" order="-1"/>
-        <tile collision="-1" data="" durations="100" frames="51" id="51" order="-1"/>
-        <tile collision="-1" data="" durations="100" frames="52" id="52" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="53" id="53" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="54" id="54" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="55" id="55" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="56" id="56" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="57" id="57" order="-1"/>
-        <tile collision="-1" data="" durations="100" frames="58" id="58" order="-1"/>
-        <tile collision="-1" data="" durations="100" frames="59" id="59" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="60" id="60" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="61" id="61" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="62" id="62" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="63" id="63" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="64" id="64" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="65" id="65" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="66" id="66" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="67" id="67" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="68" id="68" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="69" id="69" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="70" id="70" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="71" id="71" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="72" id="72" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="73" id="73" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="74" id="74" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="75" id="75" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="76" id="76" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="77" id="77" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="78" id="78" order="-1"/>
-        <tile collision="-1" data="" durations="100" frames="79" id="79" order="-1"/>
-        <tile collision="-1" data="" durations="100" frames="80" id="80" order="-1"/>
-        <tile collision="-1" data="" durations="100" frames="81" id="81" order="-1"/>
-        <tile collision="-1" data="" durations="100" frames="82" id="82" order="-1"/>
-        <tile collision="-1" data="" durations="100" frames="83" id="83" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="84" id="84" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="85" id="85" order="-1"/>
-        <tile collision="-1" data="" durations="100" frames="86" id="86" order="-1"/>
-        <tile collision="-1" data="" durations="100" frames="87" id="87" order="-1"/>
-        <tile collision="-1" data="" durations="100" frames="88" id="88" order="-1"/>
-        <tile collision="-1" data="" durations="100" frames="89" id="89" order="-1"/>
-        <tile collision="-1" data="" durations="100" frames="90" id="90" order="-1"/>
-        <tile collision="-1" data="" durations="100" frames="91" id="91" order="-1"/>
-        <tile collision="-1" data="" durations="100" frames="92" id="92" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="93" id="93" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="94" id="94" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="95" id="95" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="96" id="96" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="97" id="97" order="-1"/>
-        <tile collision="-1" data="" durations="100" frames="98" id="98" order="-1"/>
-        <tile collision="-1" data="" durations="100" frames="99" id="99" order="-1"/>
-        <tile collision="-1" data="" durations="100" frames="100" id="100" order="-1"/>
-        <tile collision="-1" data="" durations="100" frames="101" id="101" order="-1"/>
-        <tile collision="-1" data="" durations="100" frames="102" id="102" order="-1"/>
-        <tile collision="-1" data="" durations="100" frames="103" id="103" order="-1"/>
-        <tile collision="-1" data="" durations="100" frames="104" id="104" order="-1"/>
-        <tile collision="-1" data="" durations="100" frames="105" id="105" order="-1"/>
-        <tile collision="-1" data="" durations="100" frames="106" id="106" order="-1"/>
-        <tile collision="-1" data="" durations="100" frames="107" id="107" order="-1"/>
-        <tile collision="-1" data="" durations="100" frames="108" id="108" order="-1"/>
-        <tile collision="-1" data="" durations="100" frames="109" id="109" order="-1"/>
-        <tile collision="-1" data="" durations="100" frames="110" id="110" order="-1"/>
-        <tile collision="-1" data="" durations="100" frames="111" id="111" order="-1"/>
-        <tile collision="-1" data="" durations="100" frames="112" id="112" order="-1"/>
-        <tile collision="-1" data="" durations="100" frames="113" id="113" order="-1"/>
-        <tile collision="-1" data="" durations="100" frames="114" id="114" order="-1"/>
-        <tile collision="-1" data="" durations="100" frames="115" id="115" order="-1"/>
-        <tile collision="-1" data="" durations="100" frames="116" id="116" order="-1"/>
-        <tile collision="-1" data="" durations="100" frames="117" id="117" order="-1"/>
-        <tile collision="-1" data="" durations="100" frames="118" id="118" order="-1"/>
-        <tile collision="-1" data="" durations="100" frames="119" id="119" order="-1"/>
-        <tile collision="-1" data="" durations="100" frames="120" id="120" order="-1"/>
-        <tile collision="-1" data="" durations="100" frames="121" id="121" order="-1"/>
-        <tile collision="-1" data="" durations="100" frames="122" id="122" order="-1"/>
-        <tile collision="-1" data="" durations="100" frames="123" id="123" order="-1"/>
-        <tile collision="-1" data="" durations="100" frames="124" id="124" order="-1"/>
-        <tile collision="-1" data="" durations="100" frames="125" id="125" order="-1"/>
-        <tile collision="-1" data="" durations="100" frames="126" id="126" order="-1"/>
-        <tile collision="-1" data="" durations="100" frames="127" id="127" order="-1"/>
-        <tile collision="-1" data="" durations="100" frames="128" id="128" order="-1"/>
-        <tile collision="-1" data="" durations="100" frames="129" id="129" order="-1"/>
-        <tile collision="-1" data="" durations="100" frames="130" id="130" order="-1"/>
-        <tile collision="-1" data="" durations="100" frames="131" id="131" order="-1"/>
-        <tile collision="-1" data="" durations="100" frames="132" id="132" order="-1"/>
-        <tile collision="-1" data="" durations="100" frames="133" id="133" order="-1"/>
-        <tile collision="-1" data="" durations="100" frames="134" id="134" order="-1"/>
-        <tile collision="-1" data="" durations="100" frames="135" id="135" order="-1"/>
-        <tile collision="-1" data="" durations="100" frames="136" id="136" order="-1"/>
-        <tile collision="-1" data="" durations="100" frames="137" id="137" order="-1"/>
-        <tile collision="-1" data="" durations="100" frames="138" id="138" order="-1"/>
-        <tile collision="-1" data="" durations="100" frames="139" id="139" order="-1"/>
-        <tile collision="-1" data="" durations="100" frames="140" id="140" order="-1"/>
-        <tile collision="-1" data="" durations="100" frames="141" id="141" order="-1"/>
-        <tile collision="-1" data="" durations="100" frames="142" id="142" order="-1"/>
-        <tile collision="-1" data="" durations="100" frames="143" id="143" order="-1"/>
-        <tile collision="-1" data="" durations="100" frames="144" id="144" order="-1"/>
-        <tile collision="-1" data="" durations="100" frames="145" id="145" order="-1"/>
-        <tile collision="-1" data="" durations="100" frames="146" id="146" order="-1"/>
-        <tile collision="-1" data="" durations="100" frames="147" id="147" order="-1"/>
-        <tile collision="-1" data="" durations="100" frames="148" id="148" order="-1"/>
-        <tile collision="-1" data="" durations="100" frames="149" id="149" order="-1"/>
-        <tile collision="-1" data="" durations="100" frames="150" id="150" order="-1"/>
-        <tile collision="-1" data="" durations="100" frames="151" id="151" order="-1"/>
-        <tile collision="-1" data="" durations="100" frames="152" id="152" order="-1"/>
-        <tile collision="-1" data="" durations="100" frames="153" id="153" order="-1"/>
-        <tile collision="-1" data="" durations="100" frames="154" id="154" order="-1"/>
-        <tile collision="-1" data="" durations="100" frames="155" id="155" order="-1"/>
-        <tile collision="-1" data="" durations="100" frames="156" id="156" order="-1"/>
-        <tile collision="-1" data="" durations="100" frames="157" id="157" order="-1"/>
-        <tile collision="-1" data="" durations="100" frames="158" id="158" order="-1"/>
-        <tile collision="-1" data="" durations="100" frames="159" id="159" order="-1"/>
-        <tile collision="-1" data="" durations="100" frames="160" id="160" order="-1"/>
-        <tile collision="-1" data="" durations="100" frames="161" id="161" order="-1"/>
-        <tile collision="-1" data="" durations="100" frames="162" id="162" order="-1"/>
-        <tile collision="-1" data="" durations="100" frames="163" id="163" order="-1"/>
-        <tile collision="-1" data="" durations="100" frames="164" id="164" order="-1"/>
-        <tile collision="-1" data="" durations="100" frames="165" id="165" order="-1"/>
-        <tile collision="-1" data="" durations="100" frames="166" id="166" order="-1"/>
-        <tile collision="-1" data="" durations="100" frames="167" id="167" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="168" id="168" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="169" id="169" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="170" id="170" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="171" id="171" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="172" id="172" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="173" id="173" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="174" id="174" order="-1"/>
-    </tileset>
     <custom-block blocktag="custom-437" blocktype="NORMAL" code="String((~.say(&quot;Animation Manager&quot;, &quot;GetCat&quot;)))" desc="" global="false" gui="Current Animation Category for %0" id="437" message="GetCat" name="GetCat" oid="-1" return="TEXT" shared="false" snippetID="169">
         <blank name="Self" order="0" type="ACTOR"/>
     </custom-block>
-    <custom-block blocktag="custom-534" blocktype="NORMAL" code="String((~.say(&quot;Animation Manager&quot;, &quot;GetCat&quot;)))" desc="" global="false" gui="Current Animation Category for %0" id="534" message="GetCat" name="GetCat" oid="-1" return="TEXT" shared="false" snippetID="257">
+    <custom-block blocktag="custom-534" blocktype="NORMAL" code="String((~.say(&quot;Animation Manager&quot;, &quot;GetCat&quot;)))" desc="" global="false" gui="Current Animation Category for %0" id="534" message="GetCat" name="GetCat" oid="-1" return="TEXT" shared="false" snippetID="-1">
         <blank name="Self" order="0" type="ACTOR"/>
     </custom-block>
-    <custom-block blocktag="custom-535" blocktype="NORMAL" code="String((~.say(&quot;Animation Manager&quot;, &quot;GetCat&quot;)))" desc="" global="false" gui="Current Animation Category for %0" id="535" message="GetCat" name="GetCat" oid="-1" return="TEXT" shared="false" snippetID="257">
+    <custom-block blocktag="custom-535" blocktype="NORMAL" code="String((~.say(&quot;Animation Manager&quot;, &quot;GetCat&quot;)))" desc="" global="false" gui="Current Animation Category for %0" id="535" message="GetCat" name="GetCat" oid="-1" return="TEXT" shared="false" snippetID="-1">
         <blank name="Self" order="0" type="ACTOR"/>
     </custom-block>
     <custom-block blocktag="custom-571" blocktype="NORMAL" code="String((~.say(&quot;Animation Manager&quot;, &quot;GetCat&quot;)))" desc="" global="false" gui="Current Animation Category for %0" id="571" message="GetCat" name="GetCat" oid="-1" return="TEXT" shared="false" snippetID="-1">
@@ -858,10 +119,10 @@
     <custom-block blocktag="custom-362" blocktype="NORMAL" code="Number((~.say(&quot;Walking&quot;, &quot;GetMaxWalkSpeed&quot;)))" desc="" global="false" gui="Get Max Walk Speed for %0" id="362" message="GetMaxWalkSpeed" name="GetMaxWalkSpeed" oid="-1" return="NUMBER" shared="false" snippetID="178">
         <blank name="Self" order="0" type="ACTOR"/>
     </custom-block>
-    <custom-block blocktag="custom-524" blocktype="NORMAL" code="Number((~.say(&quot;Walking&quot;, &quot;GetMaxWalkSpeed&quot;)))" desc="" global="false" gui="Get Max Walk Speed for %0" id="524" message="GetMaxWalkSpeed" name="GetMaxWalkSpeed" oid="-1" return="NUMBER" shared="false" snippetID="247">
+    <custom-block blocktag="custom-524" blocktype="NORMAL" code="Number((~.say(&quot;Walking&quot;, &quot;GetMaxWalkSpeed&quot;)))" desc="" global="false" gui="Get Max Walk Speed for %0" id="524" message="GetMaxWalkSpeed" name="GetMaxWalkSpeed" oid="-1" return="NUMBER" shared="false" snippetID="-1">
         <blank name="Self" order="0" type="ACTOR"/>
     </custom-block>
-    <custom-block blocktag="custom-516" blocktype="NORMAL" code="Number((~.say(&quot;Walking&quot;, &quot;GetMaxWalkSpeed&quot;)))" desc="" global="false" gui="Get Max Walk Speed for %0" id="516" message="GetMaxWalkSpeed" name="GetMaxWalkSpeed" oid="-1" return="NUMBER" shared="false" snippetID="247">
+    <custom-block blocktag="custom-516" blocktype="NORMAL" code="Number((~.say(&quot;Walking&quot;, &quot;GetMaxWalkSpeed&quot;)))" desc="" global="false" gui="Get Max Walk Speed for %0" id="516" message="GetMaxWalkSpeed" name="GetMaxWalkSpeed" oid="-1" return="NUMBER" shared="false" snippetID="-1">
         <blank name="Self" order="0" type="ACTOR"/>
     </custom-block>
     <custom-block blocktag="custom-561" blocktype="NORMAL" code="Number((~.say(&quot;Walking&quot;, &quot;GetMaxWalkSpeed&quot;)))" desc="" global="false" gui="Get Max Walk Speed for %0" id="561" message="GetMaxWalkSpeed" name="GetMaxWalkSpeed" oid="-1" return="NUMBER" shared="false" snippetID="-1">
@@ -873,10 +134,10 @@
     <custom-block blocktag="custom-363" blocktype="NORMAL" code="Number((~.say(&quot;Walking&quot;, &quot;GetWalkAccel&quot;)))" desc="" global="false" gui="Get Walk Accel for %0" id="363" message="GetWalkAccel" name="GetWalkAccel" oid="-1" return="NUMBER" shared="false" snippetID="178">
         <blank name="Self" order="0" type="ACTOR"/>
     </custom-block>
-    <custom-block blocktag="custom-523" blocktype="NORMAL" code="Number((~.say(&quot;Walking&quot;, &quot;GetWalkAccel&quot;)))" desc="" global="false" gui="Get Walk Accel for %0" id="523" message="GetWalkAccel" name="GetWalkAccel" oid="-1" return="NUMBER" shared="false" snippetID="247">
+    <custom-block blocktag="custom-523" blocktype="NORMAL" code="Number((~.say(&quot;Walking&quot;, &quot;GetWalkAccel&quot;)))" desc="" global="false" gui="Get Walk Accel for %0" id="523" message="GetWalkAccel" name="GetWalkAccel" oid="-1" return="NUMBER" shared="false" snippetID="-1">
         <blank name="Self" order="0" type="ACTOR"/>
     </custom-block>
-    <custom-block blocktag="custom-517" blocktype="NORMAL" code="Number((~.say(&quot;Walking&quot;, &quot;GetWalkAccel&quot;)))" desc="" global="false" gui="Get Walk Accel for %0" id="517" message="GetWalkAccel" name="GetWalkAccel" oid="-1" return="NUMBER" shared="false" snippetID="247">
+    <custom-block blocktag="custom-517" blocktype="NORMAL" code="Number((~.say(&quot;Walking&quot;, &quot;GetWalkAccel&quot;)))" desc="" global="false" gui="Get Walk Accel for %0" id="517" message="GetWalkAccel" name="GetWalkAccel" oid="-1" return="NUMBER" shared="false" snippetID="-1">
         <blank name="Self" order="0" type="ACTOR"/>
     </custom-block>
     <custom-block blocktag="custom-560" blocktype="NORMAL" code="Number((~.say(&quot;Walking&quot;, &quot;GetWalkAccel&quot;)))" desc="" global="false" gui="Get Walk Accel for %0" id="560" message="GetWalkAccel" name="GetWalkAccel" oid="-1" return="NUMBER" shared="false" snippetID="-1">
@@ -885,119 +146,18 @@
     <custom-block blocktag="custom-554" blocktype="NORMAL" code="Number((~.say(&quot;Walking&quot;, &quot;GetWalkAccel&quot;)))" desc="" global="false" gui="Get Walk Accel for %0" id="554" message="GetWalkAccel" name="GetWalkAccel" oid="-1" return="NUMBER" shared="false" snippetID="-1">
         <blank name="Self" order="0" type="ACTOR"/>
     </custom-block>
-    <actor adamp="0.0" ascale="false" atlasID="0" bodytype="2" continuous="false" desc="" eventsnippetid="238" fixedrot="false" fric="0.2" gid="3" id="487" ignoreg="false" inertia="0.66" ldamp="0.0" lw="false" mass="1.0" name="Green Koopa" oid="-1" pausable="true" rest="0.0" shared="false" sprite="488" static="false" touchable="true">
-        <snippets>
-            <s enabled="true" id="218">
-                <prop id="1" list="0" val="1.5"/>
-                <prop id="2" list="0" val="walk-l"/>
-                <prop id="3" list="0" val="walk-r"/>
-                <prop id="4" list="0" val="1"/>
-                <prop id="2147483647" list="0" val="thisactor"/>
-            </s>
-            <s enabled="true" id="219">
-                <prop id="1" list="0" val="false"/>
-                <prop id="2" list="0" val="No Control"/>
-                <prop id="3" list="0" val="1"/>
-                <prop id="4" list="0" val="1"/>
-                <prop id="5" list="0" val="run-r"/>
-                <prop id="6" list="0" val="-1"/>
-                <prop id="8" list="0" val="5"/>
-                <prop id="10" list="0" val="walk-r"/>
-                <prop id="11" list="0" val="walk-l"/>
-                <prop id="2147483647" list="0" val="thisactor"/>
-            </s>
-            <s enabled="true" id="227">
-                <prop id="5" list="0" val="run-r"/>
-                <prop id="6" list="0" val="-1"/>
-                <prop id="7" list="0" val="0"/>
-                <prop id="8" list="0" val="35"/>
-                <prop id="9" list="0" val="15"/>
-                <prop id="2147483647" list="0" val="thisactor"/>
-            </s>
-        </snippets>
-    </actor>
-    <sprite atlasID="0" default="1" desc="" height="30" id="488" name="Green Koopa" shared="false" width="22">
-        <anim across="1" atlasID="-1" down="1" durations="100" height="30" id="0" loop="true" name="idle-l" numframes="1" originx="11" originy="15" width="22">
-            <poly data="4,0,0,22,0,22,30,0,30" density="0.1" fric="0.2" gid="-1000" id="0" name="idle-l" rest="0.0" sensor="false"/>
-        </anim>
-        <anim across="1" atlasID="-1" down="1" durations="100" height="30" id="1" loop="true" name="idle-r" numframes="1" originx="11" originy="15" width="22">
-            <poly data="4,0,0,22,0,22,30,0,30" density="0.1" fric="0.2" gid="-1000" id="0" name="idle-r" rest="0.0" sensor="false"/>
-        </anim>
-        <anim across="4" atlasID="-1" down="1" durations="100,100,100,100" height="32" id="2" loop="true" name="walk-l" numframes="4" originx="11" originy="16" width="88">
-            <poly data="4,0,0,22,0,22,32,0,32" density="0.1" fric="0.2" gid="-1000" id="0" name="walk-l" rest="0.0" sensor="false"/>
-        </anim>
-        <anim across="4" atlasID="-1" down="1" durations="100,100,100,100" height="32" id="3" loop="true" name="walk-r" numframes="4" originx="11" originy="16" width="88">
-            <poly data="4,0,0,22,0,22,32,0,32" density="0.1" fric="0.2" gid="-1000" id="0" name="walk-r" rest="0.0" sensor="false"/>
-        </anim>
-        <anim across="1" atlasID="-1" down="1" durations="100" height="26" id="4" loop="true" name="jump-l" numframes="1" originx="12" originy="13" width="24">
-            <poly data="4,0,0,24,0,24,26,0,26" density="0.1" fric="0.2" gid="-1000" id="0" name="jump-l" rest="0.0" sensor="false"/>
-        </anim>
-        <anim across="1" atlasID="-1" down="1" durations="100" height="26" id="5" loop="true" name="jump-r" numframes="1" originx="12" originy="13" width="24">
-            <poly data="4,0,0,24,0,24,26,0,26" density="0.1" fric="0.2" gid="-1000" id="0" name="jump-r" rest="0.0" sensor="false"/>
-        </anim>
-        <anim across="4" atlasID="-1" down="1" durations="100,100,100,100" height="15" id="6" loop="true" name="run-l" numframes="4" originx="8" originy="7" width="64">
-            <poly data="4,0,0,16,0,16,15,0,15" density="0.1" fric="0.2" gid="-1000" id="0" name="run-l" rest="0.0" sensor="false"/>
-        </anim>
-        <anim across="4" atlasID="-1" down="1" durations="100,100,100,100" height="15" id="7" loop="true" name="run-r" numframes="4" originx="8" originy="7" width="64">
-            <poly data="4,0,0,16,0,16,15,0,15" density="0.1" fric="0.2" gid="-1000" id="0" name="run-r" rest="0.0" sensor="false"/>
-        </anim>
-    </sprite>
     <custom-block blocktag="custom-503" blocktype="ACTION" code="~.say(&quot;Health&quot;, &quot;heal&quot;, ~);" desc="Restores given amount of HP." global="false" gui="heal %0 by %1 health" id="503" message="heal" name="heal" oid="-1" return="VOID" shared="false" snippetID="240">
         <blank name="Self" order="0" type="ACTOR"/>
         <blank name="amount" order="1" type="NUMBER"/>
     </custom-block>
     <background atlasID="0" desc="" durations="100" dx="-0.0" dy="-0.0" height="480" id="112" name="Hills 1" numframes="1" oid="-1" repeats="false" resized="false" shared="false" width="1220" xpf="1.0" ypf="1.0"/>
-    <custom-block blocktag="custom-528" blocktype="NORMAL" code="Boolean((~.say(&quot;Climbing&quot;, &quot;IdleOnLadder&quot;)))" desc="" global="false" gui="Is %0 Idle" id="528" message="IdleOnLadder" name="IdleOnLadder" oid="-1" return="BOOLEAN" shared="false" snippetID="255">
+    <custom-block blocktag="custom-528" blocktype="NORMAL" code="Boolean((~.say(&quot;Climbing&quot;, &quot;IdleOnLadder&quot;)))" desc="" global="false" gui="Is %0 Idle" id="528" message="IdleOnLadder" name="IdleOnLadder" oid="-1" return="BOOLEAN" shared="false" snippetID="-1">
         <blank name="Self" order="0" type="ACTOR"/>
     </custom-block>
     <custom-block blocktag="custom-565" blocktype="NORMAL" code="Boolean((~.say(&quot;Climbing&quot;, &quot;IdleOnLadder&quot;)))" desc="" global="false" gui="Is %0 Idle" id="565" message="IdleOnLadder" name="IdleOnLadder" oid="-1" return="BOOLEAN" shared="false" snippetID="-1">
         <blank name="Self" order="0" type="ACTOR"/>
     </custom-block>
     <music desc="Standard jumping sound" id="261" loop="true" name="Jump" oid="-1" pan="0" shared="false" stream="true" type="mp3" volume="1"/>
-    <sprite atlasID="0" default="1" desc="" height="36" id="484" name="Jumper" shared="false" width="15">
-        <anim across="1" atlasID="-1" down="1" durations="100" height="36" id="0" loop="true" name="idle-l" numframes="1" originx="7" originy="18" width="15">
-            <poly data="4,0,0,15,0,15,36,0,36" density="0.1" fric="0.2" gid="-1000" id="0" name="idle-l" rest="0.0" sensor="false"/>
-        </anim>
-        <anim across="1" atlasID="-1" down="1" durations="100" height="36" id="1" loop="true" name="idle-r" numframes="1" originx="7" originy="18" width="15">
-            <poly data="4,0,0,15,0,15,36,0,36" density="0.1" fric="0.2" gid="-1000" id="0" name="idle-r" rest="0.0" sensor="false"/>
-        </anim>
-        <anim across="8" atlasID="-1" down="1" durations="100,100,100,100,100,100,100,100" height="36" id="2" loop="true" name="walk-l" numframes="8" originx="7" originy="18" width="120">
-            <poly data="4,0,0,15,0,15,36,0,36" density="0.1" fric="0.2" gid="-1000" id="0" name="walk-l" rest="0.0" sensor="false"/>
-        </anim>
-        <anim across="8" atlasID="-1" down="1" durations="100,100,100,100,100,100,100,100" height="36" id="3" loop="true" name="walk-r" numframes="8" originx="7" originy="18" width="120">
-            <poly data="4,0,0,15,0,15,36,0,36" density="0.1" fric="0.2" gid="-1000" id="0" name="walk-r" rest="0.0" sensor="false"/>
-        </anim>
-        <anim across="8" atlasID="-1" down="1" durations="100,100,100,100,100,100,100,100" height="36" id="4" loop="true" name="run-l" numframes="8" originx="7" originy="18" width="120">
-            <poly data="4,0,0,15,0,15,36,0,36" density="0.1" fric="0.2" gid="-1000" id="0" name="run-l" rest="0.0" sensor="false"/>
-        </anim>
-        <anim across="8" atlasID="-1" down="1" durations="100,100,100,100,100,100,100,100" height="36" id="5" loop="true" name="run-r" numframes="8" originx="7" originy="18" width="120">
-            <poly data="4,0,0,15,0,15,36,0,36" density="0.1" fric="0.2" gid="-1000" id="0" name="run-r" rest="0.0" sensor="false"/>
-        </anim>
-        <anim across="1" atlasID="-1" down="1" durations="100" height="31" id="6" loop="true" name="duck-l" numframes="1" originx="8" originy="15" width="16">
-            <poly data="4,0,0,16,0,16,31,0,31" density="0.1" fric="0.2" gid="-1000" id="0" name="duck-l" rest="0.0" sensor="false"/>
-        </anim>
-        <anim across="1" atlasID="-1" down="1" durations="100" height="31" id="7" loop="true" name="duck-r" numframes="1" originx="8" originy="15" width="16">
-            <poly data="4,0,0,16,0,16,31,0,31" density="0.1" fric="0.2" gid="-1000" id="0" name="duck-r" rest="0.0" sensor="false"/>
-        </anim>
-        <anim across="1" atlasID="-1" down="1" durations="100" height="35" id="8" loop="true" name="jump-l" numframes="1" originx="10" originy="17" width="21">
-            <poly data="4,0,0,21,0,21,35,0,35" density="0.1" fric="0.2" gid="-1000" id="0" name="jump-l" rest="0.0" sensor="false"/>
-        </anim>
-        <anim across="1" atlasID="-1" down="1" durations="100" height="35" id="9" loop="true" name="jump-r" numframes="1" originx="10" originy="17" width="21">
-            <poly data="4,0,0,21,0,21,35,0,35" density="0.1" fric="0.2" gid="-1000" id="0" name="jump-r" rest="0.0" sensor="false"/>
-        </anim>
-        <anim across="1" atlasID="-1" down="1" durations="100" height="34" id="10" loop="true" name="wallslide-l" numframes="1" originx="9" originy="17" width="18">
-            <poly data="4,0,0,18,0,18,34,0,34" density="0.1" fric="0.2" gid="-1000" id="0" name="wallslide-l" rest="0.0" sensor="false"/>
-        </anim>
-        <anim across="1" atlasID="-1" down="1" durations="100" height="34" id="11" loop="true" name="wallslide-r" numframes="1" originx="9" originy="17" width="18">
-            <poly data="4,0,0,18,0,18,34,0,34" density="0.1" fric="0.2" gid="-1000" id="0" name="wallslide-r" rest="0.0" sensor="false"/>
-        </anim>
-        <anim across="1" atlasID="-1" down="1" durations="100" height="37" id="12" loop="true" name="fall-r" numframes="1" originx="11" originy="18" width="22">
-            <poly data="4,0,0,18,0,18,36,0,36" density="0.1" fric="0.2" gid="-1000" id="0" name="fall-r" rest="0.0" sensor="false"/>
-        </anim>
-        <anim across="1" atlasID="-1" down="1" durations="100" height="37" id="13" loop="true" name="fall-l" numframes="1" originx="11" originy="18" width="22">
-            <poly data="4,4,0,22,0,22,36,4,36" density="0.1" fric="0.2" gid="-1000" id="0" name="fall-l" rest="0.0" sensor="false"/>
-        </anim>
-    </sprite>
     <sprite atlasID="0" default="0" desc="" height="32" id="433" name="Jumper" shared="false" width="16">
         <anim across="1" atlasID="-1" down="1" durations="100" height="32" id="0" loop="true" name="idle-l" numframes="1" originx="8" originy="16" width="16">
             <poly data="4,0,0,16,0,16,32,0,32" density="0.1" fric="0.2" gid="-1000" id="0" name="idle-l" rest="0.0" sensor="false"/>
@@ -1098,8 +258,8 @@
                 <prop id="12" list="0" val="left"/>
                 <prop id="13" list="0" val="0.4"/>
                 <prop id="14" list="0" val="true"/>
-                <prop id="15" list="0" val="run-r"/>
                 <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="15" list="0" val="run-r"/>
                 <prop id="17" list="0" val="run-r"/>
                 <prop id="16" list="0" val="run-l"/>
                 <prop id="19" list="0" val="run-r"/>
@@ -1119,7 +279,7 @@
                 <prop id="2147483647" list="0" val="thisactor"/>
                 <prop id="17" list="0" val="0"/>
                 <prop id="16" list="0" val="0"/>
-                <prop id="19" list="0" val="No Sound"/>
+                <prop id="19" list="0" val="-1"/>
                 <prop id="18" list="0" val="0.65"/>
                 <prop id="21" list="0" val="Jumping"/>
                 <prop id="20" list="0" val="30"/>
@@ -1139,34 +299,6 @@
                 <prop id="2" list="0" val="false"/>
                 <prop id="3" list="1" val=""/>
                 <prop id="2147483647" list="0" val="thisactor"/>
-            </s>
-            <s enabled="true" id="255">
-                <prop id="1" list="0" val="up"/>
-                <prop id="2" list="0" val="duck"/>
-                <prop id="3" list="0" val="left"/>
-                <prop id="4" list="0" val="right"/>
-                <prop id="5" list="0" val="false"/>
-                <prop id="6" list="0" val=""/>
-                <prop id="7" list="0" val="1.0"/>
-                <prop id="8" list="0" val="2.0"/>
-                <prop id="9" list="0" val="1.0"/>
-                <prop id="10" list="0" val="false"/>
-                <prop id="11" list="0" val="idle-r"/>
-                <prop id="12" list="0" val="idle-l"/>
-                <prop id="14" list="0" val="fall-l"/>
-                <prop id="15" list="0" val="duck-l"/>
-                <prop id="2147483647" list="0" val="thisactor"/>
-                <prop id="17" list="0" val="walk-l"/>
-                <prop id="16" list="0" val="walk-r"/>
-                <prop id="19" list="0" val="0"/>
-                <prop id="18" list="0" val="3.0"/>
-                <prop id="21" list="0" val="false"/>
-                <prop id="20" list="0" val="0"/>
-                <prop id="22" list="0" val="false"/>
-                <prop id="25" list="0" val="run"/>
-                <prop id="24" list="0" val="false"/>
-                <prop id="27" list="0" val="duck-r"/>
-                <prop id="26" list="0" val="jump-l"/>
             </s>
             <s enabled="true" id="115">
                 <prop id="1" list="0" val="false"/>
@@ -1230,8 +362,8 @@
                 <prop id="12" list="0" val="250"/>
                 <prop id="13" list="0" val="65"/>
                 <prop id="14" list="0" val="jump-r"/>
-                <prop id="15" list="0" val="jump-l"/>
                 <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="15" list="0" val="jump-l"/>
                 <prop id="17" list="0" val="Wall Jumping"/>
                 <prop id="16" list="0" val="false"/>
             </s>
@@ -1270,37 +402,6 @@
             </s>
         </snippets>
     </actor>
-    <actor adamp="0.0" ascale="false" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="-1" fixedrot="false" fric="0.2" gid="3" id="481" ignoreg="false" inertia="1.0" ldamp="0.0" lw="false" mass="1.0" name="Koopa Man" oid="-1" pausable="true" rest="0.0" shared="false" sprite="482" static="false" touchable="true">
-        <snippets>
-            <s enabled="true" id="220">
-                <prop id="5" list="0" val="run-r"/>
-                <prop id="6" list="0" val="No Sound"/>
-                <prop id="7" list="0" val="0"/>
-                <prop id="8" list="0" val="35"/>
-                <prop id="9" list="0" val="15"/>
-                <prop id="2147483647" list="0" val="thisactor"/>
-            </s>
-            <s enabled="true" id="218">
-                <prop id="1" list="0" val="5"/>
-                <prop id="2" list="0" val="walk-l"/>
-                <prop id="3" list="0" val="walk-r"/>
-                <prop id="4" list="0" val="1"/>
-                <prop id="2147483647" list="0" val="thisactor"/>
-            </s>
-            <s enabled="true" id="219">
-                <prop id="1" list="0" val="false"/>
-                <prop id="2" list="0" val="up"/>
-                <prop id="3" list="0" val="35"/>
-                <prop id="4" list="0" val="35"/>
-                <prop id="5" list="0" val="run-r"/>
-                <prop id="6" list="0" val="No Sound"/>
-                <prop id="8" list="0" val="3"/>
-                <prop id="10" list="0" val="walk-r"/>
-                <prop id="11" list="0" val="walk-l"/>
-                <prop id="2147483647" list="0" val="thisactor"/>
-            </s>
-        </snippets>
-    </actor>
     <tileset across="2" atlasID="0" desc="" down="4" id="543" name="Ladderset" oid="-1" shared="false" th="32" tw="32">
         <tile collision="-1" data="" durations="100" frames="0" id="0" order="-1"/>
         <tile collision="-1" data="" durations="100" frames="1" id="1" order="-1"/>
@@ -1323,11 +424,11 @@
         <blank name="Self" order="0" type="ACTOR"/>
         <blank name="Limit" order="1" type="BOOLEAN"/>
     </custom-block>
-    <custom-block blocktag="custom-522" blocktype="ACTION" code="~.say(&quot;Walking&quot;, &quot;LimitSpeed&quot;, ~);" desc="" global="false" gui="Set Limit Speed for %0 to %1" id="522" message="LimitSpeed" name="LimitSpeed" oid="-1" return="VOID" shared="false" snippetID="247">
+    <custom-block blocktag="custom-522" blocktype="ACTION" code="~.say(&quot;Walking&quot;, &quot;LimitSpeed&quot;, ~);" desc="" global="false" gui="Set Limit Speed for %0 to %1" id="522" message="LimitSpeed" name="LimitSpeed" oid="-1" return="VOID" shared="false" snippetID="-1">
         <blank name="Self" order="0" type="ACTOR"/>
         <blank name="Limit" order="1" type="BOOLEAN"/>
     </custom-block>
-    <custom-block blocktag="custom-513" blocktype="ACTION" code="~.say(&quot;Walking&quot;, &quot;LimitSpeed&quot;, ~);" desc="" global="false" gui="Set Limit Speed for %0 to %1" id="513" message="LimitSpeed" name="LimitSpeed" oid="-1" return="VOID" shared="false" snippetID="247">
+    <custom-block blocktag="custom-513" blocktype="ACTION" code="~.say(&quot;Walking&quot;, &quot;LimitSpeed&quot;, ~);" desc="" global="false" gui="Set Limit Speed for %0 to %1" id="513" message="LimitSpeed" name="LimitSpeed" oid="-1" return="VOID" shared="false" snippetID="-1">
         <blank name="Self" order="0" type="ACTOR"/>
         <blank name="Limit" order="1" type="BOOLEAN"/>
     </custom-block>
@@ -1354,268 +455,31 @@
         <blank name="Animation" order="1" type="ANIMATION"/>
         <blank name="Category" order="2" type="TEXT"/>
     </custom-block>
-    <custom-block blocktag="custom-539" blocktype="ACTION" code="~.say(&quot;Animation Manager&quot;, &quot;LoopAnim&quot;, ~,~);" desc="" global="false" gui="Loop %1 for %0 Using %2" id="539" message="LoopAnim" name="LoopAnim" oid="-1" return="VOID" shared="false" snippetID="257">
+    <custom-block blocktag="custom-539" blocktype="ACTION" code="~.say(&quot;Animation Manager&quot;, &quot;LoopAnim&quot;, ~,~);" desc="" global="false" gui="Loop %1 for %0 Using %2" id="539" message="LoopAnim" name="LoopAnim" oid="-1" return="VOID" shared="false" snippetID="-1">
         <blank name="Self" order="0" type="ACTOR"/>
         <blank name="Animation" order="1" type="ANIMATION"/>
         <blank name="Category" order="2" type="TEXT"/>
     </custom-block>
-    <custom-block blocktag="custom-542" blocktype="ACTION" code="~.say(&quot;Animation Manager&quot;, &quot;LoopAnim&quot;, ~,~);" desc="" global="false" gui="Loop %1 for %0 Using %2" id="542" message="LoopAnim" name="LoopAnim" oid="-1" return="VOID" shared="false" snippetID="257">
+    <custom-block blocktag="custom-542" blocktype="ACTION" code="~.say(&quot;Animation Manager&quot;, &quot;LoopAnim&quot;, ~,~);" desc="" global="false" gui="Loop %1 for %0 Using %2" id="542" message="LoopAnim" name="LoopAnim" oid="-1" return="VOID" shared="false" snippetID="-1">
         <blank name="Self" order="0" type="ACTOR"/>
         <blank name="Animation" order="1" type="ANIMATION"/>
         <blank name="Category" order="2" type="TEXT"/>
     </custom-block>
-    <actor adamp="0.0" ascale="false" atlasID="0" bodytype="2" continuous="false" desc="Simple template Actor demonstrates potential usage of Behaviors and Animations.  Please note that the Behavior Attributes are configured to work with an Actor mass of 1.0.   " eventsnippetid="-1" fixedrot="true" fric="0.0" gid="0" id="483" ignoreg="false" inertia="0.01" ldamp="0.0" lw="false" mass="1.11" name="luigi" oid="-1" pausable="true" rest="0.01" shared="false" sprite="484" static="false" touchable="true">
-        <snippets>
-            <s enabled="true" id="221">
-                <prop id="1" list="0" val="3"/>
-                <prop id="2" list="0" val="No Control"/>
-                <prop id="2147483647" list="0" val="thisactor"/>
-            </s>
-            <s enabled="true" id="222">
-                <prop id="1" list="0" val="right"/>
-                <prop id="2" list="0" val="left"/>
-                <prop id="3" list="0" val="19"/>
-                <prop id="4" list="0" val="walk-r"/>
-                <prop id="5" list="0" val="walk-l"/>
-                <prop id="6" list="0" val="idle-r"/>
-                <prop id="7" list="0" val="idle-l"/>
-                <prop id="2147483647" list="0" val="thisactor"/>
-            </s>
-            <s enabled="true" id="223">
-                <prop id="1" list="0" val="0.0"/>
-                <prop id="4" list="0" val="0.0"/>
-                <prop id="6" list="0" val="0.0"/>
-                <prop id="8" list="0" val="0.0"/>
-                <prop id="9" list="0" val="0.0"/>
-                <prop id="2147483647" list="0" val="thisactor"/>
-            </s>
-            <s enabled="true" id="224">
-                <prop id="1" list="0" val="up"/>
-                <prop id="2" list="0" val="39"/>
-                <prop id="3" list="0" val="-1"/>
-                <prop id="4" list="0" val="jump-r"/>
-                <prop id="5" list="0" val="jump-l"/>
-                <prop id="2147483647" list="0" val="thisactor"/>
-            </s>
-        </snippets>
-    </actor>
     <custom-block blocktag="custom-505" blocktype="ACTION" code="~.say(&quot;Health&quot;, &quot;makeInvincible&quot;);" desc="" global="false" gui="make %0 invincible" id="505" message="makeInvincible" name="makeInvincible" oid="-1" return="VOID" shared="false" snippetID="240">
         <blank name="Self" order="0" type="ACTOR"/>
     </custom-block>
     <custom-block blocktag="custom-500" blocktype="ACTION" code="~.say(&quot;Health&quot;, &quot;makeVulnerable&quot;);" desc="" global="false" gui="make %0 not invincible" id="500" message="makeVulnerable" name="makeVulnerable" oid="-1" return="VOID" shared="false" snippetID="240">
         <blank name="Self" order="0" type="ACTOR"/>
     </custom-block>
-    <actor adamp="0.0" ascale="false" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="234" fixedrot="true" fric="0.7" gid="3" id="491" ignoreg="false" inertia="1.0" ldamp="1.0" lw="false" mass="1.0" name="Mario" oid="-1" pausable="true" rest="0.0" shared="false" sprite="492" static="false" touchable="false">
-        <snippets>
-            <s enabled="true" id="233">
-                <prop id="2147483647" list="0" val="thisactor"/>
-            </s>
-            <s enabled="true" id="232">
-                <prop id="1" list="0" val="false"/>
-                <prop id="2147483647" list="0" val="thisactor"/>
-            </s>
-            <s enabled="true" id="231">
-                <prop id="1" list="0" val="0.2"/>
-                <prop id="2" list="0" val="false"/>
-                <prop id="3" list="0" val="false"/>
-                <prop id="2147483647" list="0" val="thisactor"/>
-            </s>
-            <s enabled="true" id="230">
-                <prop id="1" list="0" val="0.0"/>
-                <prop id="4" list="0" val="0.0"/>
-                <prop id="6" list="0" val="0.0"/>
-                <prop id="8" list="0" val="0.0"/>
-                <prop id="9" list="0" val="0.0"/>
-                <prop id="2147483647" list="0" val="thisactor"/>
-            </s>
-            <s enabled="true" id="229">
-                <prop id="1" list="0" val="up"/>
-                <prop id="2" list="0" val="35"/>
-                <prop id="3" list="0" val="-1"/>
-                <prop id="4" list="0" val="Animation 2"/>
-                <prop id="5" list="0" val="Animation 5"/>
-                <prop id="2147483647" list="0" val="thisactor"/>
-            </s>
-            <s enabled="true" id="228">
-                <prop id="1" list="0" val="right"/>
-                <prop id="2" list="0" val="left"/>
-                <prop id="3" list="0" val="19"/>
-                <prop id="4" list="0" val="Animation 1"/>
-                <prop id="5" list="0" val="Animation 4"/>
-                <prop id="6" list="0" val="Animation 0"/>
-                <prop id="7" list="0" val="Animation 3"/>
-                <prop id="2147483647" list="0" val="thisactor"/>
-            </s>
-            <s enabled="true" id="225">
-                <prop id="1" list="0" val="3"/>
-                <prop id="2" list="0" val="up"/>
-                <prop id="2147483647" list="0" val="thisactor"/>
-            </s>
-        </snippets>
-    </actor>
-    <sprite atlasID="0" default="0" desc="" height="28" id="492" name="Mario" shared="false" width="15">
-        <anim across="1" atlasID="-1" down="1" durations="100" height="28" id="0" loop="true" name="Animation 0" numframes="1" originx="7" originy="14" width="15">
-            <poly data="4,0,0,16,0,16,28,0,28" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
-        </anim>
-        <anim across="4" atlasID="-1" down="1" durations="100,100,100,100" height="28" id="1" loop="true" name="Animation 1" numframes="4" originx="7" originy="14" width="60">
-            <poly data="4,0,0,16,0,16,28,0,28" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 1" rest="0.0" sensor="false"/>
-        </anim>
-        <anim across="1" atlasID="-1" down="1" durations="100" height="31" id="2" loop="true" name="Animation 2" numframes="1" originx="8" originy="15" width="16">
-            <poly data="4,0,0,16,0,16,28,0,28" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 2" rest="0.0" sensor="false"/>
-        </anim>
-        <anim across="1" atlasID="-1" down="1" durations="100" height="28" id="3" loop="true" name="Animation 3" numframes="1" originx="8" originy="14" width="16">
-            <poly data="4,0,0,16,0,16,28,0,28" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 3" rest="0.0" sensor="false"/>
-        </anim>
-        <anim across="4" atlasID="-1" down="1" durations="100,100,100,100" height="28" id="4" loop="true" name="Animation 4" numframes="4" originx="8" originy="14" width="64">
-            <poly data="4,0,0,16,0,16,28,0,28" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 4" rest="0.0" sensor="false"/>
-        </anim>
-        <anim across="1" atlasID="-1" down="1" durations="100" height="31" id="5" loop="true" name="Animation 5" numframes="1" originx="8" originy="15" width="16">
-            <poly data="4,0,0,16,0,16,28,0,28" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 5" rest="0.0" sensor="false"/>
-        </anim>
-    </sprite>
-    <tileset across="22" atlasID="0" desc="found in net" down="6" id="475" name="mario RIP 1" oid="-1" shared="false" th="16" tw="16">
-        <tile collision="1" data="" durations="100" frames="0" id="0" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="1" id="1" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="2" id="2" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="3" id="3" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="4" id="4" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="5" id="5" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="6" id="6" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="7" id="7" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="8" id="8" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="9" id="9" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="10" id="10" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="11" id="11" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="12" id="12" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="13" id="13" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="14" id="14" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="15" id="15" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="16" id="16" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="17" id="17" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="18" id="18" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="19" id="19" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="20" id="20" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="21" id="21" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="22" id="22" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="23" id="23" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="24" id="24" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="25" id="25" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="26" id="26" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="27" id="27" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="28" id="28" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="29" id="29" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="30" id="30" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="31" id="31" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="32" id="32" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="33" id="33" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="34" id="34" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="35" id="35" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="36" id="36" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="37" id="37" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="38" id="38" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="39" id="39" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="40" id="40" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="41" id="41" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="42" id="42" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="43" id="43" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="44" id="44" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="45" id="45" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="46" id="46" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="47" id="47" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="48" id="48" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="49" id="49" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="50" id="50" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="51" id="51" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="52" id="52" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="53" id="53" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="54" id="54" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="55" id="55" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="56" id="56" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="57" id="57" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="58" id="58" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="59" id="59" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="60" id="60" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="61" id="61" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="62" id="62" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="63" id="63" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="64" id="64" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="65" id="65" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="66" id="66" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="67" id="67" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="68" id="68" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="69" id="69" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="70" id="70" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="71" id="71" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="72" id="72" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="73" id="73" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="74" id="74" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="75" id="75" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="76" id="76" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="77" id="77" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="78" id="78" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="79" id="79" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="80" id="80" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="81" id="81" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="82" id="82" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="83" id="83" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="84" id="84" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="85" id="85" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="86" id="86" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="87" id="87" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="88" id="88" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="89" id="89" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="90" id="90" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="91" id="91" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="92" id="92" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="93" id="93" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="94" id="94" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="95" id="95" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="96" id="96" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="97" id="97" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="98" id="98" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="99" id="99" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="100" id="100" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="101" id="101" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="102" id="102" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="103" id="103" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="104" id="104" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="105" id="105" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="106" id="106" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="107" id="107" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="108" id="108" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="109" id="109" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="110" id="110" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="111" id="111" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="112" id="112" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="113" id="113" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="114" id="114" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="115" id="115" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="116" id="116" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="117" id="117" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="118" id="118" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="119" id="119" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="120" id="120" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="121" id="121" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="122" id="122" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="123" id="123" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="124" id="124" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="125" id="125" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="126" id="126" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="127" id="127" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="128" id="128" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="129" id="129" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="130" id="130" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="131" id="131" order="-1"/>
-    </tileset>
     <custom-block blocktag="custom-358" blocktype="ACTION" code="~.say(&quot;Walking&quot;, &quot;MaxWalkSpeed&quot;, ~);" desc="" global="false" gui="For %0 Set Max Walk Speed To %1" id="358" message="MaxWalkSpeed" name="MaxWalkSpeed" oid="-1" return="VOID" shared="false" snippetID="178">
         <blank name="Self" order="0" type="ACTOR"/>
         <blank name="MaxSpeed" order="1" type="NUMBER"/>
     </custom-block>
-    <custom-block blocktag="custom-521" blocktype="ACTION" code="~.say(&quot;Walking&quot;, &quot;MaxWalkSpeed&quot;, ~);" desc="" global="false" gui="For %0 Set Max Walk Speed To %1" id="521" message="MaxWalkSpeed" name="MaxWalkSpeed" oid="-1" return="VOID" shared="false" snippetID="247">
+    <custom-block blocktag="custom-521" blocktype="ACTION" code="~.say(&quot;Walking&quot;, &quot;MaxWalkSpeed&quot;, ~);" desc="" global="false" gui="For %0 Set Max Walk Speed To %1" id="521" message="MaxWalkSpeed" name="MaxWalkSpeed" oid="-1" return="VOID" shared="false" snippetID="-1">
         <blank name="Self" order="0" type="ACTOR"/>
         <blank name="MaxSpeed" order="1" type="NUMBER"/>
     </custom-block>
-    <custom-block blocktag="custom-514" blocktype="ACTION" code="~.say(&quot;Walking&quot;, &quot;MaxWalkSpeed&quot;, ~);" desc="" global="false" gui="For %0 Set Max Walk Speed To %1" id="514" message="MaxWalkSpeed" name="MaxWalkSpeed" oid="-1" return="VOID" shared="false" snippetID="247">
+    <custom-block blocktag="custom-514" blocktype="ACTION" code="~.say(&quot;Walking&quot;, &quot;MaxWalkSpeed&quot;, ~);" desc="" global="false" gui="For %0 Set Max Walk Speed To %1" id="514" message="MaxWalkSpeed" name="MaxWalkSpeed" oid="-1" return="VOID" shared="false" snippetID="-1">
         <blank name="Self" order="0" type="ACTOR"/>
         <blank name="MaxSpeed" order="1" type="NUMBER"/>
     </custom-block>
@@ -1885,41 +749,15 @@
         <tile collision="1" data="" durations="100" frames="254" id="254" order="-1"/>
         <tile collision="1" data="" durations="100" frames="255" id="255" order="-1"/>
     </tileset>
-    <tileset across="6" atlasID="0" desc="" down="4" id="286" name="OrangeBlocks" oid="-1" shared="false" th="32" tw="32">
-        <tile collision="1" data="" durations="100" frames="0" id="0" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="1" id="1" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="2" id="2" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="3" id="3" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="4" id="4" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="5" id="5" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="6" id="6" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="7" id="7" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="8" id="8" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="9" id="9" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="10" id="10" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="11" id="11" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="12" id="12" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="13" id="13" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="14" id="14" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="15" id="15" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="16" id="16" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="17" id="17" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="18" id="18" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="19" id="19" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="20" id="20" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="21" id="21" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="22" id="22" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="23" id="23" order="-1"/>
-    </tileset>
     <custom-block blocktag="custom-333" blocktype="ACTION" code="~.say(&quot;Animation Manager&quot;, &quot;PlayOnce&quot;, ~);" desc="" global="false" gui="Play %1 Once for %0" id="333" message="PlayOnce" name="PlayOnce" oid="-1" return="VOID" shared="false" snippetID="169">
         <blank name="Self" order="0" type="ACTOR"/>
         <blank name="Animation" order="1" type="ANIMATION"/>
     </custom-block>
-    <custom-block blocktag="custom-537" blocktype="ACTION" code="~.say(&quot;Animation Manager&quot;, &quot;PlayOnce&quot;, ~);" desc="" global="false" gui="Play %1 Once for %0" id="537" message="PlayOnce" name="PlayOnce" oid="-1" return="VOID" shared="false" snippetID="257">
+    <custom-block blocktag="custom-537" blocktype="ACTION" code="~.say(&quot;Animation Manager&quot;, &quot;PlayOnce&quot;, ~);" desc="" global="false" gui="Play %1 Once for %0" id="537" message="PlayOnce" name="PlayOnce" oid="-1" return="VOID" shared="false" snippetID="-1">
         <blank name="Self" order="0" type="ACTOR"/>
         <blank name="Animation" order="1" type="ANIMATION"/>
     </custom-block>
-    <custom-block blocktag="custom-532" blocktype="ACTION" code="~.say(&quot;Animation Manager&quot;, &quot;PlayOnce&quot;, ~);" desc="" global="false" gui="Play %1 Once for %0" id="532" message="PlayOnce" name="PlayOnce" oid="-1" return="VOID" shared="false" snippetID="257">
+    <custom-block blocktag="custom-532" blocktype="ACTION" code="~.say(&quot;Animation Manager&quot;, &quot;PlayOnce&quot;, ~);" desc="" global="false" gui="Play %1 Once for %0" id="532" message="PlayOnce" name="PlayOnce" oid="-1" return="VOID" shared="false" snippetID="-1">
         <blank name="Self" order="0" type="ACTOR"/>
         <blank name="Animation" order="1" type="ANIMATION"/>
     </custom-block>
@@ -1951,11 +789,11 @@
         <blank name="Self" order="0" type="ACTOR"/>
         <blank name="Prevent" order="1" type="BOOLEAN"/>
     </custom-block>
-    <custom-block blocktag="custom-530" blocktype="ACTION" code="~.say(&quot;Air Jumping&quot;, &quot;PreventAirJump&quot;, ~);" desc="" global="false" gui="Set Prevent Air Jump for %0 to %1" id="530" message="PreventAirJump" name="PreventAirJump" oid="-1" return="VOID" shared="false" snippetID="256">
+    <custom-block blocktag="custom-530" blocktype="ACTION" code="~.say(&quot;Air Jumping&quot;, &quot;PreventAirJump&quot;, ~);" desc="" global="false" gui="Set Prevent Air Jump for %0 to %1" id="530" message="PreventAirJump" name="PreventAirJump" oid="-1" return="VOID" shared="false" snippetID="-1">
         <blank name="Self" order="0" type="ACTOR"/>
         <blank name="Prevent" order="1" type="BOOLEAN"/>
     </custom-block>
-    <custom-block blocktag="custom-529" blocktype="ACTION" code="~.say(&quot;Air Jumping&quot;, &quot;PreventAirJump&quot;, ~);" desc="" global="false" gui="Set Prevent Air Jump for %0 to %1" id="529" message="PreventAirJump" name="PreventAirJump" oid="-1" return="VOID" shared="false" snippetID="256">
+    <custom-block blocktag="custom-529" blocktype="ACTION" code="~.say(&quot;Air Jumping&quot;, &quot;PreventAirJump&quot;, ~);" desc="" global="false" gui="Set Prevent Air Jump for %0 to %1" id="529" message="PreventAirJump" name="PreventAirJump" oid="-1" return="VOID" shared="false" snippetID="-1">
         <blank name="Self" order="0" type="ACTOR"/>
         <blank name="Prevent" order="1" type="BOOLEAN"/>
     </custom-block>
@@ -1971,11 +809,11 @@
         <blank name="Self" order="0" type="ACTOR"/>
         <blank name="Prevent" order="1" type="BOOLEAN"/>
     </custom-block>
-    <custom-block blocktag="custom-526" blocktype="ACTION" code="~.say(&quot;Walking&quot;, &quot;PreventWalk&quot;, ~);" desc="" global="false" gui="Set Prevent Walk for %0 to %1" id="526" message="PreventWalk" name="PreventWalk" oid="-1" return="VOID" shared="false" snippetID="247">
+    <custom-block blocktag="custom-526" blocktype="ACTION" code="~.say(&quot;Walking&quot;, &quot;PreventWalk&quot;, ~);" desc="" global="false" gui="Set Prevent Walk for %0 to %1" id="526" message="PreventWalk" name="PreventWalk" oid="-1" return="VOID" shared="false" snippetID="-1">
         <blank name="Self" order="0" type="ACTOR"/>
         <blank name="Prevent" order="1" type="BOOLEAN"/>
     </custom-block>
-    <custom-block blocktag="custom-518" blocktype="ACTION" code="~.say(&quot;Walking&quot;, &quot;PreventWalk&quot;, ~);" desc="" global="false" gui="Set Prevent Walk for %0 to %1" id="518" message="PreventWalk" name="PreventWalk" oid="-1" return="VOID" shared="false" snippetID="247">
+    <custom-block blocktag="custom-518" blocktype="ACTION" code="~.say(&quot;Walking&quot;, &quot;PreventWalk&quot;, ~);" desc="" global="false" gui="Set Prevent Walk for %0 to %1" id="518" message="PreventWalk" name="PreventWalk" oid="-1" return="VOID" shared="false" snippetID="-1">
         <blank name="Self" order="0" type="ACTOR"/>
         <blank name="Prevent" order="1" type="BOOLEAN"/>
     </custom-block>
@@ -1987,7 +825,7 @@
         <blank name="Self" order="0" type="ACTOR"/>
         <blank name="Prevent" order="1" type="BOOLEAN"/>
     </custom-block>
-    <custom-block blocktag="custom-511" blocktype="ACTION" code="~.say(&quot;Wall Jumping&quot;, &quot;PreventWallJump&quot;, ~);" desc="" global="false" gui="Set Prevent Wall Jump for %0 to %1" id="511" message="PreventWallJump" name="PreventWallJump" oid="-1" return="VOID" shared="false" snippetID="246">
+    <custom-block blocktag="custom-511" blocktype="ACTION" code="~.say(&quot;Wall Jumping&quot;, &quot;PreventWallJump&quot;, ~);" desc="" global="false" gui="Set Prevent Wall Jump for %0 to %1" id="511" message="PreventWallJump" name="PreventWallJump" oid="-1" return="VOID" shared="false" snippetID="-1">
         <blank name="Self" order="0" type="ACTOR"/>
         <blank name="Prevent" order="1" type="BOOLEAN"/>
     </custom-block>
@@ -1995,7 +833,7 @@
         <blank name="Self" order="0" type="ACTOR"/>
         <blank name="Prevent" order="1" type="BOOLEAN"/>
     </custom-block>
-    <custom-block blocktag="custom-512" blocktype="ACTION" code="~.say(&quot;Wall Jumping&quot;, &quot;PreventWallJump&quot;, ~);" desc="" global="false" gui="Set Prevent Wall Jump for %0 to %1" id="512" message="PreventWallJump" name="PreventWallJump" oid="-1" return="VOID" shared="false" snippetID="246">
+    <custom-block blocktag="custom-512" blocktype="ACTION" code="~.say(&quot;Wall Jumping&quot;, &quot;PreventWallJump&quot;, ~);" desc="" global="false" gui="Set Prevent Wall Jump for %0 to %1" id="512" message="PreventWallJump" name="PreventWallJump" oid="-1" return="VOID" shared="false" snippetID="-1">
         <blank name="Self" order="0" type="ACTOR"/>
         <blank name="Prevent" order="1" type="BOOLEAN"/>
     </custom-block>
@@ -2007,11 +845,11 @@
         <blank name="Self" order="0" type="ACTOR"/>
         <blank name="Prevent" order="1" type="BOOLEAN"/>
     </custom-block>
-    <custom-block blocktag="custom-510" blocktype="ACTION" code="~.say(&quot;Wall Sliding&quot;, &quot;PreventWallSlide&quot;, ~);" desc="" global="false" gui="Set Prevent Wall Slide for %0 to %1" id="510" message="PreventWallSlide" name="PreventWallSlide" oid="-1" return="VOID" shared="false" snippetID="244">
+    <custom-block blocktag="custom-510" blocktype="ACTION" code="~.say(&quot;Wall Sliding&quot;, &quot;PreventWallSlide&quot;, ~);" desc="" global="false" gui="Set Prevent Wall Slide for %0 to %1" id="510" message="PreventWallSlide" name="PreventWallSlide" oid="-1" return="VOID" shared="false" snippetID="-1">
         <blank name="Self" order="0" type="ACTOR"/>
         <blank name="Prevent" order="1" type="BOOLEAN"/>
     </custom-block>
-    <custom-block blocktag="custom-509" blocktype="ACTION" code="~.say(&quot;Wall Sliding&quot;, &quot;PreventWallSlide&quot;, ~);" desc="" global="false" gui="Set Prevent Wall Slide for %0 to %1" id="509" message="PreventWallSlide" name="PreventWallSlide" oid="-1" return="VOID" shared="false" snippetID="244">
+    <custom-block blocktag="custom-509" blocktype="ACTION" code="~.say(&quot;Wall Sliding&quot;, &quot;PreventWallSlide&quot;, ~);" desc="" global="false" gui="Set Prevent Wall Slide for %0 to %1" id="509" message="PreventWallSlide" name="PreventWallSlide" oid="-1" return="VOID" shared="false" snippetID="-1">
         <blank name="Self" order="0" type="ACTOR"/>
         <blank name="Prevent" order="1" type="BOOLEAN"/>
     </custom-block>
@@ -2027,32 +865,6 @@
         <blank name="Self" order="0" type="ACTOR"/>
         <blank name="Prevent" order="1" type="BOOLEAN"/>
     </custom-block>
-    <sprite atlasID="0" default="1" desc="" height="30" id="482" name="Red Koopa" shared="false" width="22">
-        <anim across="1" atlasID="-1" down="1" durations="100" height="30" id="0" loop="true" name="idle-l" numframes="1" originx="11" originy="15" width="22">
-            <poly data="4,0,0,22,0,22,30,0,30" density="0.1" fric="0.2" gid="-1000" id="0" name="idle-l" rest="0.0" sensor="false"/>
-        </anim>
-        <anim across="1" atlasID="-1" down="1" durations="100" height="30" id="1" loop="true" name="idle-r" numframes="1" originx="11" originy="15" width="22">
-            <poly data="4,0,0,22,0,22,30,0,30" density="0.1" fric="0.2" gid="-1000" id="0" name="idle-r" rest="0.0" sensor="false"/>
-        </anim>
-        <anim across="4" atlasID="-1" down="1" durations="100,100,100,100" height="32" id="2" loop="true" name="walk-l" numframes="4" originx="11" originy="16" width="88">
-            <poly data="4,0,0,22,0,22,32,0,32" density="0.1" fric="0.2" gid="-1000" id="0" name="walk-l" rest="0.0" sensor="false"/>
-        </anim>
-        <anim across="4" atlasID="-1" down="1" durations="100,100,100,100" height="32" id="3" loop="true" name="walk-r" numframes="4" originx="11" originy="16" width="88">
-            <poly data="4,0,0,22,0,22,32,0,32" density="0.1" fric="0.2" gid="-1000" id="0" name="walk-r" rest="0.0" sensor="false"/>
-        </anim>
-        <anim across="1" atlasID="-1" down="1" durations="100" height="26" id="4" loop="true" name="jump-l" numframes="1" originx="12" originy="13" width="24">
-            <poly data="4,0,0,24,0,24,26,0,26" density="0.1" fric="0.2" gid="-1000" id="0" name="jump-l" rest="0.0" sensor="false"/>
-        </anim>
-        <anim across="1" atlasID="-1" down="1" durations="100" height="26" id="5" loop="true" name="jump-r" numframes="1" originx="12" originy="13" width="24">
-            <poly data="4,0,0,24,0,24,26,0,26" density="0.1" fric="0.2" gid="-1000" id="0" name="jump-r" rest="0.0" sensor="false"/>
-        </anim>
-        <anim across="4" atlasID="-1" down="1" durations="100,100,100,100" height="15" id="6" loop="true" name="run-l" numframes="4" originx="8" originy="7" width="64">
-            <poly data="4,0,0,16,0,16,15,0,15" density="0.1" fric="0.2" gid="-1000" id="0" name="run-l" rest="0.0" sensor="false"/>
-        </anim>
-        <anim across="4" atlasID="-1" down="1" durations="100,100,100,100" height="15" id="7" loop="true" name="run-r" numframes="4" originx="8" originy="7" width="64">
-            <poly data="4,0,0,16,0,16,15,0,15" density="0.1" fric="0.2" gid="-1000" id="0" name="run-r" rest="0.0" sensor="false"/>
-        </anim>
-    </sprite>
     <custom-block blocktag="custom-499" blocktype="ACTION" code="~.say(&quot;Health&quot;, &quot;restore&quot;);" desc="Restores to maximum health." global="false" gui="restore %0 to max health" id="499" message="restore" name="restore" oid="-1" return="VOID" shared="false" snippetID="240">
         <blank name="Self" order="0" type="ACTOR"/>
     </custom-block>
@@ -2065,7 +877,7 @@
         <blank name="Self" order="0" type="ACTOR"/>
         <blank name="Rate" order="1" type="NUMBER"/>
     </custom-block>
-    <tileset across="32" atlasID="0" desc="Same tileset, with some tiles added by dubealex." down="32" id="476" name="Some Mario Tileset Enhanced" oid="-1" shared="false" th="32" tw="32">
+    <tileset across="61" atlasID="0" desc="" down="28" id="585" name="SMA4" oid="-1" shared="false" th="32" tw="32">
         <tile collision="1" data="" durations="100" frames="0" id="0" order="-1"/>
         <tile collision="1" data="" durations="100" frames="1" id="1" order="-1"/>
         <tile collision="1" data="" durations="100" frames="2" id="2" order="-1"/>
@@ -3090,6 +1902,690 @@
         <tile collision="1" data="" durations="100" frames="1021" id="1021" order="-1"/>
         <tile collision="1" data="" durations="100" frames="1022" id="1022" order="-1"/>
         <tile collision="1" data="" durations="100" frames="1023" id="1023" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1024" id="1024" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1025" id="1025" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1026" id="1026" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1027" id="1027" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1028" id="1028" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1029" id="1029" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1030" id="1030" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1031" id="1031" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1032" id="1032" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1033" id="1033" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1034" id="1034" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1035" id="1035" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1036" id="1036" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1037" id="1037" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1038" id="1038" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1039" id="1039" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1040" id="1040" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1041" id="1041" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1042" id="1042" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1043" id="1043" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1044" id="1044" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1045" id="1045" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1046" id="1046" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1047" id="1047" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1048" id="1048" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1049" id="1049" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1050" id="1050" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1051" id="1051" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1052" id="1052" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1053" id="1053" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1054" id="1054" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1055" id="1055" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1056" id="1056" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1057" id="1057" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1058" id="1058" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1059" id="1059" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1060" id="1060" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1061" id="1061" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1062" id="1062" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1063" id="1063" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1064" id="1064" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1065" id="1065" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1066" id="1066" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1067" id="1067" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1068" id="1068" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1069" id="1069" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1070" id="1070" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1071" id="1071" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1072" id="1072" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1073" id="1073" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1074" id="1074" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1075" id="1075" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1076" id="1076" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1077" id="1077" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1078" id="1078" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1079" id="1079" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1080" id="1080" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1081" id="1081" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1082" id="1082" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1083" id="1083" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1084" id="1084" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1085" id="1085" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1086" id="1086" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1087" id="1087" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1088" id="1088" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1089" id="1089" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1090" id="1090" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1091" id="1091" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1092" id="1092" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1093" id="1093" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1094" id="1094" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1095" id="1095" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1096" id="1096" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1097" id="1097" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1098" id="1098" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1099" id="1099" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1100" id="1100" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1101" id="1101" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1102" id="1102" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1103" id="1103" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1104" id="1104" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1105" id="1105" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1106" id="1106" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1107" id="1107" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1108" id="1108" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1109" id="1109" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1110" id="1110" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1111" id="1111" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1112" id="1112" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1113" id="1113" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1114" id="1114" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1115" id="1115" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1116" id="1116" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1117" id="1117" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1118" id="1118" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1119" id="1119" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1120" id="1120" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1121" id="1121" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1122" id="1122" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1123" id="1123" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1124" id="1124" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1125" id="1125" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1126" id="1126" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1127" id="1127" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1128" id="1128" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1129" id="1129" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1130" id="1130" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1131" id="1131" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1132" id="1132" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1133" id="1133" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1134" id="1134" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1135" id="1135" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1136" id="1136" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1137" id="1137" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1138" id="1138" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1139" id="1139" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1140" id="1140" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1141" id="1141" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1142" id="1142" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1143" id="1143" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1144" id="1144" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1145" id="1145" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1146" id="1146" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1147" id="1147" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1148" id="1148" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1149" id="1149" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1150" id="1150" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1151" id="1151" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1152" id="1152" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1153" id="1153" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1154" id="1154" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1155" id="1155" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1156" id="1156" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1157" id="1157" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1158" id="1158" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1159" id="1159" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1160" id="1160" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1161" id="1161" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1162" id="1162" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1163" id="1163" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1164" id="1164" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1165" id="1165" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1166" id="1166" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1167" id="1167" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1168" id="1168" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1169" id="1169" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1170" id="1170" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1171" id="1171" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1172" id="1172" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1173" id="1173" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1174" id="1174" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1175" id="1175" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1176" id="1176" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1177" id="1177" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1178" id="1178" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1179" id="1179" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1180" id="1180" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1181" id="1181" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1182" id="1182" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1183" id="1183" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1184" id="1184" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1185" id="1185" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1186" id="1186" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1187" id="1187" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1188" id="1188" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1189" id="1189" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1190" id="1190" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1191" id="1191" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1192" id="1192" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1193" id="1193" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1194" id="1194" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1195" id="1195" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1196" id="1196" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1197" id="1197" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1198" id="1198" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1199" id="1199" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1200" id="1200" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1201" id="1201" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1202" id="1202" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1203" id="1203" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1204" id="1204" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1205" id="1205" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1206" id="1206" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1207" id="1207" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1208" id="1208" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1209" id="1209" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1210" id="1210" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1211" id="1211" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1212" id="1212" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1213" id="1213" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1214" id="1214" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1215" id="1215" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1216" id="1216" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1217" id="1217" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1218" id="1218" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1219" id="1219" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1220" id="1220" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1221" id="1221" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1222" id="1222" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1223" id="1223" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1224" id="1224" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1225" id="1225" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1226" id="1226" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1227" id="1227" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1228" id="1228" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1229" id="1229" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1230" id="1230" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1231" id="1231" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1232" id="1232" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1233" id="1233" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1234" id="1234" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1235" id="1235" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1236" id="1236" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1237" id="1237" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1238" id="1238" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1239" id="1239" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1240" id="1240" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1241" id="1241" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1242" id="1242" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1243" id="1243" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1244" id="1244" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1245" id="1245" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1246" id="1246" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1247" id="1247" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1248" id="1248" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1249" id="1249" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1250" id="1250" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1251" id="1251" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1252" id="1252" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1253" id="1253" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1254" id="1254" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1255" id="1255" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1256" id="1256" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1257" id="1257" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1258" id="1258" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1259" id="1259" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1260" id="1260" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1261" id="1261" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1262" id="1262" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1263" id="1263" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1264" id="1264" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1265" id="1265" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1266" id="1266" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1267" id="1267" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1268" id="1268" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1269" id="1269" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1270" id="1270" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1271" id="1271" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1272" id="1272" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1273" id="1273" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1274" id="1274" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1275" id="1275" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1276" id="1276" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1277" id="1277" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1278" id="1278" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1279" id="1279" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1280" id="1280" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1281" id="1281" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1282" id="1282" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1283" id="1283" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1284" id="1284" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1285" id="1285" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1286" id="1286" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1287" id="1287" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1288" id="1288" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1289" id="1289" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1290" id="1290" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1291" id="1291" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1292" id="1292" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1293" id="1293" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1294" id="1294" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1295" id="1295" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1296" id="1296" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1297" id="1297" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1298" id="1298" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1299" id="1299" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1300" id="1300" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1301" id="1301" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1302" id="1302" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1303" id="1303" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1304" id="1304" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1305" id="1305" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1306" id="1306" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1307" id="1307" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1308" id="1308" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1309" id="1309" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1310" id="1310" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1311" id="1311" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1312" id="1312" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1313" id="1313" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1314" id="1314" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1315" id="1315" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1316" id="1316" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1317" id="1317" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1318" id="1318" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1319" id="1319" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1320" id="1320" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1321" id="1321" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1322" id="1322" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1323" id="1323" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1324" id="1324" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1325" id="1325" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1326" id="1326" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1327" id="1327" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1328" id="1328" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1329" id="1329" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1330" id="1330" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1331" id="1331" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1332" id="1332" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1333" id="1333" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1334" id="1334" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1335" id="1335" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1336" id="1336" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1337" id="1337" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1338" id="1338" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1339" id="1339" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1340" id="1340" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1341" id="1341" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1342" id="1342" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1343" id="1343" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1344" id="1344" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1345" id="1345" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1346" id="1346" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1347" id="1347" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1348" id="1348" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1349" id="1349" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1350" id="1350" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1351" id="1351" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1352" id="1352" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1353" id="1353" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1354" id="1354" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1355" id="1355" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1356" id="1356" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1357" id="1357" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1358" id="1358" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1359" id="1359" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1360" id="1360" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1361" id="1361" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1362" id="1362" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1363" id="1363" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1364" id="1364" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1365" id="1365" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1366" id="1366" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1367" id="1367" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1368" id="1368" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1369" id="1369" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1370" id="1370" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1371" id="1371" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1372" id="1372" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1373" id="1373" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1374" id="1374" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1375" id="1375" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1376" id="1376" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1377" id="1377" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1378" id="1378" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1379" id="1379" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1380" id="1380" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1381" id="1381" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1382" id="1382" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1383" id="1383" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1384" id="1384" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1385" id="1385" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1386" id="1386" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1387" id="1387" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1388" id="1388" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1389" id="1389" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1390" id="1390" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1391" id="1391" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1392" id="1392" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1393" id="1393" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1394" id="1394" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1395" id="1395" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1396" id="1396" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1397" id="1397" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1398" id="1398" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1399" id="1399" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1400" id="1400" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1401" id="1401" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1402" id="1402" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1403" id="1403" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1404" id="1404" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1405" id="1405" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1406" id="1406" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1407" id="1407" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1408" id="1408" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1409" id="1409" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1410" id="1410" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1411" id="1411" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1412" id="1412" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1413" id="1413" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1414" id="1414" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1415" id="1415" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1416" id="1416" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1417" id="1417" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1418" id="1418" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1419" id="1419" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1420" id="1420" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1421" id="1421" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1422" id="1422" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1423" id="1423" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1424" id="1424" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1425" id="1425" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1426" id="1426" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1427" id="1427" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1428" id="1428" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1429" id="1429" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1430" id="1430" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1431" id="1431" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1432" id="1432" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1433" id="1433" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1434" id="1434" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1435" id="1435" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1436" id="1436" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1437" id="1437" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1438" id="1438" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1439" id="1439" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1440" id="1440" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1441" id="1441" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1442" id="1442" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1443" id="1443" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1444" id="1444" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1445" id="1445" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1446" id="1446" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1447" id="1447" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1448" id="1448" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1449" id="1449" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1450" id="1450" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1451" id="1451" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1452" id="1452" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1453" id="1453" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1454" id="1454" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1455" id="1455" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1456" id="1456" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1457" id="1457" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1458" id="1458" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1459" id="1459" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1460" id="1460" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1461" id="1461" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1462" id="1462" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1463" id="1463" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1464" id="1464" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1465" id="1465" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1466" id="1466" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1467" id="1467" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1468" id="1468" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1469" id="1469" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1470" id="1470" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1471" id="1471" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1472" id="1472" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1473" id="1473" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1474" id="1474" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1475" id="1475" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1476" id="1476" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1477" id="1477" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1478" id="1478" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1479" id="1479" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1480" id="1480" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1481" id="1481" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1482" id="1482" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1483" id="1483" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1484" id="1484" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1485" id="1485" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1486" id="1486" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1487" id="1487" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1488" id="1488" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1489" id="1489" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1490" id="1490" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1491" id="1491" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1492" id="1492" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1493" id="1493" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1494" id="1494" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1495" id="1495" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1496" id="1496" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1497" id="1497" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1498" id="1498" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1499" id="1499" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1500" id="1500" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1501" id="1501" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1502" id="1502" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1503" id="1503" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1504" id="1504" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1505" id="1505" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1506" id="1506" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1507" id="1507" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1508" id="1508" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1509" id="1509" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1510" id="1510" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1511" id="1511" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1512" id="1512" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1513" id="1513" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1514" id="1514" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1515" id="1515" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1516" id="1516" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1517" id="1517" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1518" id="1518" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1519" id="1519" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1520" id="1520" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1521" id="1521" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1522" id="1522" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1523" id="1523" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1524" id="1524" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1525" id="1525" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1526" id="1526" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1527" id="1527" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1528" id="1528" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1529" id="1529" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1530" id="1530" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1531" id="1531" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1532" id="1532" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1533" id="1533" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1534" id="1534" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1535" id="1535" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1536" id="1536" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1537" id="1537" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1538" id="1538" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1539" id="1539" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1540" id="1540" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1541" id="1541" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1542" id="1542" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1543" id="1543" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1544" id="1544" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1545" id="1545" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1546" id="1546" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1547" id="1547" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1548" id="1548" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1549" id="1549" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1550" id="1550" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1551" id="1551" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1552" id="1552" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1553" id="1553" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1554" id="1554" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1555" id="1555" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1556" id="1556" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1557" id="1557" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1558" id="1558" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1559" id="1559" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1560" id="1560" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1561" id="1561" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1562" id="1562" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1563" id="1563" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1564" id="1564" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1565" id="1565" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1566" id="1566" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1567" id="1567" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1568" id="1568" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1569" id="1569" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1570" id="1570" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1571" id="1571" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1572" id="1572" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1573" id="1573" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1574" id="1574" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1575" id="1575" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1576" id="1576" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1577" id="1577" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1578" id="1578" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1579" id="1579" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1580" id="1580" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1581" id="1581" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1582" id="1582" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1583" id="1583" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1584" id="1584" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1585" id="1585" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1586" id="1586" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1587" id="1587" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1588" id="1588" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1589" id="1589" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1590" id="1590" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1591" id="1591" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1592" id="1592" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1593" id="1593" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1594" id="1594" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1595" id="1595" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1596" id="1596" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1597" id="1597" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1598" id="1598" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1599" id="1599" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1600" id="1600" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1601" id="1601" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1602" id="1602" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1603" id="1603" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1604" id="1604" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1605" id="1605" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1606" id="1606" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1607" id="1607" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1608" id="1608" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1609" id="1609" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1610" id="1610" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1611" id="1611" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1612" id="1612" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1613" id="1613" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1614" id="1614" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1615" id="1615" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1616" id="1616" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1617" id="1617" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1618" id="1618" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1619" id="1619" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1620" id="1620" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1621" id="1621" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1622" id="1622" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1623" id="1623" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1624" id="1624" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1625" id="1625" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1626" id="1626" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1627" id="1627" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1628" id="1628" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1629" id="1629" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1630" id="1630" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1631" id="1631" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1632" id="1632" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1633" id="1633" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1634" id="1634" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1635" id="1635" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1636" id="1636" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1637" id="1637" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1638" id="1638" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1639" id="1639" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1640" id="1640" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1641" id="1641" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1642" id="1642" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1643" id="1643" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1644" id="1644" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1645" id="1645" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1646" id="1646" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1647" id="1647" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1648" id="1648" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1649" id="1649" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1650" id="1650" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1651" id="1651" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1652" id="1652" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1653" id="1653" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1654" id="1654" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1655" id="1655" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1656" id="1656" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1657" id="1657" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1658" id="1658" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1659" id="1659" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1660" id="1660" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1661" id="1661" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1662" id="1662" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1663" id="1663" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1664" id="1664" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1665" id="1665" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1666" id="1666" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1667" id="1667" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1668" id="1668" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1669" id="1669" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1670" id="1670" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1671" id="1671" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1672" id="1672" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1673" id="1673" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1674" id="1674" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1675" id="1675" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1676" id="1676" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1677" id="1677" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1678" id="1678" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1679" id="1679" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1680" id="1680" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1681" id="1681" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1682" id="1682" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1683" id="1683" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1684" id="1684" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1685" id="1685" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1686" id="1686" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1687" id="1687" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1688" id="1688" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1689" id="1689" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1690" id="1690" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1691" id="1691" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1692" id="1692" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1693" id="1693" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1694" id="1694" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1695" id="1695" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1696" id="1696" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1697" id="1697" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1698" id="1698" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1699" id="1699" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1700" id="1700" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1701" id="1701" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1702" id="1702" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1703" id="1703" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1704" id="1704" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1705" id="1705" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1706" id="1706" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1707" id="1707" order="-1"/>
     </tileset>
     <sprite atlasID="0" default="0" desc="" height="32" id="582" name="Star Coin" shared="false" width="32">
         <anim across="1" atlasID="-1" down="1" durations="1" height="32" id="0" loop="true" name="Idle" numframes="1" originx="16" originy="16" width="32">
@@ -3103,11 +2599,11 @@
         <blank name="Self" order="0" type="ACTOR"/>
         <blank name="Accel" order="1" type="NUMBER"/>
     </custom-block>
-    <custom-block blocktag="custom-525" blocktype="ACTION" code="~.say(&quot;Walking&quot;, &quot;WalkAccel&quot;, ~);" desc="" global="false" gui="For %0 Set Walk Accel to %1" id="525" message="WalkAccel" name="WalkAccel" oid="-1" return="VOID" shared="false" snippetID="247">
+    <custom-block blocktag="custom-525" blocktype="ACTION" code="~.say(&quot;Walking&quot;, &quot;WalkAccel&quot;, ~);" desc="" global="false" gui="For %0 Set Walk Accel to %1" id="525" message="WalkAccel" name="WalkAccel" oid="-1" return="VOID" shared="false" snippetID="-1">
         <blank name="Self" order="0" type="ACTOR"/>
         <blank name="Accel" order="1" type="NUMBER"/>
     </custom-block>
-    <custom-block blocktag="custom-519" blocktype="ACTION" code="~.say(&quot;Walking&quot;, &quot;WalkAccel&quot;, ~);" desc="" global="false" gui="For %0 Set Walk Accel to %1" id="519" message="WalkAccel" name="WalkAccel" oid="-1" return="VOID" shared="false" snippetID="247">
+    <custom-block blocktag="custom-519" blocktype="ACTION" code="~.say(&quot;Walking&quot;, &quot;WalkAccel&quot;, ~);" desc="" global="false" gui="For %0 Set Walk Accel to %1" id="519" message="WalkAccel" name="WalkAccel" oid="-1" return="VOID" shared="false" snippetID="-1">
         <blank name="Self" order="0" type="ACTOR"/>
         <blank name="Accel" order="1" type="NUMBER"/>
     </custom-block>

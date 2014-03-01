@@ -10,8 +10,7 @@
     </folders>
     <packs>
         <pack desc="This pack contains the core movement Behaviors from the Jump and Run Kit:&#10;Walking&#10;Running&#10;Ducking&#10;Jumping&#10;Falling&#10;Air Jumping&#10;Wall Jumping&#10;Wall Sliding&#10;Ground Pound&#10;Slope Detection&#10;Animation Manager&#10;On Ground" id="0" name="Platformer Movement" oid="-1" resources="" snippets="169,206,110,163,108,107,115,114,112,178,179,180,181"/>
-        <pack desc="" id="1" name="Mario pack" oid="121075" resources="478,479,476,477,489,475,491,485,487,481,480,483" snippets="233,232,231,230,229,228,227,226,225,224,220,221,222,223,218,219"/>
-        <pack desc="This pack contains:&#10;Walking&#10;Running&#10;Ducking&#10;Jumping&#10;Falling&#10;Air Jumping&#10;Wall Jumping&#10;Wall Sliding&#10;Ground Pound&#10;Slope Detection&#10;Animation Manager&#10;On Ground&#10;Climbing&#10;Stand On Ladder&#10;Swimming&#10;Ladder Regions&#10;Water Regions Ladderset" id="2" name="Adventure Pack" oid="-1" resources="543" snippets="254,258,255,252,256,253,257,250,251,248,249,246,247,244,245,242,243"/>
+        <pack desc="This pack contains:&#10;Walking&#10;Running&#10;Ducking&#10;Jumping&#10;Falling&#10;Air Jumping&#10;Wall Jumping&#10;Wall Sliding&#10;Ground Pound&#10;Slope Detection&#10;Animation Manager&#10;On Ground&#10;Climbing&#10;Stand On Ladder&#10;Swimming&#10;Ladder Regions&#10;Water Regions Ladderset" id="2" name="Adventure Pack" oid="-1" resources="543" snippets="253,250,245,242"/>
     </packs>
     <groups>
         <group desc="" id="4" name="Grappling Hook"/>
@@ -77,7 +76,7 @@
         <poly id="22" name="Half Square" pts="0.0,0.49#0.0,0.99#1.0,0.99#1.0,0.49"/>
     </collisions>
     <atlases>
-        <atlas dirty="true" id="0" members="432,481,483,485,487,489,491,493,495,497,581,286,473,475,476,477,478,479,480,543,112,474,506" name="Main Atlas (Default)" pvr="false" resize="0" start="true" target="0"/>
+        <atlas dirty="true" id="0" members="432,493,495,497,581,473,543,585,112,474,506" name="Main Atlas (Default)" pvr="false" resize="0" start="true" target="0"/>
         <atlas dirty="true" id="1" members="" name="Atlas 2" pvr="false" resize="0" start="true" target="0"/>
         <atlas dirty="true" id="2" members="" name="Atlas 3" pvr="false" resize="0" start="true" target="0"/>
         <atlas dirty="true" id="3" members="" name="Atlas 4" pvr="false" resize="0" start="true" target="0"/>
