@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <scenes>
-    <scene desc="" format="1.0" id="8" name="Level 01"/>
+    <scene desc="" format="1.0" id="8" name="Level 13"/>
+    <scene desc="" format="1.0" id="9" name="Grasslands"/>
+    <scene desc="" format="1.0" id="10" name="Underground"/>
 </scenes>
