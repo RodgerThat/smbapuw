@@ -12,6 +12,10 @@
         <blocks/>
         <events/>
     </snippet>
+    <snippet attachedevent="true" class="scripts.SceneEvents_20" desc="Scene Specific Events" description="Scene Specific Events" design="true" drawOrder="0" id="272" language="" name="SceneEvents_20" oid="-1" package="scripts." sceneid="20" scenespecific="true" shared="false" type="scene">
+        <blocks/>
+        <events/>
+    </snippet>
     <snippet attachedevent="false" class="scripts.Design_206_206_SlopeDetection" desc="This Snippet detects when an Actor is on a slope and prevents sliding at the appropriate slope grade." description="This Snippet detects when an Actor is on a slope and prevents sliding at the appropriate slope grade." design="true" drawOrder="0" id="206" language="" name="Slope Detection" oid="-1" package="" scenespecific="false" shared="false" type="actor">
         <boolean default="false" desc="" dropdown="" fullname="onSlope" hidden="true" id="1" name="onSlope" order="10"/>
         <number default="0" desc="" dropdown="" fullname="yNorm" hidden="true" id="2" name="yNorm" order="11"/>
@@ -25,8 +29,8 @@
         <boolean default="false" desc="Turn this on to enable debugging" dropdown="" fullname="Enable Debugging?" hidden="false" id="10" name="EnableDebugging" order="8"/>
         <boolean default="true" desc="Does the actor slide while ducking?" dropdown="" fullname="Slide While Ducking?" hidden="false" id="12" name="SlideWhileDucking" order="5"/>
         <control default="" desc="Control used to make the actor duck" dropdown="" fullname="Duck Control" hidden="false" id="13" name="DuckControl" order="4"/>
-        <control default="" desc="Control used to make the player jump" dropdown="" fullname="Jump Control" hidden="false" id="15" name="JumpControl" order="3"/>
         <actor default="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="9"/>
+        <control default="" desc="Control used to make the player jump" dropdown="" fullname="Jump Control" hidden="false" id="15" name="JumpControl" order="3"/>
         <number default="0.0" desc="" dropdown="" fullname="Slope Grade" hidden="true" id="17" name="SlopeGrade" order="17"/>
         <number default="0" desc="" dropdown="" fullname="oldY" hidden="true" id="16" name="oldY" order="16"/>
         <number default="0.003" desc="How fast should the player accelerate while sliding down the slope" dropdown="" fullname="Slide Acceleration" hidden="false" id="19" name="SlideAcceleration" order="7"/>
@@ -34,18 +38,7 @@
         <blocks/>
         <events/>
     </snippet>
-    <snippet attachedevent="true" class="scripts.SceneEvents_20" desc="Scene Specific Events" description="Scene Specific Events" design="true" drawOrder="0" id="272" language="" name="SceneEvents_20" oid="-1" package="scripts." sceneid="20" scenespecific="true" shared="false" type="scene">
-        <blocks/>
-        <events/>
-    </snippet>
     <snippet attachedevent="true" class="scripts.SceneEvents_25" desc="Scene Specific Events" description="Scene Specific Events" design="true" drawOrder="0" id="277" language="" name="SceneEvents_25" oid="-1" package="scripts." sceneid="25" scenespecific="true" shared="false" type="scene">
-        <blocks/>
-        <events/>
-    </snippet>
-    <snippet attachedevent="false" class="scripts.Design_202_202_DieinPit" desc="If the Actor falls off the bottom of the screen, the scene will be reloaded." description="If the Actor falls off the bottom of the screen, the scene will be reloaded." design="true" drawOrder="0" id="202" language="" name="Die in Pit" oid="-1" package="" scenespecific="false" shared="false" type="actor">
-        <number default="0" desc="Set the amount of time the screen will fade after falling in. In and Out will be the same." dropdown="" fullname="Fade Time" hidden="false" id="1" name="_FadeTime" order="1"/>
-        <number default="0" desc="Set this to how long you wish to wait before reloading the scene.&lt;br&gt;Useful for displaying a Spawned Actor on Death animation so it completes before the reload." dropdown="" fullname="Time Before Reload" hidden="false" id="2" name="_TimeBeforeReload" order="2"/>
-        <actor default="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
         <blocks/>
         <events/>
     </snippet>
@@ -53,7 +46,10 @@
         <blocks/>
         <events/>
     </snippet>
-    <snippet attachedevent="true" class="scripts.SceneEvents_10" desc="Scene Specific Events" description="Scene Specific Events" design="true" drawOrder="0" id="262" language="" name="SceneEvents_10" oid="-1" package="scripts." sceneid="10" scenespecific="true" shared="false" type="scene">
+    <snippet attachedevent="false" class="scripts.Design_202_202_DieinPit" desc="If the Actor falls off the bottom of the screen, the scene will be reloaded." description="If the Actor falls off the bottom of the screen, the scene will be reloaded." design="true" drawOrder="0" id="202" language="" name="Die in Pit" oid="-1" package="" scenespecific="false" shared="false" type="actor">
+        <number default="0" desc="Set the amount of time the screen will fade after falling in. In and Out will be the same." dropdown="" fullname="Fade Time" hidden="false" id="1" name="_FadeTime" order="1"/>
+        <number default="0" desc="Set this to how long you wish to wait before reloading the scene.&lt;br&gt;Useful for displaying a Spawned Actor on Death animation so it completes before the reload." dropdown="" fullname="Time Before Reload" hidden="false" id="2" name="_TimeBeforeReload" order="2"/>
+        <actor default="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
         <blocks/>
         <events/>
     </snippet>
@@ -69,11 +65,15 @@
         <blocks/>
         <events/>
     </snippet>
-    <snippet attachedevent="true" class="scripts.SceneEvents_11" desc="Scene Specific Events" description="Scene Specific Events" design="true" drawOrder="0" id="263" language="" name="SceneEvents_11" oid="-1" package="scripts." sceneid="11" scenespecific="true" shared="false" type="scene">
+    <snippet attachedevent="true" class="scripts.SceneEvents_10" desc="Scene Specific Events" description="Scene Specific Events" design="true" drawOrder="0" id="262" language="" name="SceneEvents_10" oid="-1" package="scripts." sceneid="10" scenespecific="true" shared="false" type="scene">
         <blocks/>
         <events/>
     </snippet>
     <snippet attachedevent="true" class="scripts.SceneEvents_8" desc="Scene Specific Events" description="Scene Specific Events" design="true" drawOrder="0" id="217" language="" name="SceneEvents_8" oid="-1" package="scripts." sceneid="8" scenespecific="true" shared="false" type="scene">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.SceneEvents_11" desc="Scene Specific Events" description="Scene Specific Events" design="true" drawOrder="0" id="263" language="" name="SceneEvents_11" oid="-1" package="scripts." sceneid="11" scenespecific="true" shared="false" type="scene">
         <blocks/>
         <events/>
     </snippet>
@@ -159,6 +159,10 @@
         <blocks/>
         <events/>
     </snippet>
+    <snippet attachedevent="true" class="scripts.ActorEvents_432" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="235" language="" name="ActorEvents_432" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
     <snippet attachedevent="false" class="scripts.Design_175_175_CameraFollowPlayer" desc="Makes the camera follow this Actor." description="Makes the camera follow this Actor." design="true" drawOrder="0" id="175" language="" name="Camera Follow Player" oid="-1" package="" scenespecific="false" shared="false" type="actor">
         <number default="0" desc="Horizontal Offset from the Actor" dropdown="" fullname="X Offset" hidden="false" id="1" name="_XOffset" order="1"/>
         <number default="0" desc="Vertical Offset from the Actor" dropdown="" fullname="Y Offset" hidden="false" id="2" name="_YOffset" order="2"/>
@@ -166,9 +170,35 @@
         <blocks/>
         <events/>
     </snippet>
-    <snippet attachedevent="true" class="scripts.ActorEvents_432" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="235" language="" name="ActorEvents_432" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
+    <snippet attachedevent="false" class="scripts.Design_110_110_Running" desc="This Behavior controls the player's ability to run.  The Walking Behavior must also be attached for this Behavior to work properly." description="This Behavior controls the player's ability to run.  The Walking Behavior must also be attached for this Behavior to work properly." design="true" drawOrder="0" id="110" language="" name="Running" oid="-1" package="" scenespecific="false" shared="false" type="actor">
+        <boolean default="false" desc="Prevent the Actor from running?" dropdown="" fullname="Prevent Running?" hidden="false" id="1" name="_PreventRunning" order="1"/>
+        <control default="" desc="Select the key used to run." dropdown="" fullname="Run Key" hidden="false" id="2" name="_RunKey" order="2"/>
+        <boolean default="true" desc="" dropdown="" fullname="Key Released?" hidden="true" id="3" name="_KeyReleased" order="3"/>
+        <number default="0.0" desc="" dropdown="" fullname="Old Accel" hidden="true" id="4" name="_OldAccel" order="4"/>
+        <number default="0.0" desc="" dropdown="" fullname="Old Max Speed" hidden="true" id="5" name="_OldMaxSpeed" order="5"/>
+        <boolean default="false" desc="" dropdown="" fullname="At Full Speed?" hidden="true" id="6" name="_AtFullSpeed" order="6"/>
+        <number default="0" desc="" dropdown="" fullname="Elapsed Time" hidden="true" id="7" name="_ElapsedTime" order="7"/>
+        <number default="100.0" desc="How fast should the Actor get up to running speed?&lt;br&gt;&lt;br&gt;&#10;default = 100" dropdown="" fullname="Acceleration" hidden="false" id="8" name="_Acceleration" order="8"/>
+        <number default="25.0" desc="Enter the medium running speed.&lt;br&gt;&lt;br&gt;&#10;default = 25" dropdown="" fullname="Mid Run Speed" hidden="false" id="9" name="_MidRunSpeed" order="9"/>
+        <number default="35.0" desc="Enter the maximum running speed.&lt;br&gt;&lt;br&gt;&#10;default =35" dropdown="" fullname="Max Run Speed" hidden="false" id="10" name="_MaxRunSpeed" order="10"/>
+        <control default="" desc="Select the key used to move to the right." dropdown="" fullname="Right Key" hidden="false" id="11" name="_RightKey" order="11"/>
+        <control default="" desc="Select the key used to move to the left." dropdown="" fullname="Left Key" hidden="false" id="12" name="_LeftKey" order="12"/>
+        <number default="0.4" desc="How long should it take to get up to max speed?&lt;br&gt;&lt;br&gt;&#10;default = 0.4" dropdown="" fullname="Time To Max Speed" hidden="false" id="13" name="_TimeToMaxSpeed" order="13"/>
+        <boolean default="true" desc="" dropdown="" fullname="Can Slide?" hidden="false" id="14" name="_CanSlide" order="14"/>
+        <animation default="" desc="" dropdown="" fullname="Run Right Animation" hidden="false" id="15" name="_RunRightAnimation" order="15"/>
+        <actor default="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
+        <animation default="" desc="" dropdown="" fullname="Slip Right Animation" hidden="false" id="17" name="_SlipRightAnimation" order="17"/>
+        <animation default="" desc="" dropdown="" fullname="Run Left Animation" hidden="false" id="16" name="_RunLeftAnimation" order="16"/>
+        <animation default="" desc="" dropdown="" fullname="Full Run Right Animation" hidden="false" id="19" name="_FullRunRightAnimation" order="19"/>
+        <animation default="" desc="" dropdown="" fullname="Slip Left Animation" hidden="false" id="18" name="_SlipLeftAnimation" order="18"/>
+        <text default="Running" desc="Set the category used for the animation - used for the hierarchy." dropdown="" fullname="Animation Category" hidden="false" id="21" name="_AnimationCategory" order="21"/>
+        <animation default="" desc="" dropdown="" fullname="Full Run Left Animation" hidden="false" id="20" name="_FullRunLeftAnimation" order="20"/>
         <blocks/>
-        <events/>
+        <events>
+            <event displayName="Created" enabled="true" id="1" name="init" order="1" repeats="true"/>
+            <event displayName="Updated" enabled="true" id="2" name="step" order="2" repeats="true"/>
+            <event displayName="SetAnimation" enabled="true" id="3" name="event-custom" order="3" repeats="true"/>
+        </events>
     </snippet>
     <snippet attachedevent="false" class="scripts.Design_163_163_Jumping" desc="This Behavior controls the player's jumping." description="This Behavior controls the player's jumping." design="true" drawOrder="0" id="163" language="" name="Jumping" oid="-1" package="" scenespecific="false" shared="false" type="actor">
         <boolean default="false" desc="" dropdown="" fullname="Key Released?" hidden="true" id="1" name="_KeyReleased" order="1"/>
@@ -188,36 +218,6 @@
         <number default="35.0" desc="Amount of force applied when jumping.&lt;br&gt;&#10;Default = 35" dropdown="" fullname="Jump Force" hidden="false" id="20" name="_JumpForce" order="4"/>
         <blocks/>
         <events/>
-    </snippet>
-    <snippet attachedevent="false" class="scripts.Design_110_110_Running" desc="This Behavior controls the player's ability to run.  The Walking Behavior must also be attached for this Behavior to work properly." description="This Behavior controls the player's ability to run.  The Walking Behavior must also be attached for this Behavior to work properly." design="true" drawOrder="0" id="110" language="" name="Running" oid="-1" package="" scenespecific="false" shared="false" type="actor">
-        <boolean default="false" desc="Prevent the Actor from running?" dropdown="" fullname="Prevent Running?" hidden="false" id="1" name="_PreventRunning" order="1"/>
-        <control default="" desc="Select the key used to run." dropdown="" fullname="Run Key" hidden="false" id="2" name="_RunKey" order="2"/>
-        <boolean default="true" desc="" dropdown="" fullname="Key Released?" hidden="true" id="3" name="_KeyReleased" order="3"/>
-        <number default="0.0" desc="" dropdown="" fullname="Old Accel" hidden="true" id="4" name="_OldAccel" order="4"/>
-        <number default="0.0" desc="" dropdown="" fullname="Old Max Speed" hidden="true" id="5" name="_OldMaxSpeed" order="5"/>
-        <boolean default="false" desc="" dropdown="" fullname="At Full Speed?" hidden="true" id="6" name="_AtFullSpeed" order="6"/>
-        <number default="0" desc="" dropdown="" fullname="Elapsed Time" hidden="true" id="7" name="_ElapsedTime" order="7"/>
-        <number default="100.0" desc="How fast should the Actor get up to running speed?&lt;br&gt;&lt;br&gt;&#10;default = 100" dropdown="" fullname="Acceleration" hidden="false" id="8" name="_Acceleration" order="8"/>
-        <number default="25.0" desc="Enter the medium running speed.&lt;br&gt;&lt;br&gt;&#10;default = 25" dropdown="" fullname="Mid Run Speed" hidden="false" id="9" name="_MidRunSpeed" order="9"/>
-        <number default="35.0" desc="Enter the maximum running speed.&lt;br&gt;&lt;br&gt;&#10;default =35" dropdown="" fullname="Max Run Speed" hidden="false" id="10" name="_MaxRunSpeed" order="10"/>
-        <control default="" desc="Select the key used to move to the right." dropdown="" fullname="Right Key" hidden="false" id="11" name="_RightKey" order="11"/>
-        <control default="" desc="Select the key used to move to the left." dropdown="" fullname="Left Key" hidden="false" id="12" name="_LeftKey" order="12"/>
-        <number default="0.4" desc="How long should it take to get up to max speed?&lt;br&gt;&lt;br&gt;&#10;default = 0.4" dropdown="" fullname="Time To Max Speed" hidden="false" id="13" name="_TimeToMaxSpeed" order="13"/>
-        <boolean default="true" desc="" dropdown="" fullname="Can Slide?" hidden="false" id="14" name="_CanSlide" order="14"/>
-        <actor default="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
-        <animation default="" desc="" dropdown="" fullname="Run Right Animation" hidden="false" id="15" name="_RunRightAnimation" order="15"/>
-        <animation default="" desc="" dropdown="" fullname="Slip Right Animation" hidden="false" id="17" name="_SlipRightAnimation" order="17"/>
-        <animation default="" desc="" dropdown="" fullname="Run Left Animation" hidden="false" id="16" name="_RunLeftAnimation" order="16"/>
-        <animation default="" desc="" dropdown="" fullname="Full Run Right Animation" hidden="false" id="19" name="_FullRunRightAnimation" order="19"/>
-        <animation default="" desc="" dropdown="" fullname="Slip Left Animation" hidden="false" id="18" name="_SlipLeftAnimation" order="18"/>
-        <text default="Running" desc="Set the category used for the animation - used for the hierarchy." dropdown="" fullname="Animation Category" hidden="false" id="21" name="_AnimationCategory" order="21"/>
-        <animation default="" desc="" dropdown="" fullname="Full Run Left Animation" hidden="false" id="20" name="_FullRunLeftAnimation" order="20"/>
-        <blocks/>
-        <events>
-            <event displayName="Created" enabled="true" id="1" name="init" order="1" repeats="true"/>
-            <event displayName="Updated" enabled="true" id="2" name="step" order="2" repeats="true"/>
-            <event displayName="SetAnimation" enabled="true" id="3" name="event-custom" order="3" repeats="true"/>
-        </events>
     </snippet>
     <snippet attachedevent="false" class="scripts.Design_108_108_Slowdown" desc="This Behavior is responsible for slowing the player down when no direction keys are being pressed." description="This Behavior is responsible for slowing the player down when no direction keys are being pressed." design="true" drawOrder="0" id="108" language="" name="Slowdown" oid="-1" package="" scenespecific="false" shared="false" type="actor">
         <control default="" desc="Select the control used to move to the right." dropdown="" fullname="Right Key" hidden="false" id="1" name="_RightKey" order="1"/>
@@ -245,17 +245,6 @@
         <blocks/>
         <events/>
     </snippet>
-    <snippet attachedevent="false" class="scripts.Design_250_250_StandOnLadder" desc="" description="" design="true" drawOrder="0" id="250" language="" name="Stand On Ladder" oid="-1" package="" scenespecific="false" shared="false" type="actor">
-        <control default="" desc="" dropdown="" fullname="Up Key" hidden="false" id="1" name="_UpKey" order="1"/>
-        <control default="" desc="" dropdown="" fullname="Down Key" hidden="false" id="2" name="_DownKey" order="2"/>
-        <animation default="" desc="" dropdown="" fullname="Collide Animation" hidden="false" id="3" name="_CollideAnimation" order="3"/>
-        <animation default="" desc="" dropdown="" fullname="Sensor Animation" hidden="false" id="4" name="_SensorAnimation" order="4"/>
-        <actortype default="" desc="" dropdown="" fullname="Player Actor Type" hidden="false" id="5" name="_PlayerActorType" order="5"/>
-        <actor default="" desc="" dropdown="" fullname="Player" hidden="true" id="6" name="_Player" order="6"/>
-        <actor default="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
-        <blocks/>
-        <events/>
-    </snippet>
     <snippet attachedevent="false" class="scripts.Design_115_115_AirJumping" desc="Also known as Double Jumping.  Allows the player to jump while in the air.&#10;&lt;br&gt;&lt;br&gt;&#10;Inputs:&lt;br&gt;&#10;   &quot;Is Jumping?&quot; -- Actor Level Attribute&lt;br&gt;&#10;Outputs:&lt;br&gt;&#10;   &quot;Is Air Jumping?&quot; -- Actor Level Attribute" description="Also known as Double Jumping.  Allows the player to jump while in the air.&#10;&lt;br&gt;&lt;br&gt;&#10;Inputs:&lt;br&gt;&#10;   &quot;Is Jumping?&quot; -- Actor Level Attribute&lt;br&gt;&#10;Outputs:&lt;br&gt;&#10;   &quot;Is Air Jumping?&quot; -- Actor Level Attribute" design="true" drawOrder="0" id="115" language="" name="Air Jumping" oid="-1" package="" scenespecific="false" shared="false" type="actor">
         <boolean default="false" desc="" dropdown="" fullname="Prevent Air Jump?" hidden="true" id="1" name="_PreventAirJump" order="1"/>
         <number default="0.0" desc="" dropdown="" fullname="Current Jumps" hidden="true" id="2" name="_CurrentJumps" order="2"/>
@@ -273,6 +262,17 @@
         <blocks>
             <receiver blockID="211" id="1"/>
         </blocks>
+        <events/>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_250_250_StandOnLadder" desc="" description="" design="true" drawOrder="0" id="250" language="" name="Stand On Ladder" oid="-1" package="" scenespecific="false" shared="false" type="actor">
+        <control default="" desc="" dropdown="" fullname="Up Key" hidden="false" id="1" name="_UpKey" order="1"/>
+        <control default="" desc="" dropdown="" fullname="Down Key" hidden="false" id="2" name="_DownKey" order="2"/>
+        <animation default="" desc="" dropdown="" fullname="Collide Animation" hidden="false" id="3" name="_CollideAnimation" order="3"/>
+        <animation default="" desc="" dropdown="" fullname="Sensor Animation" hidden="false" id="4" name="_SensorAnimation" order="4"/>
+        <actortype default="" desc="" dropdown="" fullname="Player Actor Type" hidden="false" id="5" name="_PlayerActorType" order="5"/>
+        <actor default="" desc="" dropdown="" fullname="Player" hidden="true" id="6" name="_Player" order="6"/>
+        <actor default="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
+        <blocks/>
         <events/>
     </snippet>
     <snippet attachedevent="false" class="scripts.Design_114_114_Falling" desc="This Behavior is responsible for detecting when the player is falling, and playing the proper animation." description="This Behavior is responsible for detecting when the player is falling, and playing the proper animation." design="true" drawOrder="0" id="114" language="" name="Falling" oid="-1" package="" scenespecific="false" shared="false" type="actor">
@@ -335,8 +335,8 @@
         <number default="250" desc="Angle used when jumping towards the left&lt;br&gt;&lt;br&gt;&#10;default = 250" dropdown="" fullname="Jump Left Angle" hidden="false" id="12" name="_JumpLeftAngle" order="11"/>
         <number default="65" desc="Amount of force to apply during the jump&lt;br&gt;&lt;br&gt;&#10;default = 65" dropdown="" fullname="Jump Force" hidden="false" id="13" name="_JumpForce" order="12"/>
         <animation default="" desc="" dropdown="" fullname="Wall Jump Right Animation" hidden="false" id="14" name="_WallJumpRightAnimation" order="13"/>
-        <actor default="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
         <animation default="" desc="" dropdown="" fullname="Wall Jump Left Animation" hidden="false" id="15" name="_WallJumpLeftAnimation" order="14"/>
+        <actor default="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
         <text default="Wall Jumping" desc="Set the category used for the animation - used for the hierarchy." dropdown="" fullname="Animation Category" hidden="false" id="17" name="_AnimationCategory" order="16"/>
         <boolean default="false" desc="" dropdown="" fullname="Prevent Wall Jump" hidden="true" id="16" name="_PreventWallJump" order="15"/>
         <blocks>
@@ -348,6 +348,12 @@
     <snippet attachedevent="false" class="scripts.Design_245_245_WaterRegions" desc="Attach this to your Scene to allow the creation of Water Regions.&lt;br&gt;&#10;To create a Water region:&lt;br&gt;&#10;1) Create a region as normal&lt;br&gt;&#10;2) Double click the region and rename it: Water&lt;br&gt;&#10;3) If you want to disable the Splash effect, name it: WaterX" description="Attach this to your Scene to allow the creation of Water Regions.&lt;br&gt;&#10;To create a Water region:&lt;br&gt;&#10;1) Create a region as normal&lt;br&gt;&#10;2) Double click the region and rename it: Water&lt;br&gt;&#10;3) If you want to disable the Splash effect, name it: WaterX" design="true" drawOrder="0" id="245" language="" name="Water Regions" oid="-1" package="" scenespecific="false" shared="false" type="scene">
         <list default="list" desc="" dropdown="" fullname="Region List" hidden="true" id="1" name="_RegionList" order="0"/>
         <region default="" desc="" dropdown="" fullname="Current Region" hidden="true" id="2" name="_CurrentRegion" order="1"/>
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_123_123_AlwaysSimulate" desc="Allow the player to simulate even when going off screen.  This prevents the player from freezing when leaving the screen." description="Allow the player to simulate even when going off screen.  This prevents the player from freezing when leaving the screen." design="true" drawOrder="0" id="123" language="" name="Always Simulate" oid="-1" package="" scenespecific="false" shared="false" type="actor">
+        <boolean default="false" desc="Enable continuous collision? " dropdown="" fullname="Continuous Collision?" hidden="false" id="1" name="_ContinuousCollision" order="1"/>
+        <actor default="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
         <blocks/>
         <events/>
     </snippet>
@@ -367,8 +373,8 @@
         <control default="" desc="" dropdown="" fullname="Down Key" hidden="false" id="46" name="_DownKey" order="22"/>
         <number default="0" desc="" dropdown="" fullname="Speed Multiplier" hidden="true" id="47" name="_SpeedMultiplier" order="23"/>
         <control default="" desc="" dropdown="" fullname="Left Key" hidden="false" id="44" name="_LeftKey" order="20"/>
-        <control default="" desc="" dropdown="" fullname="Up Key" hidden="false" id="45" name="_UpKey" order="21"/>
         <actor default="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
+        <control default="" desc="" dropdown="" fullname="Up Key" hidden="false" id="45" name="_UpKey" order="21"/>
         <animation default="" desc="" dropdown="" fullname="Swim Left Animation" hidden="false" id="25" name="_SwimLeftAnimation" order="3"/>
         <animation default="" desc="" dropdown="" fullname="Swim Right Animation" hidden="false" id="24" name="_SwimRightAnimation" order="2"/>
         <number default="0" desc="How long should the Actor move up when pressing the swim key" dropdown="" fullname="Swim Time" hidden="false" id="27" name="_SwimTime" order="5"/>
@@ -386,10 +392,25 @@
         </blocks>
         <events/>
     </snippet>
-    <snippet attachedevent="false" class="scripts.Design_123_123_AlwaysSimulate" desc="Allow the player to simulate even when going off screen.  This prevents the player from freezing when leaving the screen." description="Allow the player to simulate even when going off screen.  This prevents the player from freezing when leaving the screen." design="true" drawOrder="0" id="123" language="" name="Always Simulate" oid="-1" package="" scenespecific="false" shared="false" type="actor">
-        <boolean default="false" desc="Enable continuous collision? " dropdown="" fullname="Continuous Collision?" hidden="false" id="1" name="_ContinuousCollision" order="1"/>
+    <snippet attachedevent="false" class="scripts.Design_180_180_WallSliding" desc="This Behavior allows the player to slide down walls slowly." description="This Behavior allows the player to slide down walls slowly." design="true" drawOrder="0" id="180" language="" name="Wall Sliding" oid="-1" package="" scenespecific="false" shared="false" type="actor">
+        <boolean default="false" desc="" dropdown="" fullname="Can Slide?" hidden="true" id="1" name="_CanSlide" order="1"/>
+        <boolean default="false" desc="" dropdown="" fullname="Colliding Left?" hidden="true" id="2" name="_CollidingLeft" order="2"/>
+        <boolean default="false" desc="" dropdown="" fullname="Colliding Right?" hidden="true" id="3" name="_CollidingRight" order="3"/>
+        <boolean default="false" desc="" dropdown="" fullname="Collided Left?" hidden="true" id="4" name="_CollidedLeft" order="4"/>
+        <boolean default="false" desc="" dropdown="" fullname="Collided Right?" hidden="true" id="5" name="_CollidedRight" order="5"/>
+        <number default="0" desc="" dropdown="" fullname="Old Y" hidden="true" id="6" name="_OldY" order="6"/>
+        <control default="" desc="Select the key used for moving to the left." dropdown="" fullname="Left Key" hidden="false" id="7" name="_LeftKey" order="8"/>
+        <control default="" desc="Select the key used for moving to the right." dropdown="" fullname="Right Key" hidden="false" id="8" name="_RightKey" order="7"/>
+        <number default="7" desc="How fast should the Actor drop while sliding?&lt;br&gt;&lt;br&gt;&#10;default = 7" dropdown="" fullname="Slide Speed" hidden="false" id="9" name="_SlideSpeed" order="9"/>
+        <animation default="" desc="" dropdown="" fullname="Slide Right Animation" hidden="false" id="10" name="_SlideRightAnimation" order="10"/>
+        <animation default="" desc="" dropdown="" fullname="Slide Left Animation" hidden="false" id="11" name="_SlideLeftAnimation" order="11"/>
+        <boolean default="false" desc="Only allow the Actor to slide on tiles?" dropdown="" fullname="Limit to Tiles?" hidden="false" id="12" name="_LimittoTiles" order="12"/>
+        <boolean default="false" desc="" dropdown="" fullname="Prevent Wall Slide?" hidden="true" id="13" name="_PreventWallSlide" order="13"/>
+        <text default="Wall Sliding" desc="Set the category used for the animation - used for the hierarchy." dropdown="" fullname="Animation Category" hidden="false" id="14" name="_AnimationCategory" order="14"/>
         <actor default="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
-        <blocks/>
+        <blocks>
+            <receiver blockID="364" id="1"/>
+        </blocks>
         <events/>
     </snippet>
     <snippet attachedevent="false" class="scripts.Design_240_240_Health" desc="Gives actor the notion of Health." description="Gives actor the notion of Health." design="true" drawOrder="0" id="240" language="" name="Health" oid="-1" package="" scenespecific="false" shared="false" type="actor">
@@ -430,34 +451,6 @@
             <event displayName="healSelf" enabled="true" id="12" name="event-custom" order="12" repeats="true"/>
         </events>
     </snippet>
-    <snippet attachedevent="false" class="scripts.Design_180_180_WallSliding" desc="This Behavior allows the player to slide down walls slowly." description="This Behavior allows the player to slide down walls slowly." design="true" drawOrder="0" id="180" language="" name="Wall Sliding" oid="-1" package="" scenespecific="false" shared="false" type="actor">
-        <boolean default="false" desc="" dropdown="" fullname="Can Slide?" hidden="true" id="1" name="_CanSlide" order="1"/>
-        <boolean default="false" desc="" dropdown="" fullname="Colliding Left?" hidden="true" id="2" name="_CollidingLeft" order="2"/>
-        <boolean default="false" desc="" dropdown="" fullname="Colliding Right?" hidden="true" id="3" name="_CollidingRight" order="3"/>
-        <boolean default="false" desc="" dropdown="" fullname="Collided Left?" hidden="true" id="4" name="_CollidedLeft" order="4"/>
-        <boolean default="false" desc="" dropdown="" fullname="Collided Right?" hidden="true" id="5" name="_CollidedRight" order="5"/>
-        <number default="0" desc="" dropdown="" fullname="Old Y" hidden="true" id="6" name="_OldY" order="6"/>
-        <control default="" desc="Select the key used for moving to the left." dropdown="" fullname="Left Key" hidden="false" id="7" name="_LeftKey" order="8"/>
-        <control default="" desc="Select the key used for moving to the right." dropdown="" fullname="Right Key" hidden="false" id="8" name="_RightKey" order="7"/>
-        <number default="7" desc="How fast should the Actor drop while sliding?&lt;br&gt;&lt;br&gt;&#10;default = 7" dropdown="" fullname="Slide Speed" hidden="false" id="9" name="_SlideSpeed" order="9"/>
-        <animation default="" desc="" dropdown="" fullname="Slide Right Animation" hidden="false" id="10" name="_SlideRightAnimation" order="10"/>
-        <animation default="" desc="" dropdown="" fullname="Slide Left Animation" hidden="false" id="11" name="_SlideLeftAnimation" order="11"/>
-        <boolean default="false" desc="Only allow the Actor to slide on tiles?" dropdown="" fullname="Limit to Tiles?" hidden="false" id="12" name="_LimittoTiles" order="12"/>
-        <boolean default="false" desc="" dropdown="" fullname="Prevent Wall Slide?" hidden="true" id="13" name="_PreventWallSlide" order="13"/>
-        <text default="Wall Sliding" desc="Set the category used for the animation - used for the hierarchy." dropdown="" fullname="Animation Category" hidden="false" id="14" name="_AnimationCategory" order="14"/>
-        <actor default="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
-        <blocks>
-            <receiver blockID="364" id="1"/>
-        </blocks>
-        <events/>
-    </snippet>
-    <snippet attachedevent="false" class="scripts.Design_241_241_DieuponCollision" desc="" description="" design="true" drawOrder="0" id="241" language="" name="Die upon Collision" oid="-1" package="" scenespecific="false" shared="false" type="actor">
-        <actor default="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="2147483647"/>
-        <blocks/>
-        <events>
-            <event displayName="Actor - Any" enabled="true" id="1" name="collide" order="1" repeats="true"/>
-        </events>
-    </snippet>
     <snippet attachedevent="false" class="scripts.Design_181_181_GroundPound" desc="This Behavior will allow the player to increase speed into the ground from when in the air." description="This Behavior will allow the player to increase speed into the ground from when in the air." design="true" drawOrder="0" id="181" language="" name="Ground Pound" oid="-1" package="" scenespecific="false" shared="false" type="actor">
         <boolean default="false" desc="" dropdown="" fullname="Can Pound?" hidden="true" id="1" name="_CanPound" order="1"/>
         <control default="" desc="" dropdown="" fullname="Ground Pound Key" hidden="false" id="2" name="_GroundPoundKey" order="2"/>
@@ -471,5 +464,12 @@
         <actor default="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
         <blocks/>
         <events/>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_241_241_DieuponCollision" desc="" description="" design="true" drawOrder="0" id="241" language="" name="Die upon Collision" oid="-1" package="" scenespecific="false" shared="false" type="actor">
+        <actor default="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="2147483647"/>
+        <blocks/>
+        <events>
+            <event displayName="Actor - Any" enabled="true" id="1" name="collide" order="1" repeats="true"/>
+        </events>
     </snippet>
 </pack>
