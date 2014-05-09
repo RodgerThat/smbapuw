@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <pack>
+    <snippet attachedevent="true" class="scripts.SceneEvents_23" desc="Scene Specific Events" description="Scene Specific Events" design="true" drawOrder="0" id="275" language="" name="SceneEvents_23" oid="-1" package="scripts." sceneid="23" scenespecific="true" shared="false" type="scene">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.SceneEvents_22" desc="Scene Specific Events" description="Scene Specific Events" design="true" drawOrder="0" id="274" language="" name="SceneEvents_22" oid="-1" package="scripts." sceneid="22" scenespecific="true" shared="false" type="scene">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.SceneEvents_21" desc="Scene Specific Events" description="Scene Specific Events" design="true" drawOrder="0" id="273" language="" name="SceneEvents_21" oid="-1" package="scripts." sceneid="21" scenespecific="true" shared="false" type="scene">
+        <blocks/>
+        <events/>
+    </snippet>
     <snippet attachedevent="false" class="scripts.Design_206_206_SlopeDetection" desc="This Snippet detects when an Actor is on a slope and prevents sliding at the appropriate slope grade." description="This Snippet detects when an Actor is on a slope and prevents sliding at the appropriate slope grade." design="true" drawOrder="0" id="206" language="" name="Slope Detection" oid="-1" package="" scenespecific="false" shared="false" type="actor">
         <boolean default="false" desc="" dropdown="" fullname="onSlope" hidden="true" id="1" name="onSlope" order="10"/>
         <number default="0" desc="" dropdown="" fullname="yNorm" hidden="true" id="2" name="yNorm" order="11"/>
@@ -22,10 +34,22 @@
         <blocks/>
         <events/>
     </snippet>
+    <snippet attachedevent="true" class="scripts.SceneEvents_20" desc="Scene Specific Events" description="Scene Specific Events" design="true" drawOrder="0" id="272" language="" name="SceneEvents_20" oid="-1" package="scripts." sceneid="20" scenespecific="true" shared="false" type="scene">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.SceneEvents_25" desc="Scene Specific Events" description="Scene Specific Events" design="true" drawOrder="0" id="277" language="" name="SceneEvents_25" oid="-1" package="scripts." sceneid="25" scenespecific="true" shared="false" type="scene">
+        <blocks/>
+        <events/>
+    </snippet>
     <snippet attachedevent="false" class="scripts.Design_202_202_DieinPit" desc="If the Actor falls off the bottom of the screen, the scene will be reloaded." description="If the Actor falls off the bottom of the screen, the scene will be reloaded." design="true" drawOrder="0" id="202" language="" name="Die in Pit" oid="-1" package="" scenespecific="false" shared="false" type="actor">
         <number default="0" desc="Set the amount of time the screen will fade after falling in. In and Out will be the same." dropdown="" fullname="Fade Time" hidden="false" id="1" name="_FadeTime" order="1"/>
         <number default="0" desc="Set this to how long you wish to wait before reloading the scene.&lt;br&gt;Useful for displaying a Spawned Actor on Death animation so it completes before the reload." dropdown="" fullname="Time Before Reload" hidden="false" id="2" name="_TimeBeforeReload" order="2"/>
         <actor default="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.SceneEvents_24" desc="Scene Specific Events" description="Scene Specific Events" design="true" drawOrder="0" id="276" language="" name="SceneEvents_24" oid="-1" package="scripts." sceneid="24" scenespecific="true" shared="false" type="scene">
         <blocks/>
         <events/>
     </snippet>
@@ -61,11 +85,43 @@
         <blocks/>
         <events/>
     </snippet>
+    <snippet attachedevent="true" class="scripts.SceneEvents_14" desc="Scene Specific Events" description="Scene Specific Events" design="true" drawOrder="0" id="266" language="" name="SceneEvents_14" oid="-1" package="scripts." sceneid="14" scenespecific="true" shared="false" type="scene">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.SceneEvents_15" desc="Scene Specific Events" description="Scene Specific Events" design="true" drawOrder="0" id="267" language="" name="SceneEvents_15" oid="-1" package="scripts." sceneid="15" scenespecific="true" shared="false" type="scene">
+        <blocks/>
+        <events/>
+    </snippet>
     <snippet attachedevent="true" class="scripts.SceneEvents_12" desc="Scene Specific Events" description="Scene Specific Events" design="true" drawOrder="0" id="264" language="" name="SceneEvents_12" oid="-1" package="scripts." sceneid="12" scenespecific="true" shared="false" type="scene">
         <blocks/>
         <events/>
     </snippet>
+    <snippet attachedevent="true" class="scripts.SceneEvents_13" desc="Scene Specific Events" description="Scene Specific Events" design="true" drawOrder="0" id="265" language="" name="SceneEvents_13" oid="-1" package="scripts." sceneid="13" scenespecific="true" shared="false" type="scene">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.SceneEvents_18" desc="Scene Specific Events" description="Scene Specific Events" design="true" drawOrder="0" id="270" language="" name="SceneEvents_18" oid="-1" package="scripts." sceneid="18" scenespecific="true" shared="false" type="scene">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.SceneEvents_19" desc="Scene Specific Events" description="Scene Specific Events" design="true" drawOrder="0" id="271" language="" name="SceneEvents_19" oid="-1" package="scripts." sceneid="19" scenespecific="true" shared="false" type="scene">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.SceneEvents_16" desc="Scene Specific Events" description="Scene Specific Events" design="true" drawOrder="0" id="268" language="" name="SceneEvents_16" oid="-1" package="scripts." sceneid="16" scenespecific="true" shared="false" type="scene">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.SceneEvents_17" desc="Scene Specific Events" description="Scene Specific Events" design="true" drawOrder="0" id="269" language="" name="SceneEvents_17" oid="-1" package="scripts." sceneid="17" scenespecific="true" shared="false" type="scene">
+        <blocks/>
+        <events/>
+    </snippet>
     <snippet attachedevent="true" class="scripts.ActorEvents_497" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="239" language="" name="ActorEvents_497" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.ActorEvents_495" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="237" language="" name="ActorEvents_495" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
         <blocks/>
         <events/>
     </snippet>
@@ -99,15 +155,7 @@
         </blocks>
         <events/>
     </snippet>
-    <snippet attachedevent="true" class="scripts.ActorEvents_495" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="237" language="" name="ActorEvents_495" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
-        <blocks/>
-        <events/>
-    </snippet>
     <snippet attachedevent="true" class="scripts.ActorEvents_493" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="236" language="" name="ActorEvents_493" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
-        <blocks/>
-        <events/>
-    </snippet>
-    <snippet attachedevent="true" class="scripts.ActorEvents_432" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="235" language="" name="ActorEvents_432" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
         <blocks/>
         <events/>
     </snippet>
@@ -115,6 +163,29 @@
         <number default="0" desc="Horizontal Offset from the Actor" dropdown="" fullname="X Offset" hidden="false" id="1" name="_XOffset" order="1"/>
         <number default="0" desc="Vertical Offset from the Actor" dropdown="" fullname="Y Offset" hidden="false" id="2" name="_YOffset" order="2"/>
         <actor default="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.ActorEvents_432" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="235" language="" name="ActorEvents_432" oid="-1" package="scripts." scenespecific="false" shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_163_163_Jumping" desc="This Behavior controls the player's jumping." description="This Behavior controls the player's jumping." design="true" drawOrder="0" id="163" language="" name="Jumping" oid="-1" package="" scenespecific="false" shared="false" type="actor">
+        <boolean default="false" desc="" dropdown="" fullname="Key Released?" hidden="true" id="1" name="_KeyReleased" order="1"/>
+        <boolean default="false" desc="" dropdown="" fullname="Can Jump?" hidden="true" id="2" name="_CanJump" order="2"/>
+        <control default="" desc="Select the key used for jumping." dropdown="" fullname="Jump Key" hidden="false" id="3" name="_JumpKey" order="3"/>
+        <number default="0.075" desc="Maximum amount of time that the&lt;br&gt;&#10;jump force will be applied when holding down the jump button.&lt;br&gt;&lt;br&gt;&#10;default = 0.075" dropdown="" fullname="Max Jump Time" hidden="false" id="8" name="_MaxJumpTime" order="5"/>
+        <animation default="" desc="Animation used for jumping to the right." dropdown="" fullname="Jump Right Animation" hidden="false" id="12" name="_JumpRightAnimation" order="7"/>
+        <animation default="" desc="Animation used for jumping to the left." dropdown="" fullname="Jump Left Animation" hidden="false" id="13" name="_JumpLeftAnimation" order="8"/>
+        <boolean default="false" desc="" dropdown="" fullname="Prevent Jumping?" hidden="true" id="14" name="_PreventJumping" order="9"/>
+        <number default="0" desc="" dropdown="" fullname="Elapsed Jump Time" hidden="true" id="15" name="_ElapsedJumpTime" order="10"/>
+        <actor default="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
+        <number default="0" desc="" dropdown="" fullname="oldY" hidden="true" id="17" name="_oldY" order="12"/>
+        <number default="0" desc="" dropdown="" fullname="Current Jump Time" hidden="true" id="16" name="_CurrentJumpTime" order="11"/>
+        <sound default="" desc="Sound to play when jumping." dropdown="" fullname="Jump Sound" hidden="false" id="19" name="_JumpSound" order="13"/>
+        <number default="0.75" desc="When releasing the jump key before reaching the max&lt;br&gt;&#10;height, what is the rate of upward slowdown?&lt;br&gt;&lt;br&gt;&#10;default = 0.75" dropdown="" fullname="Jumping Slowdown" hidden="false" id="18" name="_JumpingSlowdown" order="6"/>
+        <text default="Jumping" desc="Set the category used for the animation - used for the hierarchy." dropdown="" fullname="Animation Category" hidden="false" id="21" name="_AnimationCategory" order="14"/>
+        <number default="35.0" desc="Amount of force applied when jumping.&lt;br&gt;&#10;Default = 35" dropdown="" fullname="Jump Force" hidden="false" id="20" name="_JumpForce" order="4"/>
         <blocks/>
         <events/>
     </snippet>
@@ -147,25 +218,6 @@
             <event displayName="Updated" enabled="true" id="2" name="step" order="2" repeats="true"/>
             <event displayName="SetAnimation" enabled="true" id="3" name="event-custom" order="3" repeats="true"/>
         </events>
-    </snippet>
-    <snippet attachedevent="false" class="scripts.Design_163_163_Jumping" desc="This Behavior controls the player's jumping." description="This Behavior controls the player's jumping." design="true" drawOrder="0" id="163" language="" name="Jumping" oid="-1" package="" scenespecific="false" shared="false" type="actor">
-        <boolean default="false" desc="" dropdown="" fullname="Key Released?" hidden="true" id="1" name="_KeyReleased" order="1"/>
-        <boolean default="false" desc="" dropdown="" fullname="Can Jump?" hidden="true" id="2" name="_CanJump" order="2"/>
-        <control default="" desc="Select the key used for jumping." dropdown="" fullname="Jump Key" hidden="false" id="3" name="_JumpKey" order="3"/>
-        <number default="0.075" desc="Maximum amount of time that the&lt;br&gt;&#10;jump force will be applied when holding down the jump button.&lt;br&gt;&lt;br&gt;&#10;default = 0.075" dropdown="" fullname="Max Jump Time" hidden="false" id="8" name="_MaxJumpTime" order="5"/>
-        <animation default="" desc="Animation used for jumping to the right." dropdown="" fullname="Jump Right Animation" hidden="false" id="12" name="_JumpRightAnimation" order="7"/>
-        <animation default="" desc="Animation used for jumping to the left." dropdown="" fullname="Jump Left Animation" hidden="false" id="13" name="_JumpLeftAnimation" order="8"/>
-        <boolean default="false" desc="" dropdown="" fullname="Prevent Jumping?" hidden="true" id="14" name="_PreventJumping" order="9"/>
-        <number default="0" desc="" dropdown="" fullname="Elapsed Jump Time" hidden="true" id="15" name="_ElapsedJumpTime" order="10"/>
-        <actor default="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
-        <number default="0" desc="" dropdown="" fullname="oldY" hidden="true" id="17" name="_oldY" order="12"/>
-        <number default="0" desc="" dropdown="" fullname="Current Jump Time" hidden="true" id="16" name="_CurrentJumpTime" order="11"/>
-        <sound default="" desc="Sound to play when jumping." dropdown="" fullname="Jump Sound" hidden="false" id="19" name="_JumpSound" order="13"/>
-        <number default="0.75" desc="When releasing the jump key before reaching the max&lt;br&gt;&#10;height, what is the rate of upward slowdown?&lt;br&gt;&lt;br&gt;&#10;default = 0.75" dropdown="" fullname="Jumping Slowdown" hidden="false" id="18" name="_JumpingSlowdown" order="6"/>
-        <text default="Jumping" desc="Set the category used for the animation - used for the hierarchy." dropdown="" fullname="Animation Category" hidden="false" id="21" name="_AnimationCategory" order="14"/>
-        <number default="35.0" desc="Amount of force applied when jumping.&lt;br&gt;&#10;Default = 35" dropdown="" fullname="Jump Force" hidden="false" id="20" name="_JumpForce" order="4"/>
-        <blocks/>
-        <events/>
     </snippet>
     <snippet attachedevent="false" class="scripts.Design_108_108_Slowdown" desc="This Behavior is responsible for slowing the player down when no direction keys are being pressed." description="This Behavior is responsible for slowing the player down when no direction keys are being pressed." design="true" drawOrder="0" id="108" language="" name="Slowdown" oid="-1" package="" scenespecific="false" shared="false" type="actor">
         <control default="" desc="Select the control used to move to the right." dropdown="" fullname="Right Key" hidden="false" id="1" name="_RightKey" order="1"/>
